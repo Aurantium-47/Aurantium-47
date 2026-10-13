@@ -2,13 +2,14 @@
 
 I'm a university student passionate about technology. My research focuses on **natural language processing (NLP)**, **AI agents**, and **retrieval-augmented generation (RAG)**.
 
-I enjoy building useful tools, exploring mathematical questions, and contributing fixes to the open-source projects people rely on.
-
-热爱技术的大学生，在研究、开源和自己的小作品之间保持好奇。
-
 #### Contributing to
 
 - **[REA: Reverse Engineer Anything](https://github.com/morluto/rea)** [![REA stars](https://img.shields.io/github/stars/morluto/rea?style=flat&color=gold)](https://github.com/morluto/rea) — Preserved POSIX path case on Windows and improved unsupported-PE diagnostics. Merged: [#2422](https://github.com/morluto/rea/pull/2422), [#2448](https://github.com/morluto/rea/pull/2448).
+
+  N0zoM1z0 followed the path fix with [additional Windows regression tests and CI coverage](https://github.com/morluto/rea/pull/2635). CassieFox23 [tested the PE diagnostics fix against 22 PE fixtures on Linux](https://github.com/morluto/rea/pull/2448#issuecomment-6138368698).
+
+  On my earlier [PE-header PR](https://github.com/morluto/rea/pull/2227), project owner morluto wrote: [“Brilliant! Thank you for this Aurantium”](https://github.com/morluto/rea/pull/2227#issuecomment-6127162628). That PR was later superseded by [his upstream fix](https://github.com/morluto/rea/commit/c9fed50691ae014890e91a72534773d2fb58ce44).
+
 - **[pydicom](https://github.com/pydicom/pydicom)** [![pydicom stars](https://img.shields.io/github/stars/pydicom/pydicom?style=flat&color=gold)](https://github.com/pydicom/pydicom) — Fixed DICOM JSON export to preserve empty numeric components. Merged: [#2388](https://github.com/pydicom/pydicom/pull/2388).
 
 #### Building
