@@ -1,10 +1,10 @@
 ## Hi, I'm Aurantium 🍊
 
-I'm a university student working across **AI research, mathematics, and open-source software**. My AI research focuses on **natural language processing (NLP)** and **agent systems**, including work on **retrieval-augmented generation (RAG)**.
+I'm a university student working across **AI research, mathematics, and open-source software**. My AI research focuses on **natural language processing (NLP)** and **agent systems**, including work on retrieval-augmented generation (RAG).
 
-My mathematical work centers on **combinatorics and formal verification**: conjecture proofs, counterexamples, exact computation, and **Lean formalization**. I also contribute bug fixes and regression tests to open-source projects.
+My mathematical work centers on **combinatorics and formal verification**: conjecture proofs, counterexamples, exact computation, and Lean formalization. I also contribute bug fixes and regression tests to open-source projects.
 
-I follow **Web3 and cryptocurrency ecosystems**, with a particular interest in **stablecoins**.
+I'm also exploring **blockchain and digital assets**, with an interest in Web3 ecosystems and stablecoins.
 
 ## Contributing to
 
