@@ -1,24 +1,38 @@
-### Hi, I'm Aurantium 🍊
+## Hi, I'm Aurantium 🍊
 
-I'm a university student working across **AI, mathematics, and open-source software**. My AI research includes **natural language processing (NLP)**, **AI agents**, and **retrieval-augmented generation (RAG)**.
+I'm a university student working across **AI research, mathematics, and open-source software**. My AI research focuses on **natural language processing (NLP)** and **agent systems**, including work on **retrieval-augmented generation (RAG)**.
 
-My mathematical work includes proofs and counterexamples for combinatorial conjectures, with exact computation and **Lean formalization**. I also contribute fixes to projects including **REA** and **pydicom**.
+My mathematical work centers on **combinatorics and formal verification**: conjecture proofs, counterexamples, exact computation, and **Lean formalization**. I also contribute bug fixes and regression tests to open-source projects.
 
-#### Contributing to
+I follow **Web3 and cryptocurrency ecosystems**, with a particular interest in **stablecoins**.
 
-- **[REA: Reverse Engineer Anything](https://github.com/morluto/rea)** [![REA stars](https://img.shields.io/github/stars/morluto/rea?style=flat&color=gold)](https://github.com/morluto/rea) — Preserved POSIX path case on Windows and improved unsupported-PE diagnostics. Merged: [#2422](https://github.com/morluto/rea/pull/2422), [#2448](https://github.com/morluto/rea/pull/2448).
+## Contributing to
 
-  N0zoM1z0 followed the path fix with [additional Windows regression tests and CI coverage](https://github.com/morluto/rea/pull/2635). CassieFox23 [tested the PE diagnostics fix against 22 PE fixtures on Linux](https://github.com/morluto/rea/pull/2448#issuecomment-6138368698).
+### [REA · Reverse Engineer Anything](https://github.com/morluto/rea)
 
-  On my earlier [PE-header PR](https://github.com/morluto/rea/pull/2227), project owner morluto wrote: [“Brilliant! Thank you for this Aurantium”](https://github.com/morluto/rea/pull/2227#issuecomment-6127162628). That PR was later superseded by [his upstream fix](https://github.com/morluto/rea/commit/c9fed50691ae014890e91a72534773d2fb58ce44).
+<a href="https://github.com/morluto/rea"><img src="https://img.shields.io/github/stars/morluto/rea?style=for-the-badge&amp;color=gold&amp;label=Upstream%20stars" alt="morluto/rea upstream stars" height="32"></a>
 
-- **[pydicom](https://github.com/pydicom/pydicom)** [![pydicom stars](https://img.shields.io/github/stars/pydicom/pydicom?style=flat&color=gold)](https://github.com/pydicom/pydicom) — Fixed DICOM JSON export to preserve empty numeric components. Merged: [#2388](https://github.com/pydicom/pydicom/pull/2388).
+**2 merged PRs** · [#2422](https://github.com/morluto/rea/pull/2422) · [#2448](https://github.com/morluto/rea/pull/2448)
 
-#### Building
+Preserved POSIX path case on Windows and improved unsupported-PE diagnostics.
+
+N0zoM1z0 followed the path fix with [additional Windows regression tests and CI coverage](https://github.com/morluto/rea/pull/2635). CassieFox23 [tested the PE diagnostics fix against 22 PE fixtures on Linux](https://github.com/morluto/rea/pull/2448#issuecomment-6138368698).
+
+On my earlier [PE-header PR](https://github.com/morluto/rea/pull/2227), project owner morluto wrote: [“Brilliant! Thank you for this Aurantium”](https://github.com/morluto/rea/pull/2227#issuecomment-6127162628). That PR was later superseded by [his upstream fix](https://github.com/morluto/rea/commit/c9fed50691ae014890e91a72534773d2fb58ce44).
+
+### [pydicom · DICOM tools for Python](https://github.com/pydicom/pydicom)
+
+<a href="https://github.com/pydicom/pydicom"><img src="https://img.shields.io/github/stars/pydicom/pydicom?style=for-the-badge&amp;color=gold&amp;label=Upstream%20stars" alt="pydicom/pydicom upstream stars" height="32"></a>
+
+**1 merged PR** · [#2388](https://github.com/pydicom/pydicom/pull/2388)
+
+Fixed DICOM JSON export to preserve empty numeric components.
+
+## Building
 
 - **[OpenInquire](https://github.com/Aurantium-47/OpenInquire)** — Tools for AI agents to research across content platforms: 21 read-only MCP tools for sources, comments, and local video workflows.
 
-#### Mathematics
+## Mathematics
 
 I also explore combinatorics through proofs, exact computation, and Lean formalization.
 
