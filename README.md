@@ -10,7 +10,7 @@ I follow **Web3 and cryptocurrency ecosystems**, with a particular interest in *
 
 ### [REA · Reverse Engineer Anything](https://github.com/morluto/rea)
 
-<a href="https://github.com/morluto/rea"><img src="https://img.shields.io/github/stars/morluto/rea?style=for-the-badge&amp;color=gold&amp;label=Upstream%20stars" alt="morluto/rea upstream stars" height="32"></a>
+<a href="https://github.com/morluto/rea"><img src="https://img.shields.io/github/stars/morluto/rea?style=for-the-badge&amp;color=gold&amp;label=Upstream%20stars" alt="morluto/rea upstream stars" width="219" height="32"></a>
 
 **2 merged PRs** · [#2422](https://github.com/morluto/rea/pull/2422) · [#2448](https://github.com/morluto/rea/pull/2448)
 
@@ -22,7 +22,7 @@ On my earlier [PE-header PR](https://github.com/morluto/rea/pull/2227), project 
 
 ### [pydicom · DICOM tools for Python](https://github.com/pydicom/pydicom)
 
-<a href="https://github.com/pydicom/pydicom"><img src="https://img.shields.io/github/stars/pydicom/pydicom?style=for-the-badge&amp;color=gold&amp;label=Upstream%20stars" alt="pydicom/pydicom upstream stars" height="32"></a>
+<a href="https://github.com/pydicom/pydicom"><img src="https://img.shields.io/github/stars/pydicom/pydicom?style=for-the-badge&amp;color=gold&amp;label=Upstream%20stars" alt="pydicom/pydicom upstream stars" width="214" height="32"></a>
 
 **1 merged PR** · [#2388](https://github.com/pydicom/pydicom/pull/2388)
 
