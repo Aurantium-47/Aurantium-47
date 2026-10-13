@@ -1,26 +1,26 @@
-# Hi, I'm Aurantium
+### Hi, I'm Aurantium 🍊
 
-I work on combinatorics, formal verification, and open-source software. My favorite projects turn a good question into a precise result: a proof, a reusable tool, or a fix that makes it upstream.
+I'm a university student passionate about technology. My research focuses on **natural language processing (NLP)**, **AI agents**, and **retrieval-augmented generation (RAG)**.
 
-把好奇心写成证明，把想法做成作品。
+I enjoy building useful tools, exploring mathematical questions, and contributing fixes to the open-source projects people rely on.
 
-## Merged upstream
+热爱技术的大学生，在研究、开源和自己的小作品之间保持好奇。
 
-| Project | Contribution | PR |
-| --- | --- | --- |
-| [REA](https://github.com/morluto/rea) | Preserve POSIX path case when reconciling runtime evidence on Windows. | [#2422](https://github.com/morluto/rea/pull/2422) |
-| [REA](https://github.com/morluto/rea) | Include the raw COFF Machine value in unsupported-PE diagnostics. | [#2448](https://github.com/morluto/rea/pull/2448) |
-| [pydicom](https://github.com/pydicom/pydicom) | Preserve empty numeric components when exporting DICOM JSON. | [#2388](https://github.com/pydicom/pydicom/pull/2388) |
+#### Contributing to
 
-## Mathematics & tools
+- **[REA: Reverse Engineer Anything](https://github.com/morluto/rea)** [![REA stars](https://img.shields.io/github/stars/morluto/rea?style=flat&color=gold)](https://github.com/morluto/rea) — Preserved POSIX path case on Windows and improved unsupported-PE diagnostics. Merged: [#2422](https://github.com/morluto/rea/pull/2422), [#2448](https://github.com/morluto/rea/pull/2448).
+- **[pydicom](https://github.com/pydicom/pydicom)** [![pydicom stars](https://img.shields.io/github/stars/pydicom/pydicom?style=flat&color=gold)](https://github.com/pydicom/pydicom) — Fixed DICOM JSON export to preserve empty numeric components. Merged: [#2388](https://github.com/pydicom/pydicom/pull/2388).
 
-- **[Howroyd's 27-set conjecture](https://github.com/Aurantium-47/howroyd-27-conjecture)** — A research manuscript, exact certificate, and Lean 4 formalization of the 27-set case.
-- **[Rowmotion on fences](https://github.com/Aurantium-47/fence-rowmotion-counterexample)** — A 32-element fence counterexample to ideal-cardinality homomesy, with a complete 237-state orbit certificate, an exact checker, and Lean formalization.
-- **[Peak polynomials](https://github.com/Aurantium-47/peak-polynomial-last-real-root)** — A research manuscript giving an integral proof of the last-real-root conjecture, supported by exact verification code.
-- **[OpenInquire](https://github.com/Aurantium-47/OpenInquire)** — Research across content platforms for AI agents, with 21 read-only MCP tools, source and comment reading, and local video workflows.
+#### Building
 
-## Currently
+- **[OpenInquire](https://github.com/Aurantium-47/OpenInquire)** — Tools for AI agents to research across content platforms: 21 read-only MCP tools for sources, comments, and local video workflows.
 
-Contributing focused fixes to widely used open-source projects, and exploring mathematical questions through proofs, exact computation, and formalization.
+#### Mathematics
 
-[More repositories](https://github.com/Aurantium-47?tab=repositories) · [Pull requests](https://github.com/search?q=author%3AAurantium-47+is%3Apr&type=pullrequests)
+I also explore combinatorics through proofs, exact computation, and Lean formalization.
+
+- **[Howroyd's 27-set conjecture](https://github.com/Aurantium-47/howroyd-27-conjecture)** — A manuscript and exact certificate, with Lean 4 formalization of the non-3-divisible case.
+- **[Rowmotion on fences](https://github.com/Aurantium-47/fence-rowmotion-counterexample)** — A counterexample to ideal-cardinality homomesy on a 32-element fence, with a complete 237-state orbit certificate and Lean formalization.
+- **[Peak polynomials](https://github.com/Aurantium-47/peak-polynomial-last-real-root)** — An integral proof of the last-real-root conjecture, presented in a research manuscript with exact verification code.
+
+[More projects](https://github.com/Aurantium-47?tab=repositories) · [Merged contributions](https://github.com/search?q=author%3AAurantium-47+is%3Apr+is%3Amerged&type=pullrequests)
