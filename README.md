@@ -1,6 +1,8 @@
 ### Hi, I'm Aurantium 🍊
 
-I'm a university student passionate about technology. My research focuses on **natural language processing (NLP)**, **AI agents**, and **retrieval-augmented generation (RAG)**.
+I'm a university student working across **AI, mathematics, and open-source software**. My AI research includes **natural language processing (NLP)**, **AI agents**, and **retrieval-augmented generation (RAG)**.
+
+My mathematical work includes proofs and counterexamples for combinatorial conjectures, with exact computation and **Lean formalization**. I also contribute fixes to projects including **REA** and **pydicom**.
 
 #### Contributing to
 
