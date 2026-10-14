@@ -12,9 +12,9 @@ I'm also exploring **blockchain and digital assets**, with an interest in Web3 e
 
 <a href="https://github.com/morluto/rea"><img src="https://img.shields.io/github/stars/morluto/rea?style=for-the-badge&amp;color=gold&amp;label=Upstream%20stars" alt="morluto/rea upstream stars" width="219" height="32"></a>
 
-**2 merged PRs** · [#2422](https://github.com/morluto/rea/pull/2422) · [#2448](https://github.com/morluto/rea/pull/2448)
+**3 merged PRs** · [#2422](https://github.com/morluto/rea/pull/2422) · [#2448](https://github.com/morluto/rea/pull/2448) · [#2429](https://github.com/morluto/rea/pull/2429)
 
-Preserved POSIX path case on Windows and improved unsupported-PE diagnostics.
+Preserved POSIX path case on Windows, improved unsupported-PE diagnostics, and clarified official installation sources across 19 README editions.
 
 N0zoM1z0 followed the path fix with [additional Windows regression tests and CI coverage](https://github.com/morluto/rea/pull/2635). CassieFox23 [tested the PE diagnostics fix against 22 PE fixtures on Linux](https://github.com/morluto/rea/pull/2448#issuecomment-6138368698).
 
