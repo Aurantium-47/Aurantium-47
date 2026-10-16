@@ -1,12 +1,12 @@
 # Aurantium
 
-**AI for Math · NLP · Open Source**
+**AI for Math · NLP**
 
 Exploring the limits of AI in reasoning and software engineering.
 
-Interests: **Quantitative Strategies · U.S. Equity Trading · Digital Asset Derivatives · Creative Coding**
+Interests: **Quantitative Finance · Digital Asset Derivatives**
 
-[Mathematics](https://github.com/Aurantium-47/aurantium-mathematics) · [OpenInquire](https://github.com/Aurantium-47/OpenInquire) · [Open-source contributions](https://github.com/search?q=author%3AAurantium-47+is%3Apr+is%3Amerged&type=pullrequests)
+[Mathematics](https://github.com/Aurantium-47/aurantium-mathematics) · [Contributions](https://github.com/search?q=author%3AAurantium-47+is%3Apr+is%3Amerged&type=pullrequests)
 
 <p><img alt="Python" src="https://img.shields.io/badge/Python-e9edf2?style=flat-square&amp;logo=python&amp;logoColor=57606a"> <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-e9edf2?style=flat-square&amp;logo=pytorch&amp;logoColor=57606a"> <img alt="Transformers" src="https://img.shields.io/badge/Transformers-e9edf2?style=flat-square&amp;logo=huggingface&amp;logoColor=57606a"> <img alt="NumPy" src="https://img.shields.io/badge/NumPy-e9edf2?style=flat-square&amp;logo=numpy&amp;logoColor=57606a"> <img alt="Lean 4" src="https://img.shields.io/badge/Lean%204-e9edf2?style=flat-square"> <img alt="mathlib" src="https://img.shields.io/badge/mathlib-e9edf2?style=flat-square"> <img alt="SymPy" src="https://img.shields.io/badge/SymPy-e9edf2?style=flat-square&amp;logo=sympy&amp;logoColor=57606a"> <img alt="LaTeX" src="https://img.shields.io/badge/LaTeX-e9edf2?style=flat-square&amp;logo=latex&amp;logoColor=57606a"> <img alt="C++" src="https://img.shields.io/badge/C%2B%2B-e9edf2?style=flat-square&amp;logo=cplusplus&amp;logoColor=57606a"> <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-e9edf2?style=flat-square&amp;logo=typescript&amp;logoColor=57606a"> <img alt="Node.js" src="https://img.shields.io/badge/Node.js-e9edf2?style=flat-square&amp;logo=nodedotjs&amp;logoColor=57606a"> <img alt="Git" src="https://img.shields.io/badge/Git-e9edf2?style=flat-square&amp;logo=git&amp;logoColor=57606a"></p>
 
@@ -83,9 +83,7 @@ Refuted **Conjecture 5.4(b)** with a 32-element fence and a complete 237-state o
 
 Interested in retrieval over semi-structured knowledge bases: dense retrieval, text–graph fusion, entity disambiguation and retrieval evaluation. Currently working with STaRK-MAG.
 
-## Open source
-
-**[OpenInquire](https://github.com/Aurantium-47/OpenInquire)** — Cross-platform source lookup, video transcription and keyframe extraction tools for AI agents.
+## Contributions
 
 [9 merged pull requests across 7 projects](https://github.com/search?q=author%3AAurantium-47+is%3Apr+is%3Amerged&type=pullrequests).
 
