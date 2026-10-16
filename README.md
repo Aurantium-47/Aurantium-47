@@ -4,50 +4,76 @@
 
 Exploring the limits of AI in reasoning and software engineering.
 
+Interests: **Quantitative Strategies · U.S. Equity Trading · Digital Asset Derivatives · Creative Coding**
+
 [Mathematics](https://github.com/Aurantium-47/aurantium-mathematics) · [OpenInquire](https://github.com/Aurantium-47/OpenInquire) · [Open-source contributions](https://github.com/search?q=author%3AAurantium-47+is%3Apr+is%3Amerged&type=pullrequests)
 
 <p><img alt="Python" src="https://img.shields.io/badge/Python-e9edf2?style=flat-square&amp;logo=python&amp;logoColor=57606a"> <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-e9edf2?style=flat-square&amp;logo=pytorch&amp;logoColor=57606a"> <img alt="Transformers" src="https://img.shields.io/badge/Transformers-e9edf2?style=flat-square&amp;logo=huggingface&amp;logoColor=57606a"> <img alt="NumPy" src="https://img.shields.io/badge/NumPy-e9edf2?style=flat-square&amp;logo=numpy&amp;logoColor=57606a"> <img alt="Lean 4" src="https://img.shields.io/badge/Lean%204-e9edf2?style=flat-square"> <img alt="mathlib" src="https://img.shields.io/badge/mathlib-e9edf2?style=flat-square"> <img alt="SymPy" src="https://img.shields.io/badge/SymPy-e9edf2?style=flat-square&amp;logo=sympy&amp;logoColor=57606a"> <img alt="LaTeX" src="https://img.shields.io/badge/LaTeX-e9edf2?style=flat-square&amp;logo=latex&amp;logoColor=57606a"> <img alt="C++" src="https://img.shields.io/badge/C%2B%2B-e9edf2?style=flat-square&amp;logo=cplusplus&amp;logoColor=57606a"> <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-e9edf2?style=flat-square&amp;logo=typescript&amp;logoColor=57606a"> <img alt="Node.js" src="https://img.shields.io/badge/Node.js-e9edf2?style=flat-square&amp;logo=nodedotjs&amp;logoColor=57606a"> <img alt="Git" src="https://img.shields.io/badge/Git-e9edf2?style=flat-square&amp;logo=git&amp;logoColor=57606a"></p>
 
 ## Mathematical research
 
-**[Aurantium · Mathematics](https://github.com/Aurantium-47/aurantium-mathematics)**
+[**24 research projects · 8 with Lean formalization**](https://github.com/Aurantium-47/aurantium-mathematics)
 
-**24** public research projects · **8** with Lean formalization · **7** with counterexamples or negative certificates.
+**[Howroyd’s 27-set conjecture](https://github.com/Aurantium-47/howroyd-27-conjecture)**
 
-Enumerative combinatorics · Extremal graph theory · Real-rooted polynomials · Asymptotic analysis · Formal proofs
+Proved the remaining two residue classes: **exactly 27 maximum independent sets**, with a complete classification, for every d ≥ 10 with 3 ∤ d.
 
-**[Howroyd’s 27-set conjecture — proof and classification](https://github.com/Aurantium-47/howroyd-27-conjecture)**
-
-Settled the two remaining residue classes of Howroyd’s 2018 conjecture: exactly **27 maximum independent sets** for every d ≥ 10 with 3 ∤ d, together with a complete classification and Lean 4 proof. Combined with Machacek’s divisible-by-three case, this completes the counting formula for d ≥ 9.
-
-<sub>[Original conjecture: OEIS, 2018](https://oeis.org/A297557) · [Prior result: Machacek, 2021](https://arxiv.org/abs/2010.11112v2)</sub>
-
-**[Peak polynomials — the last-real-root conjecture](https://github.com/Aurantium-47/peak-polynomial-last-real-root)**
-
-Proved **Conjecture 6.6 of Billey–Fahrbach–Talmage**, published in Experimental Mathematics in 2016: the largest peak is the only real root beyond the penultimate peak. The integral proof determines the signs on that entire interval, with no bound on the number or spacing of peaks; the singleton case is included.
-
-<sub>[Original paper: Experimental Mathematics, 2016](https://arxiv.org/abs/1410.8506v2) · Integral representations · Sign analysis</sub>
-
-**[Stern polynomials — positivity and a counterexample](https://github.com/Aurantium-47/stern-polynomial-positivity)**
-
-Proved **Ulas’s Conjecture 4.4** for every n ≥ 0 and every real parameter t. An exact counterexample using B₁₈₃ also refutes the monotonicity clause of Conjecture 4.3. Both results are formalized in Lean.
-
-<sub>[Original conjectures: Ulas, 2019](https://arxiv.org/abs/1909.10844v1) · Lean 4 / mathlib</sub>
-
-**[Dynamical algebraic combinatorics — a homomesy counterexample](https://github.com/Aurantium-47/fence-rowmotion-counterexample)**
-
-Refuted **Conjecture 5.4(b)** of Elizalde–Plante–Roby–Sagan with a 32-element fence poset and a complete 237-state rowmotion orbit. Its exact mean, 1258/79 ≠ 16, contradicts the proposed ideal-cardinality homomesy. The counterexample has a kernel-checked Lean proof.
-
-<sub>[Original paper: Algebraic Combinatorics, 2023](https://doi.org/10.5802/alco.256) · Exact arithmetic · Lean 4</sub>
+<sub>Extremal graph theory · Enumerative combinatorics</sub>
 
 <details>
-<summary>More mathematical work</summary>
+<summary>Source, prior work & verification</summary>
 
-- **[Packing coloring of K₆ chains](https://github.com/Aurantium-47/k6-clique-chain-packing-coloring)** — Refuted the proposed 22-colour bound and established the sharp uniform bound of 23, attained by every chain of at least 75 cliques. The lower bound has a 16,646,562-record exact certificate.
-- **[Extremal chemical graphs](https://github.com/Aurantium-47/chemical-graph-sigma-extremizers)** — Resolved Conjecture 10 for every n ≥ 7: complete degree-multiplicity classification and realizability, formalized in Lean.
-- **[Lecture Hall polynomials](https://github.com/Aurantium-47/lecture-hall-polynomiality)** — An all-index proof of polynomiality, previously checked computationally through length 12, with signed Dyck identities, SAGBI bases and toric degenerations. Core results are formalized in Lean.
-- **[Hardinian asymptotics](https://github.com/Aurantium-47/hardinian-array-asymptotics)** — Asymptotic formulas at r = 2 and r = 3, including a Lean proof for the original array-counting problem at r = 2.
-- **[Hurwitz polynomials](https://github.com/Aurantium-47/hurwitz-single-cycle-genera-two-three)** — Real-rootedness and interlacing for single-cycle profiles at genera 2, 3 and 4, plus effective large-genus refinements.
+- **Original source:** Andrew Howroyd, [OEIS A297557 (2018)](https://oeis.org/A297557).
+- **Prior work:** [John Machacek](https://arxiv.org/abs/2010.11112v2), *Procedia Computer Science* 195 (2021), proved the 3 ∣ d branch. Combining the two results completes the counting formula for d ≥ 9.
+- **Method:** An exact weighted-cover certificate and a coordinate-reduction argument reduce the classification to three backgrounds with nine corner extensions each.
+- **Further results & materials:** Explicit classification of all 27 sets, beyond the conjectured count.
+- **Verification:** Lean 4 proof of the full d ≥ 10, 3 ∤ d statement; 89 rational certificate entries.
+
+</details>
+
+**[Peak polynomials: the last real root](https://github.com/Aurantium-47/peak-polynomial-last-real-root)**
+
+Proved **Billey–Fahrbach–Talmage Conjecture 6.6**: the largest peak is the only real root beyond the penultimate peak, with no bound on peak count or spacing.
+
+<sub>Algebraic combinatorics · Polynomial root geometry</sub>
+
+<details>
+<summary>Source, prior work & verification</summary>
+
+- **Original source:** Sara Billey, Matthew Fahrbach and Alan Talmage, [*Experimental Mathematics* 25(2), 165–175 (2016)](https://arxiv.org/abs/1410.8506v2); preprint first posted in 2014.
+- **Prior work:** Billey–Fahrbach–Talmage supplied the recurrence and symmetry identities. [Li’s coefficient theorem](https://doi.org/10.5281/zenodo.22832569) already implies right-side positivity and several local sign properties; the additional argument covers the remaining noninteger interval.
+- **Method:** A self-contained integral representation and sign analysis across the full interval beyond the penultimate peak.
+- **Further results & materials:** Signs on both sides of the largest peak, its simplicity, and the singleton case are included; overlapping consequences of Li’s theorem are credited in the manuscript.
+- **Verification:** All-parameter mathematical proof, with supplementary exact finite checks and a separately recorded small-case reproduction.
+
+</details>
+
+<details>
+<summary>Two further results: Stern positivity · Fence counterexample</summary>
+
+**[Stern polynomials: positivity and monotonicity](https://github.com/Aurantium-47/stern-polynomial-positivity)**
+
+Proved Ulas’s **Conjecture 4.4 for every n ≥ 0 and real t**; an exact B₁₈₃ counterexample also refutes the monotonicity clause of Conjecture 4.3.
+
+<sub>Number theory · Polynomial positivity</sub>
+
+- **Original source:** Maciej Ulas, [arXiv preprint (2019)](https://arxiv.org/abs/1909.10844v1); journal version in [*Publicationes Mathematicae Debrecen* 96(3–4), 401–422 (2020)](https://publi.math.unideb.hu/contents/2020). Conjecture numbering follows the preprint.
+- **Prior work:** The Stern recurrence and the quadratic identity used in the proof are established ingredients, including Ulas’s own identity.
+- **Method:** Recurrence-based positivity and an exact rational derivative witness for the monotonicity counterexample.
+- **Further results & materials:** The general positivity theorem and the separate monotonicity counterexample; the unique-real-root clause of Conjecture 4.3 remains outside this result.
+- **Verification:** Both results formalized in Lean 4 / mathlib, including the implication from negative derivative to failure of monotonicity.
+
+**[Fence rowmotion: a homomesy counterexample](https://github.com/Aurantium-47/fence-rowmotion-counterexample)**
+
+Refuted **Conjecture 5.4(b)** with a 32-element fence and a complete 237-state orbit: its exact mean is **1258/79 ≠ 16**.
+
+<sub>Dynamical algebraic combinatorics · Posets</sub>
+
+- **Original source:** Sergi Elizalde, Matthew Plante, Tom Roby and Bruce Sagan, [*Algebraic Combinatorics* 6(1), 17–36 (2023)](https://alco.centre-mersenne.org/articles/10.5802/alco.256/).
+- **Prior work:** The authors established several orbit-average results and proposed the ideal-cardinality homomesy statement in Conjecture 5.4(b).
+- **Method:** Explicit poset construction, complete orbit enumeration and an exact rational average.
+- **Further results & materials:** The entire orbit is distributed as a reproducible certificate. Part (a) of the conjecture is unaffected.
+- **Verification:** Lean kernel reduction checks the finite certificate; the theorem avoids native-evaluation axioms.
 
 </details>
 
@@ -107,8 +133,6 @@ A multilingual collection of free programming books and learning resources. Cont
 
 
 <sub>Badges show live upstream repository stars. PR merge status checked 2026-10-17.</sub>
-
-Also interested in creative coding, digital assets and financial markets.
 
 ## Selected activity
 
