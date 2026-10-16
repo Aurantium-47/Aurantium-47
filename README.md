@@ -63,15 +63,48 @@ Interested in retrieval over semi-structured knowledge bases: dense retrieval, t
 
 [9 merged pull requests across 7 projects](https://github.com/search?q=author%3AAurantium-47+is%3Apr+is%3Amerged&type=pullrequests).
 
-| Project / upstream stars | Contributions |
-| :--- | :--- |
-| **[REA](https://github.com/morluto/rea)**<br><a href="https://github.com/morluto/rea/stargazers"><img alt="REA upstream stars" src="https://img.shields.io/github/stars/morluto/rea?style=for-the-badge&amp;logo=github&amp;label=Stars&amp;color=eac35d&amp;labelColor=e9edf2&amp;logoColor=9a6700" width="180"></a> | **3 merged PRs**<br>[#2422](https://github.com/morluto/rea/pull/2422) · [#2448](https://github.com/morluto/rea/pull/2448) · [#2429](https://github.com/morluto/rea/pull/2429) |
-| **[Spec Kit](https://github.com/github/spec-kit)**<br><a href="https://github.com/github/spec-kit/stargazers"><img alt="Spec Kit upstream stars" src="https://img.shields.io/github/stars/github/spec-kit?style=for-the-badge&amp;logo=github&amp;label=Stars&amp;color=eac35d&amp;labelColor=e9edf2&amp;logoColor=9a6700" width="180"></a> | **1 merged PR**<br>[#4956](https://github.com/github/spec-kit/pull/4956) |
-| **[KOReader](https://github.com/koreader/koreader)**<br><a href="https://github.com/koreader/koreader/stargazers"><img alt="KOReader upstream stars" src="https://img.shields.io/github/stars/koreader/koreader?style=for-the-badge&amp;logo=github&amp;label=Stars&amp;color=eac35d&amp;labelColor=e9edf2&amp;logoColor=9a6700" width="180"></a> | **1 merged PR**<br>[#16220](https://github.com/koreader/koreader/pull/16220) |
-| **[JSON5](https://github.com/json5/json5)**<br><a href="https://github.com/json5/json5/stargazers"><img alt="JSON5 upstream stars" src="https://img.shields.io/github/stars/json5/json5?style=for-the-badge&amp;logo=github&amp;label=Stars&amp;color=eac35d&amp;labelColor=e9edf2&amp;logoColor=9a6700" width="180"></a> | **1 merged PR**<br>[#371](https://github.com/json5/json5/pull/371) |
-| **[pydicom](https://github.com/pydicom/pydicom)**<br><a href="https://github.com/pydicom/pydicom/stargazers"><img alt="pydicom upstream stars" src="https://img.shields.io/github/stars/pydicom/pydicom?style=for-the-badge&amp;logo=github&amp;label=Stars&amp;color=eac35d&amp;labelColor=e9edf2&amp;logoColor=9a6700" width="180"></a> | **1 merged PR**<br>[#2388](https://github.com/pydicom/pydicom/pull/2388) |
-| **[Developer Roadmap](https://github.com/nilbuild/developer-roadmap)**<br><a href="https://github.com/nilbuild/developer-roadmap/stargazers"><img alt="Developer Roadmap upstream stars" src="https://img.shields.io/github/stars/nilbuild/developer-roadmap?style=for-the-badge&amp;logo=github&amp;label=Stars&amp;color=eac35d&amp;labelColor=e9edf2&amp;logoColor=9a6700" width="180"></a> | **1 merged PR**<br>[#10451](https://github.com/nilbuild/developer-roadmap/pull/10451) |
-| **[Free Programming Books](https://github.com/EbookFoundation/free-programming-books)**<br><a href="https://github.com/EbookFoundation/free-programming-books/stargazers"><img alt="Free Programming Books upstream stars" src="https://img.shields.io/github/stars/EbookFoundation/free-programming-books?style=for-the-badge&amp;logo=github&amp;label=Stars&amp;color=eac35d&amp;labelColor=e9edf2&amp;logoColor=9a6700" width="180"></a> | **1 merged PR**<br>[#13533](https://github.com/EbookFoundation/free-programming-books/pull/13533) |
+### [REA](https://github.com/morluto/rea) <a href="https://github.com/morluto/rea/stargazers"><img alt="REA upstream stars" src="https://img.shields.io/github/stars/morluto/rea?style=for-the-badge&amp;logo=github&amp;label=Stars&amp;color=eac35d&amp;labelColor=e9edf2&amp;logoColor=9a6700" width="180" align="right"></a>
+
+Agent-driven reverse engineering, from application behavior to native binaries. Contributions in cross-platform compatibility and binary diagnostics.
+
+<sub>3 merged PRs · [#2422](https://github.com/morluto/rea/pull/2422) · [#2448](https://github.com/morluto/rea/pull/2448) · [#2429](https://github.com/morluto/rea/pull/2429)</sub>
+
+### [Spec Kit](https://github.com/github/spec-kit) <a href="https://github.com/github/spec-kit/stargazers"><img alt="Spec Kit upstream stars" src="https://img.shields.io/github/stars/github/spec-kit?style=for-the-badge&amp;logo=github&amp;label=Stars&amp;color=eac35d&amp;labelColor=e9edf2&amp;logoColor=9a6700" width="180" align="right"></a>
+
+GitHub’s toolkit for spec-driven development with coding agents. Contributions to Windows workflow reliability.
+
+<sub>1 merged PR · [#4956](https://github.com/github/spec-kit/pull/4956)</sub>
+
+### [KOReader](https://github.com/koreader/koreader) <a href="https://github.com/koreader/koreader/stargazers"><img alt="KOReader upstream stars" src="https://img.shields.io/github/stars/koreader/koreader?style=for-the-badge&amp;logo=github&amp;label=Stars&amp;color=eac35d&amp;labelColor=e9edf2&amp;logoColor=9a6700" width="180" align="right"></a>
+
+A document reader for e-ink devices and Android. Contributions to annotation workflows.
+
+<sub>1 merged PR · [#16220](https://github.com/koreader/koreader/pull/16220)</sub>
+
+### [JSON5](https://github.com/json5/json5) <a href="https://github.com/json5/json5/stargazers"><img alt="JSON5 upstream stars" src="https://img.shields.io/github/stars/json5/json5?style=for-the-badge&amp;logo=github&amp;label=Stars&amp;color=eac35d&amp;labelColor=e9edf2&amp;logoColor=9a6700" width="180" align="right"></a>
+
+An extension of JSON for human-written configuration. Contributions to serialization correctness.
+
+<sub>1 merged PR · [#371](https://github.com/json5/json5/pull/371)</sub>
+
+### [pydicom](https://github.com/pydicom/pydicom) <a href="https://github.com/pydicom/pydicom/stargazers"><img alt="pydicom upstream stars" src="https://img.shields.io/github/stars/pydicom/pydicom?style=for-the-badge&amp;logo=github&amp;label=Stars&amp;color=eac35d&amp;labelColor=e9edf2&amp;logoColor=9a6700" width="180" align="right"></a>
+
+A Python library for working with DICOM medical imaging data. Contributions to data conversion and interoperability.
+
+<sub>1 merged PR · [#2388](https://github.com/pydicom/pydicom/pull/2388)</sub>
+
+### [Developer Roadmap](https://github.com/nilbuild/developer-roadmap) <a href="https://github.com/nilbuild/developer-roadmap/stargazers"><img alt="Developer Roadmap upstream stars" src="https://img.shields.io/github/stars/nilbuild/developer-roadmap?style=for-the-badge&amp;logo=github&amp;label=Stars&amp;color=eac35d&amp;labelColor=e9edf2&amp;logoColor=9a6700" width="180" align="right"></a>
+
+Community-driven roadmaps and guides for developers. Contributions to Python learning content.
+
+<sub>1 merged PR · [#10451](https://github.com/nilbuild/developer-roadmap/pull/10451)</sub>
+
+### [Free Programming Books](https://github.com/EbookFoundation/free-programming-books) <a href="https://github.com/EbookFoundation/free-programming-books/stargazers"><img alt="Free Programming Books upstream stars" src="https://img.shields.io/github/stars/EbookFoundation/free-programming-books?style=for-the-badge&amp;logo=github&amp;label=Stars&amp;color=eac35d&amp;labelColor=e9edf2&amp;logoColor=9a6700" width="180" align="right"></a>
+
+A multilingual collection of free programming books and learning resources. Contributions to contributor documentation.
+
+<sub>1 merged PR · [#13533](https://github.com/EbookFoundation/free-programming-books/pull/13533)</sub>
+
 
 <sub>Badges show live upstream repository stars. PR merge status checked 2026-10-17.</sub>
 
