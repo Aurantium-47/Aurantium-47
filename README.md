@@ -1,10 +1,12 @@
 # Aurantium
 
+<sub><b>English</b> · <a href="https://github.com/Aurantium-47/Aurantium-47/blob/main/README.zh-CN.md">简体中文</a></sub>
+
 **AI for Math · NLP**
 
 Exploring the limits of AI in reasoning and software engineering.
 
-Interests: **Quantitative Finance · Digital Asset Derivatives**
+Interests: **Quantitative Strategies · Crypto**
 
 [Mathematics](https://github.com/Aurantium-47/aurantium-mathematics) · [Contributions](https://github.com/search?q=author%3AAurantium-47+is%3Apr+is%3Amerged&type=pullrequests)
 
