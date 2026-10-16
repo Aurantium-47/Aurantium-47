@@ -16,14 +16,18 @@ Interests: **Quantitative Strategies · Crypto**
 
 [**24 research projects · 8 with Lean formalization**](https://github.com/Aurantium-47/aurantium-mathematics)
 
+**7 families include further generalizations.** Across 21 dated research sources, excluding the same-problem literature comparison, first publication was approximately **4 years ago on average**, with the earliest in **2014**.
+
 **[Howroyd’s 27-set conjecture](https://github.com/Aurantium-47/howroyd-27-conjecture)**
 
-Proved the remaining two residue classes: **exactly 27 maximum independent sets**, with a complete classification, for every d ≥ 10 with 3 ∤ d.
+<sub>[Posed in 2018 · 8 years ago](https://oeis.org/A297557) · Extremal graph theory</sub>
 
-<sub>Extremal graph theory · Enumerative combinatorics</sub>
+- **Prior work:** Machacek (2021) proved the divisible-by-three branch, one of the three residue classes.
+- **My result:** Proved both remaining classes: **exactly 27 maximum independent sets** for every permitted size. Together with the known branch, this completes the count for every d ≥ 9.
+- **Stronger result & verification:** Went beyond counting to **classify all 27 sets**; the remaining-branch theorem is formalized in Lean 4.
 
 <details>
-<summary>Source, prior work & verification</summary>
+<summary>Original sources & proof method</summary>
 
 - **Original source:** Andrew Howroyd, [OEIS A297557 (2018)](https://oeis.org/A297557).
 - **Prior work:** [John Machacek](https://arxiv.org/abs/2010.11112v2), *Procedia Computer Science* 195 (2021), proved the 3 ∣ d branch. Combining the two results completes the counting formula for d ≥ 9.
@@ -33,14 +37,35 @@ Proved the remaining two residue classes: **exactly 27 maximum independent sets*
 
 </details>
 
-**[Peak polynomials: the last real root](https://github.com/Aurantium-47/peak-polynomial-last-real-root)**
+**[Lecture Hall: from finite checks to an all-length theorem](https://github.com/Aurantium-47/lecture-hall-polynomiality)**
 
-Proved **Billey–Fahrbach–Talmage Conjecture 6.6**: the largest peak is the only real root beyond the penultimate peak, with no bound on peak count or spacing.
+<sub>[Posed in 2018 · 8 years ago](https://arxiv.org/abs/1809.01377) · Algebraic combinatorics / Commutative algebra</sub>
 
-<sub>Algebraic combinatorics · Polynomial root geometry</sub>
+- **Prior work:** Katthän (2018) reported computational verification through length **12**.
+- **My result:** Proved polynomiality for **every length**, replacing the finite evidence with an all-index proof via signed Dyck paths.
+- **Extensions & verification:** Obtained explicit coefficient formulas, a minimal monic SAGBI basis and a flat toric degeneration. The polynomiality and path-identification core is formalized in Lean; the algebraic extensions have written proofs.
 
 <details>
-<summary>Source, prior work & verification</summary>
+<summary>Original sources & proof method</summary>
+
+- **Original source:** Lukas Katthän, [The Lecture Hall Cone as a toric deformation (2018)](https://arxiv.org/abs/1809.01377), prepared for the Osaka lattice-polytopes workshop.
+- **Prior work:** The original paper proposed the polynomiality and algebraic-structure statements and checked lengths at most 12. Flajolet’s continued-fraction theory and Sokal’s exposition provide credited classical tools.
+- **Method:** A signed Dyck-path identification, Toeplitz–Hankel identities and the defining recurrence give the all-index polynomiality proof.
+- **Further results & materials:** Composition coefficient formulas and exact monomial counts; a minimal monic SAGBI basis, a Hilbert-basis correspondence and flat toric degeneration over every field, under the manuscript’s disclosed square-minor interpretation.
+- **Verification:** Lean formalizes the genuine rational-function polynomiality and signed-path core. SAGBI and degeneration extensions have written mathematical proofs.
+
+</details>
+
+<details>
+<summary>Two further results: a 2016 peak-polynomial conjecture · the sharp bound for K₆ chains</summary>
+
+**[Peak polynomials: the last real root](https://github.com/Aurantium-47/peak-polynomial-last-real-root)**
+
+<sub>[Experimental Mathematics · 2016 journal version · 10 years ago](https://arxiv.org/abs/1410.8506v2) · Real roots</sub>
+
+- **Prior work:** Billey–Fahrbach–Talmage posed Conjecture 6.6; Li’s later coefficient theorem already covers right-side positivity and local sign consequences.
+- **My result:** Supplied the missing noninteger-interval sign argument and proved the **full root-exclusion statement**, with no bound on peak count or spacing.
+- **Further results:** A self-contained integral proof includes the singleton case and signs across the full interval. These complete the stated root claim rather than an unrelated generalization.
 
 - **Original source:** Sara Billey, Matthew Fahrbach and Alan Talmage, [*Experimental Mathematics* 25(2), 165–175 (2016)](https://arxiv.org/abs/1410.8506v2); preprint first posted in 2014.
 - **Prior work:** Billey–Fahrbach–Talmage supplied the recurrence and symmetry identities. [Li’s coefficient theorem](https://doi.org/10.5281/zenodo.22832569) already implies right-side positivity and several local sign properties; the additional argument covers the remaining noninteger interval.
@@ -48,34 +73,30 @@ Proved **Billey–Fahrbach–Talmage Conjecture 6.6**: the largest peak is the o
 - **Further results & materials:** Signs on both sides of the largest peak, its simplicity, and the singleton case are included; overlapping consequences of Li’s theorem are credited in the manuscript.
 - **Verification:** All-parameter mathematical proof, with supplementary exact finite checks and a separately recorded small-case reproduction.
 
+**[K₆ chains: a false 22-colour bound replaced by the sharp bound 23](https://github.com/Aurantium-47/k6-clique-chain-packing-coloring)**
+
+<sub>[Conjecture posed in 2025](https://arxiv.org/abs/2511.12761) · Graph colouring</sub>
+
+- **Prior work:** Furmańczyk–Gözüpek–Özkan conjectured a uniform upper bound of **22**.
+- **My result:** A **450-vertex** counterexample refutes 22. A periodic construction proves 23 colours suffice for every chain, with the exact value **23** for every chain of at least 75 cliques.
+- **Extension & verification:** Goes beyond one counterexample to the **sharp bound for the entire family**. The lower-bound certificate has **16,646,562** exact records, checked by Python and C++ implementations.
+
+- **Original source:** Furmańczyk, Gözüpek and Özkan, [Packing coloring of graphs with long paths (2025)](https://arxiv.org/abs/2511.12761), Conjecture 2.
+- **Prior work:** The proposed common upper bound was 22 for the path-aligned K₆ clique chains.
+- **Method:** A finite-state scheduling relaxation and decreasing-rank certificate exclude 22; an explicit periodic colouring supplies the upper bound 23.
+- **Further results & materials:** Sharp uniform bound 23 for the full chain family and exact value 23 for every t ≥ 75. The minimum counterexample length and all shorter-chain exact values are not determined.
+- **Verification:** A 16,646,562-record exact certificate with Python and C++ checkers. This is computational certificate verification, not a Lean formalization.
+
 </details>
 
+**[20 additional projects and literature comparisons](https://github.com/Aurantium-47/aurantium-mathematics/blob/main/README.en.md#all-projects)** include Stern positivity, extremal chemical graphs and Hurwitz real-rootedness.
+
 <details>
-<summary>Two further results: Stern positivity · Fence counterexample</summary>
+<summary>Result counts & dating methodology</summary>
 
-**[Stern polynomials: positivity and monotonicity](https://github.com/Aurantium-47/stern-polynomial-positivity)**
-
-Proved Ulas’s **Conjecture 4.4 for every n ≥ 0 and real t**; an exact B₁₈₃ counterexample also refutes the monotonicity clause of Conjecture 4.3.
-
-<sub>Number theory · Polynomial positivity</sub>
-
-- **Original source:** Maciej Ulas, [arXiv preprint (2019)](https://arxiv.org/abs/1909.10844v1); journal version in [*Publicationes Mathematicae Debrecen* 96(3–4), 401–422 (2020)](https://publi.math.unideb.hu/contents/2020). Conjecture numbering follows the preprint.
-- **Prior work:** The Stern recurrence and the quadratic identity used in the proof are established ingredients, including Ulas’s own identity.
-- **Method:** Recurrence-based positivity and an exact rational derivative witness for the monotonicity counterexample.
-- **Further results & materials:** The general positivity theorem and the separate monotonicity counterexample; the unique-real-root clause of Conjecture 4.3 remains outside this result.
-- **Verification:** Both results formalized in Lean 4 / mathlib, including the implication from negative derivative to failure of monotonicity.
-
-**[Fence rowmotion: a homomesy counterexample](https://github.com/Aurantium-47/fence-rowmotion-counterexample)**
-
-Refuted **Conjecture 5.4(b)** with a 32-element fence and a complete 237-state orbit: its exact mean is **1258/79 ≠ 16**.
-
-<sub>Dynamical algebraic combinatorics · Posets</sub>
-
-- **Original source:** Sergi Elizalde, Matthew Plante, Tom Roby and Bruce Sagan, [*Algebraic Combinatorics* 6(1), 17–36 (2023)](https://alco.centre-mersenne.org/articles/10.5802/alco.256/).
-- **Prior work:** The authors established several orbit-average results and proposed the ideal-cardinality homomesy statement in Conjecture 5.4(b).
-- **Method:** Explicit poset construction, complete orbit enumeration and an exact rational average.
-- **Further results & materials:** The entire orbit is distributed as a reproducible certificate. Part (a) of the conjecture is unaffected.
-- **Verification:** Lean kernel reduction checks the finite certificate; the theorem avoids native-evaluation axioms.
+- **10** affirmative original-target results · **3** counterexample-focused results · **7** partial results on broader original questions · **3** constructions or classifications · **1** same-problem literature comparison.
+- **7** families contain subsequent generalizations and **8** contain Lean formalization; these counts overlap the result categories above. The bibliography contains **60** source and related-work records.
+- Dates use **2026 minus the source’s first-publication year**, averaging **4.0 years across 21 entries**. The sample excludes an undated source, an indirectly authenticated 2000 report, and the Karp comparison with an earlier public proof. These are source ages, not durations continuously unsolved.
 
 </details>
 
@@ -89,50 +110,50 @@ Interested in retrieval over semi-structured knowledge bases: dense retrieval, t
 
 [9 merged pull requests across 7 projects](https://github.com/search?q=author%3AAurantium-47+is%3Apr+is%3Amerged&type=pullrequests).
 
-### [REA](https://github.com/morluto/rea) <a href="https://github.com/morluto/rea/stargazers"><img alt="REA upstream stars" src="https://img.shields.io/github/stars/morluto/rea?style=for-the-badge&amp;logo=github&amp;label=Stars&amp;color=eac35d&amp;labelColor=e9edf2&amp;logoColor=9a6700" width="180" align="right"></a>
+### [REA](https://github.com/morluto/rea) <a href="https://github.com/morluto/rea/stargazers"><img alt="REA upstream stars: 288k" src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/stars/morluto-rea-287879.svg" width="180" align="right"></a>
 
 Agent-driven reverse engineering, from application behavior to native binaries. Contributions in cross-platform compatibility and binary diagnostics.
 
 <sub>3 merged PRs · [#2422](https://github.com/morluto/rea/pull/2422) · [#2448](https://github.com/morluto/rea/pull/2448) · [#2429](https://github.com/morluto/rea/pull/2429)</sub>
 
-### [Spec Kit](https://github.com/github/spec-kit) <a href="https://github.com/github/spec-kit/stargazers"><img alt="Spec Kit upstream stars" src="https://img.shields.io/github/stars/github/spec-kit?style=for-the-badge&amp;logo=github&amp;label=Stars&amp;color=eac35d&amp;labelColor=e9edf2&amp;logoColor=9a6700" width="180" align="right"></a>
+### [Spec Kit](https://github.com/github/spec-kit) <a href="https://github.com/github/spec-kit/stargazers"><img alt="Spec Kit upstream stars: 142k" src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/stars/github-spec-kit-141541.svg" width="180" align="right"></a>
 
 GitHub’s toolkit for spec-driven development with coding agents. Contributions to Windows workflow reliability.
 
 <sub>1 merged PR · [#4956](https://github.com/github/spec-kit/pull/4956)</sub>
 
-### [KOReader](https://github.com/koreader/koreader) <a href="https://github.com/koreader/koreader/stargazers"><img alt="KOReader upstream stars" src="https://img.shields.io/github/stars/koreader/koreader?style=for-the-badge&amp;logo=github&amp;label=Stars&amp;color=eac35d&amp;labelColor=e9edf2&amp;logoColor=9a6700" width="180" align="right"></a>
+### [KOReader](https://github.com/koreader/koreader) <a href="https://github.com/koreader/koreader/stargazers"><img alt="KOReader upstream stars: 30.4k" src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/stars/koreader-koreader-30358.svg" width="180" align="right"></a>
 
 A document reader for e-ink devices and Android. Contributions to annotation workflows.
 
 <sub>1 merged PR · [#16220](https://github.com/koreader/koreader/pull/16220)</sub>
 
-### [JSON5](https://github.com/json5/json5) <a href="https://github.com/json5/json5/stargazers"><img alt="JSON5 upstream stars" src="https://img.shields.io/github/stars/json5/json5?style=for-the-badge&amp;logo=github&amp;label=Stars&amp;color=eac35d&amp;labelColor=e9edf2&amp;logoColor=9a6700" width="180" align="right"></a>
+### [JSON5](https://github.com/json5/json5) <a href="https://github.com/json5/json5/stargazers"><img alt="JSON5 upstream stars: 7.2k" src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/stars/json5-json5-7172.svg" width="180" align="right"></a>
 
 An extension of JSON for human-written configuration. Contributions to serialization correctness.
 
 <sub>1 merged PR · [#371](https://github.com/json5/json5/pull/371)</sub>
 
-### [pydicom](https://github.com/pydicom/pydicom) <a href="https://github.com/pydicom/pydicom/stargazers"><img alt="pydicom upstream stars" src="https://img.shields.io/github/stars/pydicom/pydicom?style=for-the-badge&amp;logo=github&amp;label=Stars&amp;color=eac35d&amp;labelColor=e9edf2&amp;logoColor=9a6700" width="180" align="right"></a>
+### [pydicom](https://github.com/pydicom/pydicom) <a href="https://github.com/pydicom/pydicom/stargazers"><img alt="pydicom upstream stars: 2.2k" src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/stars/pydicom-pydicom-2225.svg" width="180" align="right"></a>
 
 A Python library for working with DICOM medical imaging data. Contributions to data conversion and interoperability.
 
 <sub>1 merged PR · [#2388](https://github.com/pydicom/pydicom/pull/2388)</sub>
 
-### [Developer Roadmap](https://github.com/nilbuild/developer-roadmap) <a href="https://github.com/nilbuild/developer-roadmap/stargazers"><img alt="Developer Roadmap upstream stars" src="https://img.shields.io/github/stars/nilbuild/developer-roadmap?style=for-the-badge&amp;logo=github&amp;label=Stars&amp;color=eac35d&amp;labelColor=e9edf2&amp;logoColor=9a6700" width="180" align="right"></a>
+### [Developer Roadmap](https://github.com/nilbuild/developer-roadmap) <a href="https://github.com/nilbuild/developer-roadmap/stargazers"><img alt="Developer Roadmap upstream stars: 370k" src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/stars/nilbuild-developer-roadmap-369547.svg" width="180" align="right"></a>
 
 Community-driven roadmaps and guides for developers. Contributions to Python learning content.
 
 <sub>1 merged PR · [#10451](https://github.com/nilbuild/developer-roadmap/pull/10451)</sub>
 
-### [Free Programming Books](https://github.com/EbookFoundation/free-programming-books) <a href="https://github.com/EbookFoundation/free-programming-books/stargazers"><img alt="Free Programming Books upstream stars" src="https://img.shields.io/github/stars/EbookFoundation/free-programming-books?style=for-the-badge&amp;logo=github&amp;label=Stars&amp;color=eac35d&amp;labelColor=e9edf2&amp;logoColor=9a6700" width="180" align="right"></a>
+### [Free Programming Books](https://github.com/EbookFoundation/free-programming-books) <a href="https://github.com/EbookFoundation/free-programming-books/stargazers"><img alt="Free Programming Books upstream stars: 399k" src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/stars/EbookFoundation-free-programming-books-399196.svg" width="180" align="right"></a>
 
 A multilingual collection of free programming books and learning resources. Contributions to contributor documentation.
 
 <sub>1 merged PR · [#13533](https://github.com/EbookFoundation/free-programming-books/pull/13533)</sub>
 
 
-<sub>Badges show live upstream repository stars. PR merge status checked 2026-10-17.</sub>
+<sub>Stars and PR merge status checked 2026-10-17.</sub>
 
 ## Selected activity
 
