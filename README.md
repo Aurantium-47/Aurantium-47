@@ -91,13 +91,10 @@ Research interests in retrieval and question answering over semi-structured know
 
 - **Dense & hybrid retrieval:** query–entity representations, attribute encoding, multi-channel retrieval fusion and routing.
 - **Graph-enhanced retrieval & QA:** semantic–relational retrieval, entity disambiguation, and coordination between first-stage retrieval and reranking.
-- **Retrieval evaluation:** Recall@K and query-level error analysis to identify gaps in semantic matching, relational constraints and evidence coverage.
 
 ## Contributions
 
-**[9 pull requests merged across 7 upstream projects](https://github.com/search?q=author%3AAurantium-47+is%3Apr+is%3Amerged&type=pullrequests)**, including **4 repositories with over 100k stars** and GitHub’s official Spec Kit.
-
-Contributions have received [maintainer acknowledgements](https://github.com/morluto/rea/pull/2227#issuecomment-6127162628) and led to [follow-up work merged upstream](https://github.com/morluto/rea/pull/2635).
+Selected merged contributions:
 
 <p><a href="https://github.com/morluto/rea/stargazers"><img alt="REA upstream stars: 288k" src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/stars/morluto-rea-287879.svg" width="180" align="right"></a><strong><a href="https://github.com/morluto/rea">REA</a></strong> · <sub>3 merged PRs · <a href="https://github.com/morluto/rea/pull/2422">#2422</a> · <a href="https://github.com/morluto/rea/pull/2448">#2448</a> · <a href="https://github.com/morluto/rea/pull/2429">#2429</a></sub><br>Agent-driven reverse engineering · cross-platform compatibility and binary diagnostics.</p>
 

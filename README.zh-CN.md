@@ -91,13 +91,10 @@
 
 - **稠密与混合检索：** 查询—实体表示、实体属性编码、多路召回融合与路由。
 - **图增强检索与问答：** 语义相似度与关系约束的结合、实体消歧，以及粗召回与重排序的协同。
-- **检索评测：** Recall@K 与逐题误差分析，定位语义匹配、关系条件和证据覆盖之间的缺口。
 
 ## 开源贡献
 
-**[9 条 PR 合并至 7 个上游项目](https://github.com/search?q=author%3AAurantium-47+is%3Apr+is%3Amerged&type=pullrequests)**，其中 **4 个项目超过 10 万 Stars**，包括 GitHub 官方的 Spec Kit。
-
-贡献获[维护者致谢](https://github.com/morluto/rea/pull/2227#issuecomment-6127162628)，并有[后续工作接续、合并](https://github.com/morluto/rea/pull/2635)。
+部分已合并的上游贡献：
 
 <p><a href="https://github.com/morluto/rea/stargazers"><img alt="REA upstream stars: 288k" src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/stars/morluto-rea-287879.svg" width="180" align="right"></a><strong><a href="https://github.com/morluto/rea">REA</a></strong> · <sub>3 条 PR 已合并 · <a href="https://github.com/morluto/rea/pull/2422">#2422</a> · <a href="https://github.com/morluto/rea/pull/2448">#2448</a> · <a href="https://github.com/morluto/rea/pull/2429">#2429</a></sub><br>智能体逆向工程平台 · 跨平台兼容与二进制诊断。</p>
 
