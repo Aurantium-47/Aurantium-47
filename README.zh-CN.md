@@ -107,12 +107,12 @@
 <sub>AI 辅助维护 · 更新于 2026-10-17</sub>
 
 <!-- ACTIVITY:START -->
-- <sub>2026-10-13</sub> · [REA #2422 已合并；后续扩展 #2635 也已并入上游。](https://github.com/morluto/rea/pull/2635)
-- <sub>2026-10-13</sub> · [REA #2448 已合并，并有后续验证记录。](https://github.com/morluto/rea/pull/2448#issuecomment-6138368698)
-- <sub>2026-10-12</sub> · [REA #2227](https://github.com/morluto/rea/pull/2227#issuecomment-6127162628) 讨论后，有[上游实现](https://github.com/morluto/rea/commit/c9fed50691ae014890e91a72534773d2fb58ce44)跟进。
-- <sub>2026-10-14</sub> · [Spec Kit #4956 已合并。](https://github.com/github/spec-kit/pull/4956)
 - <sub>2026-10-17</sub> · [发布 Aurantium · Mathematics，汇总 24 个数学研究项目，其中 8 项包含 Lean 形式化。](https://github.com/Aurantium-47/aurantium-mathematics)
 - <sub>2026-10-15</sub> · [JSON5 #371 已合并。](https://github.com/json5/json5/pull/371)
+- <sub>2026-10-14</sub> · [Spec Kit #4956 已合并。](https://github.com/github/spec-kit/pull/4956)
+- <sub>2026-10-13</sub> · [REA #2448 已合并；CassieFox23 在 Linux 上独立复现并确认修复有效。](https://github.com/morluto/rea/pull/2448#issuecomment-6138368698)
+- <sub>2026-10-13</sub> · [REA #2422 已合并；N0zoM1z0 接续完成扩展 #2635，亦已并入上游。](https://github.com/morluto/rea/pull/2635)
+- <sub>2026-10-12</sub> · [REA #2227](https://github.com/morluto/rea/pull/2227#issuecomment-6127162628) 的方案获维护者 morluto 评价「Brilliant」，并有[上游实现](https://github.com/morluto/rea/commit/c9fed50691ae014890e91a72534773d2fb58ce44)跟进。
 
 <details>
 <summary>更多动态</summary>
