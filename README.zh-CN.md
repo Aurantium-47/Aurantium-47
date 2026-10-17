@@ -4,19 +4,17 @@
 
 **AI for Math · NLP**
 
-探索 AI 在推理与软件工程中的能力边界。
-
 兴趣：**量化策略 · 加密市场**
 
 [数学研究](https://github.com/Aurantium-47/aurantium-mathematics) · [开源贡献](https://github.com/search?q=author%3AAurantium-47+is%3Apr+is%3Amerged&type=pullrequests)
 
-<p><img alt="Python" src="https://img.shields.io/badge/Python-e9edf2?style=flat-square&amp;logo=python&amp;logoColor=57606a"> <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-e9edf2?style=flat-square&amp;logo=pytorch&amp;logoColor=57606a"> <img alt="Transformers" src="https://img.shields.io/badge/Transformers-e9edf2?style=flat-square&amp;logo=huggingface&amp;logoColor=57606a"> <img alt="NumPy" src="https://img.shields.io/badge/NumPy-e9edf2?style=flat-square&amp;logo=numpy&amp;logoColor=57606a"> <img alt="Lean 4" src="https://img.shields.io/badge/Lean%204-e9edf2?style=flat-square"> <img alt="mathlib" src="https://img.shields.io/badge/mathlib-e9edf2?style=flat-square"> <img alt="SymPy" src="https://img.shields.io/badge/SymPy-e9edf2?style=flat-square&amp;logo=sympy&amp;logoColor=57606a"> <img alt="LaTeX" src="https://img.shields.io/badge/LaTeX-e9edf2?style=flat-square&amp;logo=latex&amp;logoColor=57606a"> <img alt="C++" src="https://img.shields.io/badge/C%2B%2B-e9edf2?style=flat-square&amp;logo=cplusplus&amp;logoColor=57606a"> <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-e9edf2?style=flat-square&amp;logo=typescript&amp;logoColor=57606a"> <img alt="Node.js" src="https://img.shields.io/badge/Node.js-e9edf2?style=flat-square&amp;logo=nodedotjs&amp;logoColor=57606a"> <img alt="Git" src="https://img.shields.io/badge/Git-e9edf2?style=flat-square&amp;logo=git&amp;logoColor=57606a"></p>
+<p><img alt="Python" src="https://img.shields.io/badge/Python-e9edf2?style=flat-square&amp;logo=python&amp;logoColor=57606a"> <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-e9edf2?style=flat-square&amp;logo=pytorch&amp;logoColor=57606a"> <img alt="Transformers" src="https://img.shields.io/badge/Transformers-e9edf2?style=flat-square&amp;logo=huggingface&amp;logoColor=57606a"> <img alt="Lean 4 / mathlib" src="https://img.shields.io/badge/Lean%204%20%2F%20mathlib-e9edf2?style=flat-square"> <img alt="SymPy" src="https://img.shields.io/badge/SymPy-e9edf2?style=flat-square&amp;logo=sympy&amp;logoColor=57606a"> <img alt="C++" src="https://img.shields.io/badge/C%2B%2B-e9edf2?style=flat-square&amp;logo=cplusplus&amp;logoColor=57606a"> <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-e9edf2?style=flat-square&amp;logo=typescript&amp;logoColor=57606a"></p>
 
 ## 数学研究
 
 [**24 组研究成果 · 7 组含推广 · 8 组含 Lean 形式化**](https://github.com/Aurantium-47/aurantium-mathematics)
 
-**10 项原题的肯定解答 · 3 项反例。**
+**10 项原问题获肯定解答 · 3 项反例。**
 
 **[Howroyd 27 集猜想](https://github.com/Aurantium-47/howroyd-27-conjecture)** · <sub>[2018 年提出 · 距今 8 年](https://oeis.org/A297557) · 极值图论</sub>
 
@@ -33,9 +31,9 @@
 
 </details>
 
-**[Lecture Hall：从有限验证到任意长度的证明](https://github.com/Aurantium-47/lecture-hall-polynomiality)** · <sub>[2018 年提出 · 距今 8 年](https://arxiv.org/abs/1809.01377) · 代数组合 / 交换代数</sub>
+**[Lecture Hall：多项式性与代数推广](https://github.com/Aurantium-47/lecture-hall-polynomiality)** · <sub>[2018 年提出 · 距今 8 年](https://arxiv.org/abs/1809.01377) · 代数组合 / 交换代数</sub>
 
-**从长度 12 的计算验证到任意长度的证明。** 进一步发展出系数公式、SAGBI 基与 toric 退化等一组结构定理，形成原题证明之外的系列成果；多项式性与路径识别核心已用 Lean 形式化。
+**从长度 12 的计算验证到任意长度的证明。** 进一步得到系数公式、SAGBI 基与 toric 退化等结构定理；多项式性与路径识别核心已用 Lean 形式化。
 
 <details>
 <summary>原文出处与证明方法</summary>
@@ -53,7 +51,7 @@
 
 **[峰多项式的最后实根](https://github.com/Aurantium-47/peak-polynomial-last-real-root)** · <sub>[Experimental Mathematics · 2016 年期刊版 · 距今 10 年](https://arxiv.org/abs/1410.8506v2) · 多项式实根</sub>
 
-**从局部区间结论到完整的最后实根结论。** 补足 2016 年期刊猜想所需的非整数区间论证，不限制峰的数量与间隔；已有系数定理涵盖的结论保留原归属。
+**从局部区间结果到完整的最后实根结论。** 通过积分符号分析补足非整数区间的论证，不限制峰的数量与间隔。
 
 - **原问题出处:** Sara Billey、Matthew Fahrbach、Alan Talmage，[*Experimental Mathematics* 25(2), 165–175（2016）](https://arxiv.org/abs/1410.8506v2)；预印本首发于 2014 年。
 - **已有进展:** Billey–Fahrbach–Talmage 给出递推与对称恒等式。[Li 的系数定理](https://doi.org/10.5281/zenodo.22832569) 已涵盖右侧正性和若干局部符号性质；本项补足剩余非整数区间的分析。
@@ -73,55 +71,46 @@
 
 </details>
 
-**另有 [20 项研究与文献对照](https://github.com/Aurantium-47/aurantium-mathematics#全部项目)**，包含 Stern 正性、化学图极值、Hurwitz 实根性等。
-
-<details>
-<summary>成果分类</summary>
-
-- **10** 项原题的肯定解答 · **3** 项以反例为主的结果 · **7** 项更大原问题的部分结果 · **3** 项构造或分类 · **1** 项同题文献对照。
-- **7** 组包含后续推广，**8** 组包含 Lean 形式化；两项统计与上述分类可以重叠。参考目录共 **60** 条问题来源与相关文献。
-
-</details>
+**[更多数学工作 · 20 项](https://github.com/Aurantium-47/aurantium-mathematics#全部项目)**
 
 ## NLP 与信息检索
 
 **Dense & Hybrid Retrieval · Knowledge Graphs · Retrieval-Augmented QA**
 
-面向文本与关系混合知识库的检索与问答，关注如何联合语义表示、实体属性和图关系，改善复杂查询的候选召回与证据定位。当前围绕 **STaRK-MAG**，沿 HybGRAG 的文本—关系联合检索路线开展研究。
+研究文本与图关系共同约束下的检索与问答，重点是**多路召回的互补、关系约束下的实体消歧，以及召回与重排的协同**。
 
-- **稠密与混合检索：** 查询—实体表示、实体属性编码、多路召回融合与路由。
-- **图增强检索与问答：** 语义相似度与关系约束的结合、实体消歧，以及粗召回与重排序的协同。
+当前以 **STaRK-MAG** 为主要场景，探索如何联合实体文本、属性和图关系，让候选选择同时满足语义与关系条件。
 
 ## 开源贡献
 
 部分已合并的上游贡献：
 
-<p><a href="https://github.com/morluto/rea/stargazers"><img alt="REA upstream stars: 288k" src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/stars/morluto-rea-287879.svg" width="180" align="right"></a><strong><a href="https://github.com/morluto/rea">REA</a></strong> · <sub>3 条 PR 已合并 · <a href="https://github.com/morluto/rea/pull/2422">#2422</a> · <a href="https://github.com/morluto/rea/pull/2448">#2448</a> · <a href="https://github.com/morluto/rea/pull/2429">#2429</a></sub><br>智能体逆向工程平台 · 跨平台兼容与二进制诊断。</p>
+<p><a href="https://github.com/morluto/rea/stargazers"><img alt="REA upstream stars: 288k" src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/stars/morluto-rea-287879.svg" width="180" align="right"></a><strong><a href="https://github.com/morluto/rea">REA</a></strong> · <sub><a href="https://github.com/morluto/rea/pull/2422">#2422</a> · <a href="https://github.com/morluto/rea/pull/2448">#2448</a> · <a href="https://github.com/morluto/rea/pull/2429">#2429</a></sub><br>智能体逆向工程平台 · 跨平台兼容与二进制诊断。</p>
 
-<p><a href="https://github.com/github/spec-kit/stargazers"><img alt="Spec Kit upstream stars: 142k" src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/stars/github-spec-kit-141541.svg" width="180" align="right"></a><strong><a href="https://github.com/github/spec-kit">Spec Kit</a></strong> · <sub>1 条 PR 已合并 · <a href="https://github.com/github/spec-kit/pull/4956">#4956</a></sub><br>GitHub 官方规范驱动开发工具包 · Windows 工作流可靠性。</p>
+<p><a href="https://github.com/github/spec-kit/stargazers"><img alt="Spec Kit upstream stars: 142k" src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/stars/github-spec-kit-141541.svg" width="180" align="right"></a><strong><a href="https://github.com/github/spec-kit">Spec Kit</a></strong> · <sub><a href="https://github.com/github/spec-kit/pull/4956">#4956</a></sub><br>GitHub 官方规范驱动开发工具包 · Windows 工作流可靠性。</p>
 
-<p><a href="https://github.com/koreader/koreader/stargazers"><img alt="KOReader upstream stars: 30.4k" src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/stars/koreader-koreader-30358.svg" width="180" align="right"></a><strong><a href="https://github.com/koreader/koreader">KOReader</a></strong> · <sub>1 条 PR 已合并 · <a href="https://github.com/koreader/koreader/pull/16220">#16220</a></sub><br>电子墨水与 Android 阅读器 · 批注工作流。</p>
+<p><a href="https://github.com/koreader/koreader/stargazers"><img alt="KOReader upstream stars: 30.4k" src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/stars/koreader-koreader-30358.svg" width="180" align="right"></a><strong><a href="https://github.com/koreader/koreader">KOReader</a></strong> · <sub><a href="https://github.com/koreader/koreader/pull/16220">#16220</a></sub><br>电子墨水与 Android 阅读器 · 批注工作流。</p>
 
-<p><a href="https://github.com/json5/json5/stargazers"><img alt="JSON5 upstream stars: 7.2k" src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/stars/json5-json5-7172.svg" width="180" align="right"></a><strong><a href="https://github.com/json5/json5">JSON5</a></strong> · <sub>1 条 PR 已合并 · <a href="https://github.com/json5/json5/pull/371">#371</a></sub><br>JSON5 的 JavaScript 实现 · 序列化正确性。</p>
+<p><a href="https://github.com/json5/json5/stargazers"><img alt="JSON5 upstream stars: 7.2k" src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/stars/json5-json5-7172.svg" width="180" align="right"></a><strong><a href="https://github.com/json5/json5">JSON5</a></strong> · <sub><a href="https://github.com/json5/json5/pull/371">#371</a></sub><br>JSON5 的 JavaScript 实现 · 序列化正确性。</p>
 
-<p><a href="https://github.com/pydicom/pydicom/stargazers"><img alt="pydicom upstream stars: 2.2k" src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/stars/pydicom-pydicom-2225.svg" width="180" align="right"></a><strong><a href="https://github.com/pydicom/pydicom">pydicom</a></strong> · <sub>1 条 PR 已合并 · <a href="https://github.com/pydicom/pydicom/pull/2388">#2388</a></sub><br>DICOM 医学影像库 · 数据转换与互操作性。</p>
+<p><a href="https://github.com/pydicom/pydicom/stargazers"><img alt="pydicom upstream stars: 2.2k" src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/stars/pydicom-pydicom-2225.svg" width="180" align="right"></a><strong><a href="https://github.com/pydicom/pydicom">pydicom</a></strong> · <sub><a href="https://github.com/pydicom/pydicom/pull/2388">#2388</a></sub><br>DICOM 医学影像库 · 数据转换与互操作性。</p>
 
-<p><a href="https://github.com/nilbuild/developer-roadmap/stargazers"><img alt="Developer Roadmap upstream stars: 370k" src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/stars/nilbuild-developer-roadmap-369547.svg" width="180" align="right"></a><strong><a href="https://github.com/nilbuild/developer-roadmap">Developer Roadmap</a></strong> · <sub>1 条 PR 已合并 · <a href="https://github.com/nilbuild/developer-roadmap/pull/10451">#10451</a></sub><br>开发者路线图与技术指南 · Python 学习内容。</p>
+<p><a href="https://github.com/nilbuild/developer-roadmap/stargazers"><img alt="Developer Roadmap upstream stars: 370k" src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/stars/nilbuild-developer-roadmap-369547.svg" width="180" align="right"></a><strong><a href="https://github.com/nilbuild/developer-roadmap">Developer Roadmap</a></strong> · <sub><a href="https://github.com/nilbuild/developer-roadmap/pull/10451">#10451</a></sub><br>开发者路线图与技术指南 · Python 学习内容。</p>
 
-<p><a href="https://github.com/EbookFoundation/free-programming-books/stargazers"><img alt="Free Programming Books upstream stars: 399k" src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/stars/EbookFoundation-free-programming-books-399196.svg" width="180" align="right"></a><strong><a href="https://github.com/EbookFoundation/free-programming-books">Free Programming Books</a></strong> · <sub>1 条 PR 已合并 · <a href="https://github.com/EbookFoundation/free-programming-books/pull/13533">#13533</a></sub><br>多语言编程资源库 · 贡献者文档。</p>
+<p><a href="https://github.com/EbookFoundation/free-programming-books/stargazers"><img alt="Free Programming Books upstream stars: 399k" src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/stars/EbookFoundation-free-programming-books-399196.svg" width="180" align="right"></a><strong><a href="https://github.com/EbookFoundation/free-programming-books">Free Programming Books</a></strong> · <sub><a href="https://github.com/EbookFoundation/free-programming-books/pull/13533">#13533</a></sub><br>多语言编程资源库 · 贡献者文档。</p>
 
 
-<sub>Stars 与 PR 合并状态核对于 2026-10-17。</sub>
+<sub>Stars 截至 2026-10-17</sub>
 
 ## 动态精选
 
-<sub>由我的 AI 助手维护 · 定期自动更新待启用</sub>
+<sub>AI 辅助维护 · 更新于 2026-10-17</sub>
 
 <!-- ACTIVITY:START -->
-- <sub>2026-10-13</sub> · [REA #2422 已合并；N0zoM1z0 致谢并接续提交 #2635，后续工作也已合并。](https://github.com/morluto/rea/pull/2635)
-- <sub>2026-10-13</sub> · [REA #2448 已合并；CassieFox23 发布验证报告并致谢。](https://github.com/morluto/rea/pull/2448#issuecomment-6138368698)
-- <sub>2026-10-12</sub> · [REA #2227](https://github.com/morluto/rea/pull/2227#issuecomment-6127162628) 获维护者 morluto 致谢，随后有[上游实现](https://github.com/morluto/rea/commit/c9fed50691ae014890e91a72534773d2fb58ce44)跟进。
-- <sub>2026-10-14</sub> · [Spec Kit #4956 已合并，并获 mnriem 致谢。](https://github.com/github/spec-kit/pull/4956#issuecomment-6169522572)
+- <sub>2026-10-13</sub> · [REA #2422 已合并；后续扩展 #2635 也已并入上游。](https://github.com/morluto/rea/pull/2635)
+- <sub>2026-10-13</sub> · [REA #2448 已合并，并有后续验证记录。](https://github.com/morluto/rea/pull/2448#issuecomment-6138368698)
+- <sub>2026-10-12</sub> · [REA #2227](https://github.com/morluto/rea/pull/2227#issuecomment-6127162628) 讨论后，有[上游实现](https://github.com/morluto/rea/commit/c9fed50691ae014890e91a72534773d2fb58ce44)跟进。
+- <sub>2026-10-14</sub> · [Spec Kit #4956 已合并。](https://github.com/github/spec-kit/pull/4956)
 - <sub>2026-10-17</sub> · [发布 Aurantium · Mathematics，汇总 24 个数学研究项目，其中 8 项包含 Lean 形式化。](https://github.com/Aurantium-47/aurantium-mathematics)
 - <sub>2026-10-15</sub> · [JSON5 #371 已合并。](https://github.com/json5/json5/pull/371)
 

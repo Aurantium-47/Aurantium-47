@@ -4,19 +4,17 @@
 
 **AI for Math · NLP**
 
-Exploring the limits of AI in reasoning and software engineering.
-
 Interests: **Quantitative Strategies · Crypto**
 
 [Mathematics](https://github.com/Aurantium-47/aurantium-mathematics) · [Contributions](https://github.com/search?q=author%3AAurantium-47+is%3Apr+is%3Amerged&type=pullrequests)
 
-<p><img alt="Python" src="https://img.shields.io/badge/Python-e9edf2?style=flat-square&amp;logo=python&amp;logoColor=57606a"> <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-e9edf2?style=flat-square&amp;logo=pytorch&amp;logoColor=57606a"> <img alt="Transformers" src="https://img.shields.io/badge/Transformers-e9edf2?style=flat-square&amp;logo=huggingface&amp;logoColor=57606a"> <img alt="NumPy" src="https://img.shields.io/badge/NumPy-e9edf2?style=flat-square&amp;logo=numpy&amp;logoColor=57606a"> <img alt="Lean 4" src="https://img.shields.io/badge/Lean%204-e9edf2?style=flat-square"> <img alt="mathlib" src="https://img.shields.io/badge/mathlib-e9edf2?style=flat-square"> <img alt="SymPy" src="https://img.shields.io/badge/SymPy-e9edf2?style=flat-square&amp;logo=sympy&amp;logoColor=57606a"> <img alt="LaTeX" src="https://img.shields.io/badge/LaTeX-e9edf2?style=flat-square&amp;logo=latex&amp;logoColor=57606a"> <img alt="C++" src="https://img.shields.io/badge/C%2B%2B-e9edf2?style=flat-square&amp;logo=cplusplus&amp;logoColor=57606a"> <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-e9edf2?style=flat-square&amp;logo=typescript&amp;logoColor=57606a"> <img alt="Node.js" src="https://img.shields.io/badge/Node.js-e9edf2?style=flat-square&amp;logo=nodedotjs&amp;logoColor=57606a"> <img alt="Git" src="https://img.shields.io/badge/Git-e9edf2?style=flat-square&amp;logo=git&amp;logoColor=57606a"></p>
+<p><img alt="Python" src="https://img.shields.io/badge/Python-e9edf2?style=flat-square&amp;logo=python&amp;logoColor=57606a"> <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-e9edf2?style=flat-square&amp;logo=pytorch&amp;logoColor=57606a"> <img alt="Transformers" src="https://img.shields.io/badge/Transformers-e9edf2?style=flat-square&amp;logo=huggingface&amp;logoColor=57606a"> <img alt="Lean 4 / mathlib" src="https://img.shields.io/badge/Lean%204%20%2F%20mathlib-e9edf2?style=flat-square"> <img alt="SymPy" src="https://img.shields.io/badge/SymPy-e9edf2?style=flat-square&amp;logo=sympy&amp;logoColor=57606a"> <img alt="C++" src="https://img.shields.io/badge/C%2B%2B-e9edf2?style=flat-square&amp;logo=cplusplus&amp;logoColor=57606a"> <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-e9edf2?style=flat-square&amp;logo=typescript&amp;logoColor=57606a"></p>
 
 ## Mathematical research
 
 [**24 research projects · 7 with generalizations · 8 with Lean formalization**](https://github.com/Aurantium-47/aurantium-mathematics)
 
-**10 affirmative original-target results · 3 counterexample-focused results.**
+**10 positive resolutions · 3 counterexamples.**
 
 **[Howroyd’s 27-set conjecture](https://github.com/Aurantium-47/howroyd-27-conjecture)** · <sub>[Posed in 2018 · 8 years ago](https://oeis.org/A297557) · Extremal graph theory</sub>
 
@@ -33,7 +31,7 @@ Interests: **Quantitative Strategies · Crypto**
 
 </details>
 
-**[Lecture Hall: from finite checks to an all-length theorem](https://github.com/Aurantium-47/lecture-hall-polynomiality)** · <sub>[Posed in 2018 · 8 years ago](https://arxiv.org/abs/1809.01377) · Algebraic combinatorics / Commutative algebra</sub>
+**[Lecture Hall polynomiality and algebraic extensions](https://github.com/Aurantium-47/lecture-hall-polynomiality)** · <sub>[Posed in 2018 · 8 years ago](https://arxiv.org/abs/1809.01377) · Algebraic combinatorics / Commutative algebra</sub>
 
 **Checks through length 12 → a proof for every length.** Extended the result into a family of coefficient formulas, SAGBI-basis and toric-degeneration theorems. The polynomiality and signed-path core is formalized in Lean.
 
@@ -53,7 +51,7 @@ Interests: **Quantitative Strategies · Crypto**
 
 **[Peak polynomials: the last real root](https://github.com/Aurantium-47/peak-polynomial-last-real-root)** · <sub>[Experimental Mathematics · 2016 journal version · 10 years ago](https://arxiv.org/abs/1410.8506v2) · Real roots</sub>
 
-**Partial interval results → the full last-real-root statement.** Supplied the missing noninteger-interval argument for the 2016 conjecture, without bounds on peak count or spacing; earlier coefficient-theorem consequences remain credited.
+**Partial interval results → the full last-real-root statement.** An integral sign argument covers the missing noninteger interval, without bounds on peak count or spacing.
 
 - **Original source:** Sara Billey, Matthew Fahrbach and Alan Talmage, [*Experimental Mathematics* 25(2), 165–175 (2016)](https://arxiv.org/abs/1410.8506v2); preprint first posted in 2014.
 - **Prior work:** Billey–Fahrbach–Talmage supplied the recurrence and symmetry identities. [Li’s coefficient theorem](https://doi.org/10.5281/zenodo.22832569) already implies right-side positivity and several local sign properties; the additional argument covers the remaining noninteger interval.
@@ -73,55 +71,46 @@ Interests: **Quantitative Strategies · Crypto**
 
 </details>
 
-**[20 additional projects and literature comparisons](https://github.com/Aurantium-47/aurantium-mathematics/blob/main/README.en.md#all-projects)** include Stern positivity, extremal chemical graphs and Hurwitz real-rootedness.
-
-<details>
-<summary>Result categories</summary>
-
-- **10** affirmative original-target results · **3** counterexample-focused results · **7** partial results on broader original questions · **3** constructions or classifications · **1** same-problem literature comparison.
-- **7** families contain subsequent generalizations and **8** contain Lean formalization; these counts overlap the result categories above. The bibliography contains **60** source and related-work records.
-
-</details>
+**[More mathematical work · 20 projects](https://github.com/Aurantium-47/aurantium-mathematics/blob/main/README.en.md#all-projects)**
 
 ## NLP & information retrieval
 
 **Dense & Hybrid Retrieval · Knowledge Graphs · Retrieval-Augmented QA**
 
-Research interests in retrieval and question answering over semi-structured knowledge bases, combining semantic representations, entity attributes and graph relations for candidate retrieval and evidence discovery. Current work centers on **STaRK-MAG** and the text–relation retrieval setting studied by HybGRAG.
+Research interests in retrieval and question answering over text–graph knowledge bases, focusing on **complementary retrieval channels, relation-aware entity disambiguation, and coordination between retrieval and reranking**.
 
-- **Dense & hybrid retrieval:** query–entity representations, attribute encoding, multi-channel retrieval fusion and routing.
-- **Graph-enhanced retrieval & QA:** semantic–relational retrieval, entity disambiguation, and coordination between first-stage retrieval and reranking.
+Current work uses **STaRK-MAG** to explore how entity text, attributes and graph relations can jointly guide candidate selection under both semantic and relational constraints.
 
 ## Contributions
 
 Selected merged contributions:
 
-<p><a href="https://github.com/morluto/rea/stargazers"><img alt="REA upstream stars: 288k" src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/stars/morluto-rea-287879.svg" width="180" align="right"></a><strong><a href="https://github.com/morluto/rea">REA</a></strong> · <sub>3 merged PRs · <a href="https://github.com/morluto/rea/pull/2422">#2422</a> · <a href="https://github.com/morluto/rea/pull/2448">#2448</a> · <a href="https://github.com/morluto/rea/pull/2429">#2429</a></sub><br>Agent-driven reverse engineering · cross-platform compatibility and binary diagnostics.</p>
+<p><a href="https://github.com/morluto/rea/stargazers"><img alt="REA upstream stars: 288k" src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/stars/morluto-rea-287879.svg" width="180" align="right"></a><strong><a href="https://github.com/morluto/rea">REA</a></strong> · <sub><a href="https://github.com/morluto/rea/pull/2422">#2422</a> · <a href="https://github.com/morluto/rea/pull/2448">#2448</a> · <a href="https://github.com/morluto/rea/pull/2429">#2429</a></sub><br>Agent-driven reverse engineering · cross-platform compatibility and binary diagnostics.</p>
 
-<p><a href="https://github.com/github/spec-kit/stargazers"><img alt="Spec Kit upstream stars: 142k" src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/stars/github-spec-kit-141541.svg" width="180" align="right"></a><strong><a href="https://github.com/github/spec-kit">Spec Kit</a></strong> · <sub>1 merged PR · <a href="https://github.com/github/spec-kit/pull/4956">#4956</a></sub><br>GitHub’s spec-driven development toolkit · Windows workflow reliability.</p>
+<p><a href="https://github.com/github/spec-kit/stargazers"><img alt="Spec Kit upstream stars: 142k" src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/stars/github-spec-kit-141541.svg" width="180" align="right"></a><strong><a href="https://github.com/github/spec-kit">Spec Kit</a></strong> · <sub><a href="https://github.com/github/spec-kit/pull/4956">#4956</a></sub><br>GitHub’s spec-driven development toolkit · Windows workflow reliability.</p>
 
-<p><a href="https://github.com/koreader/koreader/stargazers"><img alt="KOReader upstream stars: 30.4k" src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/stars/koreader-koreader-30358.svg" width="180" align="right"></a><strong><a href="https://github.com/koreader/koreader">KOReader</a></strong> · <sub>1 merged PR · <a href="https://github.com/koreader/koreader/pull/16220">#16220</a></sub><br>E-ink and Android document reader · annotation workflows.</p>
+<p><a href="https://github.com/koreader/koreader/stargazers"><img alt="KOReader upstream stars: 30.4k" src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/stars/koreader-koreader-30358.svg" width="180" align="right"></a><strong><a href="https://github.com/koreader/koreader">KOReader</a></strong> · <sub><a href="https://github.com/koreader/koreader/pull/16220">#16220</a></sub><br>E-ink and Android document reader · annotation workflows.</p>
 
-<p><a href="https://github.com/json5/json5/stargazers"><img alt="JSON5 upstream stars: 7.2k" src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/stars/json5-json5-7172.svg" width="180" align="right"></a><strong><a href="https://github.com/json5/json5">JSON5</a></strong> · <sub>1 merged PR · <a href="https://github.com/json5/json5/pull/371">#371</a></sub><br>JSON5’s JavaScript implementation · serialization correctness.</p>
+<p><a href="https://github.com/json5/json5/stargazers"><img alt="JSON5 upstream stars: 7.2k" src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/stars/json5-json5-7172.svg" width="180" align="right"></a><strong><a href="https://github.com/json5/json5">JSON5</a></strong> · <sub><a href="https://github.com/json5/json5/pull/371">#371</a></sub><br>JSON5’s JavaScript implementation · serialization correctness.</p>
 
-<p><a href="https://github.com/pydicom/pydicom/stargazers"><img alt="pydicom upstream stars: 2.2k" src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/stars/pydicom-pydicom-2225.svg" width="180" align="right"></a><strong><a href="https://github.com/pydicom/pydicom">pydicom</a></strong> · <sub>1 merged PR · <a href="https://github.com/pydicom/pydicom/pull/2388">#2388</a></sub><br>DICOM medical imaging library · data conversion and interoperability.</p>
+<p><a href="https://github.com/pydicom/pydicom/stargazers"><img alt="pydicom upstream stars: 2.2k" src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/stars/pydicom-pydicom-2225.svg" width="180" align="right"></a><strong><a href="https://github.com/pydicom/pydicom">pydicom</a></strong> · <sub><a href="https://github.com/pydicom/pydicom/pull/2388">#2388</a></sub><br>DICOM medical imaging library · data conversion and interoperability.</p>
 
-<p><a href="https://github.com/nilbuild/developer-roadmap/stargazers"><img alt="Developer Roadmap upstream stars: 370k" src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/stars/nilbuild-developer-roadmap-369547.svg" width="180" align="right"></a><strong><a href="https://github.com/nilbuild/developer-roadmap">Developer Roadmap</a></strong> · <sub>1 merged PR · <a href="https://github.com/nilbuild/developer-roadmap/pull/10451">#10451</a></sub><br>Developer roadmaps and technical guides · Python learning content.</p>
+<p><a href="https://github.com/nilbuild/developer-roadmap/stargazers"><img alt="Developer Roadmap upstream stars: 370k" src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/stars/nilbuild-developer-roadmap-369547.svg" width="180" align="right"></a><strong><a href="https://github.com/nilbuild/developer-roadmap">Developer Roadmap</a></strong> · <sub><a href="https://github.com/nilbuild/developer-roadmap/pull/10451">#10451</a></sub><br>Developer roadmaps and technical guides · Python learning content.</p>
 
-<p><a href="https://github.com/EbookFoundation/free-programming-books/stargazers"><img alt="Free Programming Books upstream stars: 399k" src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/stars/EbookFoundation-free-programming-books-399196.svg" width="180" align="right"></a><strong><a href="https://github.com/EbookFoundation/free-programming-books">Free Programming Books</a></strong> · <sub>1 merged PR · <a href="https://github.com/EbookFoundation/free-programming-books/pull/13533">#13533</a></sub><br>Multilingual programming resource collection · contributor documentation.</p>
+<p><a href="https://github.com/EbookFoundation/free-programming-books/stargazers"><img alt="Free Programming Books upstream stars: 399k" src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/stars/EbookFoundation-free-programming-books-399196.svg" width="180" align="right"></a><strong><a href="https://github.com/EbookFoundation/free-programming-books">Free Programming Books</a></strong> · <sub><a href="https://github.com/EbookFoundation/free-programming-books/pull/13533">#13533</a></sub><br>Multilingual programming resource collection · contributor documentation.</p>
 
 
-<sub>Stars and PR merge status checked 2026-10-17.</sub>
+<sub>Stars as of 2026-10-17</sub>
 
 ## Selected activity
 
-<sub>Maintained by my AI assistant · scheduled updates pending</sub>
+<sub>AI-assisted updates · 2026-10-17</sub>
 
 <!-- ACTIVITY:START -->
-- <sub>2026-10-13</sub> · [REA #2422 — merged; acknowledged and extended by N0zoM1z0 in merged PR #2635.](https://github.com/morluto/rea/pull/2635)
-- <sub>2026-10-13</sub> · [REA #2448 — merged; verification report and thanks from CassieFox23.](https://github.com/morluto/rea/pull/2448#issuecomment-6138368698)
-- <sub>2026-10-12</sub> · [REA #2227](https://github.com/morluto/rea/pull/2227#issuecomment-6127162628) — thanked by maintainer morluto, followed by an [upstream implementation](https://github.com/morluto/rea/commit/c9fed50691ae014890e91a72534773d2fb58ce44).
-- <sub>2026-10-14</sub> · [Spec Kit #4956 — merged, with thanks from mnriem.](https://github.com/github/spec-kit/pull/4956#issuecomment-6169522572)
+- <sub>2026-10-13</sub> · [REA #2422 — merged; follow-up extension #2635 also merged upstream.](https://github.com/morluto/rea/pull/2635)
+- <sub>2026-10-13</sub> · [REA #2448 — merged, with a follow-up verification report.](https://github.com/morluto/rea/pull/2448#issuecomment-6138368698)
+- <sub>2026-10-12</sub> · [REA #2227](https://github.com/morluto/rea/pull/2227#issuecomment-6127162628) — discussion followed by an [upstream implementation](https://github.com/morluto/rea/commit/c9fed50691ae014890e91a72534773d2fb58ce44).
+- <sub>2026-10-14</sub> · [Spec Kit #4956 — merged.](https://github.com/github/spec-kit/pull/4956)
 - <sub>2026-10-17</sub> · [Published Aurantium · Mathematics: 24 research projects, including 8 with Lean formalization.](https://github.com/Aurantium-47/aurantium-mathematics)
 - <sub>2026-10-15</sub> · [JSON5 #371 — merged.](https://github.com/json5/json5/pull/371)
 
