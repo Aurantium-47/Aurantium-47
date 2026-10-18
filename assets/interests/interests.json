@@ -139,6 +139,16 @@
       "text": "Curiosity",
       "zh": "好奇心",
       "size": 21
+    },
+    {
+      "text": "Mecha Models",
+      "zh": "机甲模型",
+      "size": 21,
+      "position": {
+        "x": 117.967,
+        "y": -92.13,
+        "z": 9.788
+      }
     }
   ],
   "attitude": {

@@ -7,7 +7,12 @@ global.document={createElement:element};
 global.window={matchMedia:()=>({matches:false}),requestAnimationFrame:()=>0};
 const TagCloud=require('./vendor/tagcloud.js');
 const escape=s=>s.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
-const cloud=TagCloud(element(),data.words.map(w=>w.text),{radius:200,keep:true,maxSpeed:'normal',initSpeed:'normal'});
+// Explicit positions let appended words join without redistributing existing orbits.
+const cloud=TagCloud(element(),data.words.filter(w=>!w.position).map(w=>w.text),{radius:200,keep:true,maxSpeed:'normal',initSpeed:'normal'});
+let autoIndex=0;
+cloud.items=data.words.map(w=>w.position
+ ?{el:element(),...w.position,scale:(2*cloud.depth/(2*cloud.depth+w.position.z)).toFixed(3)}
+ :cloud.items[autoIndex++]);
 // Equal rotations around two axes. Choose a step with an exact 600-step full turn.
 const steps=600,samples=60,theta=2*Math.PI/steps;
 const stepDegrees=Math.acos(2*Math.cos(theta/2)-1)*180/Math.PI;
