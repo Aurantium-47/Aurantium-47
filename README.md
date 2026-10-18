@@ -15,14 +15,14 @@
 <!-- INTERESTS:START -->
 <p>
   <picture>
-    <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/51cc2cc68d580d0dc6a50aa6e1613dcebee31a59/assets/interests/records-mobile.svg?v=5">
-    <img src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/51cc2cc68d580d0dc6a50aa6e1613dcebee31a59/assets/interests/records.svg?v=5" width="920" alt="唱片与票根：Oasis — Don't Look Back in Anger；最近单曲循环：借过（印子月）；歌剧魅影。">
+    <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/0ea83ff0b7b0d93d2d6279e952d6054dc4b08fd0/assets/interests/records-mobile.svg?v=5">
+    <img src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/0ea83ff0b7b0d93d2d6279e952d6054dc4b08fd0/assets/interests/records.svg?v=5" width="920" alt="唱片与票根：Oasis — Don't Look Back in Anger；最近单曲循环：借过（印子月）；歌剧魅影。">
   </picture>
 </p>
 <p>
   <picture>
-    <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/f1f6eb511c7c78ffd7cb194068288857fcb1e97b/assets/interests/words-mobile.svg?v=5">
-    <img src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/f1f6eb511c7c78ffd7cb194068288857fcb1e97b/assets/interests/words.svg?v=5" width="920" alt="最近提到，由 AI 根据对话整理维护：数字人文主义、量化自我、开源社区、波普艺术、瑞士风格、摄影、吉他、辩论、知识杂食者、Hamilton、Hadestown，还有音乐、动漫和运动。">
+    <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/0ea83ff0b7b0d93d2d6279e952d6054dc4b08fd0/assets/interests/words-mobile.svg?v=5">
+    <img src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/0ea83ff0b7b0d93d2d6279e952d6054dc4b08fd0/assets/interests/words.svg?v=5" width="920" alt="最近提到，由 AI 根据对话整理维护：数字人文主义、量化自我、开源社区、波普艺术、瑞士风格、摄影、吉他、辩论、知识杂食者、Hamilton、Hadestown，还有音乐、动漫和运动。">
   </picture>
 </p>
 <!-- INTERESTS:END -->
