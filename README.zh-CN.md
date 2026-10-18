@@ -22,12 +22,12 @@
 <p>
   <picture>
     <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/e67a96b06fd843fa594125b38dee74933f6397bd/assets/interests/words-mobile-zh.svg?v=5">
-    <img src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/e67a96b06fd843fa594125b38dee74933f6397bd/assets/interests/words-zh.svg?v=5" width="920" alt="最近提到，由 AI 根据对话整理维护：数字人文主义、量化自我、开源社区、波普艺术、瑞士风格、摄影、吉他、辩论、知识杂食者、Hamilton、Hadestown，还有音乐、动漫和运动。">
+    <img src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/e67a96b06fd843fa594125b38dee74933f6397bd/assets/interests/words-zh.svg?v=5" width="800" alt="最近提到，由 AI 根据对话整理维护：数字人文主义、量化自我、开源社区、波普艺术、瑞士风格、摄影、吉他、辩论、知识杂食者、Hamilton、Hadestown，还有音乐、动漫和运动。">
   </picture>
 </p>
 <!-- INTERESTS:END -->
 
-*[开源，让更多人有了新的可能。](https://opensource.com/life/12/2/open-source-empowers-me)*
+开源，让更多人有了新的可能。
 
 ## 数学研究
 
