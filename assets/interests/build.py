@@ -33,12 +33,14 @@ def record(mobile=False, zh=False):
     body += text(cx, cy - 4, "OASIS", 14, "#233021", extra='text-anchor="middle" font-weight="bold"')
     body += text(cx, cy + 12, "SIDE A · 1996", 7, "#233021", SANS, 'text-anchor="middle"')
     body += f'<circle cx="{cx}" cy="{cy}" r="3" fill="#141d1b"/></g>'
+    song = escape(DATA["on_repeat"]["title"])
+    artist = escape(DATA["on_repeat"]["artist"])
     if mobile:
         body += text(200, 120, "Don't Look", 25)
         body += text(200, 150, "Back in Anger", 25)
         body += text(202, 180, DATA["record"]["artist"], 17, "#bdcba7")
         body += text(28, 219, "On repeat", 13, "#aab9a6", SANS)
-        body += text(137, 219, DATA["on_repeat"]["title"], 16)
+        body += f'<text x="137" y="219" fill="#efece4" font-family="{SANS}" font-size="16">{song}<tspan font-size="12" fill="#aab9a6"> · {artist}</tspan></text>'
         body += '<path d="M25 242H415V296A9 9 0 0 0 415 314V372H25V314A9 9 0 0 0 25 296Z" fill="#e9e4d6"/>'
         if zh:
             body += text(42, 312, '歌剧魅影', 42, '#293329')
@@ -59,9 +61,9 @@ def record(mobile=False, zh=False):
         body += '<path d="M647 194H869" stroke="#aaa992" stroke-dasharray="3 4"/>'
         body += '<path d="M28 251H892" stroke="#37433a"/>'
         body += text(30, 279, "On repeat", 13, "#aab9a6", SANS)
-        body += text(149, 280, DATA["on_repeat"]["title"], 18)
+        body += f'<text x="149" y="280" fill="#efece4" font-family="{SANS}" font-size="18">{song}<tspan font-size="13" fill="#aab9a6"> · {artist}</tspan></text>'
     css = f'.spin{{transform-origin:{cx}px {cy}px;animation:turn 28s linear infinite}}@keyframes turn{{to{{transform:rotate(360deg)}}}}'
-    description = f'{DATA["record"]["artist"]} — {DATA["record"]["title"]}；最近单曲循环：借过；音乐剧：' + '、'.join(DATA["musicals"])
+    description = f'{DATA["record"]["artist"]} — {DATA["record"]["title"]}；最近单曲循环：借过（印子月）；音乐剧：' + '、'.join(DATA["musicals"])
     return document(w, h, "唱片与票根", description, body, css)
 
 
