@@ -1,12 +1,16 @@
 # Interest components
 
-Install Pillow (`python -m pip install Pillow`). The layout measures Georgia from Windows; on another system set `INTERESTS_FONT` to a compatible serif font file. Edit `interests.json`, then run `python assets/interests/build.py` from the repository root.
+The sphere motion is baked from cong-min/TagCloud (MIT). The upstream library and license are preserved in vendor/. No JavaScript runs inside the published SVG.
 
-- `record`, `on_repeat`, and `musicals` supply the listening and theatre card.
-- `words` is the interest inventory; `flow_rows.desktop` and `flow_rows.mobile` control the visible labels and font sizes. Rows travel continuously along wide loops with different phases. Text opacity cycles every six seconds between 0.65 and 1, so words never vanish. Add or remove a label in the inventory and both flow layouts.
-- `attitude` supplies the small scrolling line.
-- Four self-contained SVGs are generated. They use no scripts, trackers, external fonts, or music-account connections. Motion stops with the browser's reduced-motion preference.
+Edit interests.json. Each word has an English label, a Chinese label and a size. sphere controls the loop length, minimum opacity and spread for each display size.
 
-The index records interests mentioned in conversation. Type size is a layout choice, not a proficiency score. AI-assisted maintenance happens when this data is updated; there is no background account synchronization.
+Rebuild with:
 
-The record and ticket illustrations are original vector artwork, not album covers or performance tickets.
+    python assets/interests/build.py
+    node assets/interests/build-sphere.cjs
+
+The Python script generates the record/ticket artwork. The Node script executes TagCloud against a minimal DOM adapter and samples one exact full rotation; it exports desktop/mobile SVGs in both languages. No package installation is needed. Reduced-motion preferences stop the animation.
+
+The title song and Komm, süsser Tod retain their original names; natural Chinese names are used in the Chinese images. The index records conversation interests, not proficiency. Maintenance is AI-assisted, without automatic account synchronization.
+
+Upstream: https://github.com/cong-min/TagCloud

@@ -1,7 +1,5 @@
-"""Rebuild the README images after editing interests.json. Requires Pillow for accurate text widths."""
+"""Rebuild the README images after editing interests.json. Python standard library only."""
 import json
-import os
-from PIL import ImageFont
 from html import escape
 from pathlib import Path
 
@@ -59,54 +57,10 @@ def record(mobile=False):
     return document(w, h, "唱片与票根", description, body, css)
 
 
-def cloud(mobile=False):
-    w, h = (440, 725) if mobile else (920, 590)
-    key = "mobile" if mobile else "desktop"
-    body = f'<rect width="{w}" height="{h}" rx="4" fill="#f2f1eb"/>'
-    body += text(28, 34, DATA["note"], 18, "#435b3e", SANS, 'font-weight="600"')
-    body += f'<path d="M28 49H{w-28}" stroke="#cdd2c6"/>'
-    rows = DATA['flow_rows'][key]
-    styles = []
-    for row_index, row in enumerate(rows):
-        gap = 25 if mobile else 38
-        widths = [ImageFont.truetype(os.environ.get('INTERESTS_FONT', 'C:/Windows/Fonts/georgia.ttf'), size).getlength(label) for label, size in row]
-        total = sum(widths) + gap * (len(row)-1)
-        travel = min(66 if mobile else 100, (w-total)/2-30)
-        assert travel > 8, (key, row, total)
-        x = (w-total)/2
-        y = (105 + row_index*53) if mobile else (118 + row_index*66)
-        duration = 12 + row_index % 3
-        styles.append(f'@keyframes lane{row_index}{{0%,100%{{transform:translate({-travel:.1f}px,0)}}25%{{transform:translate(0,-6px)}}50%{{transform:translate({travel:.1f}px,0)}}75%{{transform:translate(0,6px)}}}}')
-        body += f'<g class="lane" style="animation:lane{row_index} {duration}s linear infinite;animation-delay:-{row_index*2.4}s">'
-        for j, ((label,size), width) in enumerate(zip(row,widths)):
-            color = '#45523e' if size < 20 else '#263b2b'
-            extra = 'font-style="italic"' if label == 'Komm, süsser Tod' else ''
-            body += f'<g class="drift" style="animation-delay:-{row_index+j*1.3}s">'
-            body += text(round(x,2),y + (j%2)*5,label,size,color,extra=extra)+'</g>'
-            x += width + gap
-        body += '</g>'
-    y = h - 27
-    lead = DATA["attitude"]["lead"]
-    tail = DATA["attitude"]["tail"]
-    start = 169 if mobile else 190
-    body += f'<path d="M28 {y-25}H{w-28}" stroke="#cdd2c6"/>'
-    body += text(28, y, lead, 13, "#506245", SANS)
-    body += f'<defs><clipPath id="strip"><rect x="{start}" y="{y-18}" width="{w-start-28}" height="25"/></clipPath></defs>'
-    body += '<g clip-path="url(#strip)"><g class="ticker">'
-    for offset in (0, 1080):
-        body += text(start + offset, y, tail, 12, "#7d8976", SANS, 'textLength="1040" lengthAdjust="spacing"')
-    body += '</g></g>'
-    css = ''.join(styles) + """.drift{animation:tone 6s ease-in-out infinite}
-@keyframes tone{0%,100%{opacity:.65}50%{opacity:1}}
-.ticker{animation:flow 66s linear infinite}@keyframes flow{to{transform:translateX(-1080px)}}
-@media(prefers-reduced-motion:reduce){.lane,.drift{animation:none!important;opacity:1;transform:none}}"""
-    description = DATA["note"] + '：' + '、'.join(x["text"] for x in DATA["words"]) + '。' + lead + tail
-    return document(w, h, "最近提到", description, body, css)
-
-
 if __name__ == "__main__":
-    for name, builder in (("records", record), ("words", cloud)):
-        for mobile in (False, True):
-            filename = f'{name}{"-mobile" if mobile else ""}.svg'
-            (HERE / filename).write_text(builder(mobile), encoding="utf-8")
-            print(filename)
+    for mobile in (False, True):
+        suffix = '-mobile' if mobile else ''
+        svg = record(mobile)
+        (HERE/f'records{suffix}.svg').write_text(svg, encoding='utf-8')
+        zh = svg.replace('On repeat', '最近在听').replace('Jie Guo', '借过').replace('Hamilton','汉密尔顿').replace('>Oasis<','>绿洲乐队<').replace('SIDE A · 1996','A面 · 1996')
+        (HERE/f'records{suffix}-zh.svg').write_text(zh, encoding='utf-8')
