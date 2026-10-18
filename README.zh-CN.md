@@ -27,6 +27,8 @@
 </p>
 <!-- INTERESTS:END -->
 
+*[开源，让更多人有了新的可能。](https://opensource.com/life/12/2/open-source-empowers-me)*
+
 ## 数学研究
 
 [**24 组研究成果 · 7 组含推广 · 8 组含 Lean 形式化**](https://github.com/Aurantium-47/aurantium-mathematics)

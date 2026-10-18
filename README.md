@@ -27,6 +27,8 @@
 </p>
 <!-- INTERESTS:END -->
 
+*[Open source made new things possible for more people.](https://opensource.com/life/12/2/open-source-empowers-me)*
+
 ## Mathematical research
 
 [**24 research projects · 7 with generalizations · 8 with Lean formalization**](https://github.com/Aurantium-47/aurantium-mathematics)
