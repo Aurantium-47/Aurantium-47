@@ -24,9 +24,10 @@ if(closure>1e-5)throw new Error('Rotation does not close: '+closure);
 frames[frames.length-1]=frames[0];
 const period=data.sphere.period_seconds;
 function make(mobile,zh){
- const w=mobile?440:920,h=mobile?610:600,cx=w/2,cy=mobile?310:308;
- const [sx,sy]=data.sphere[mobile?'mobile_spread':'desktop_spread'];
- const m=mobile?.69:1;
+ const w=mobile?440:920,h=mobile?530:520,cx=w/2,cy=(57+h-52)/2;
+ const [sx,baseSy]=data.sphere[mobile?'mobile_spread':'desktop_spread'];
+ const sy=baseSy*(h-109)/((mobile?610:600)-109);
+ const m=(mobile?.69:1)*800/920;
  let css='',body='';
  data.words.forEach((word,i)=>{
   const label=zh?word.zh:word.text;
@@ -41,7 +42,7 @@ function make(mobile,zh){
   body+=`<g class="word" style="animation:word${i} ${period}s linear infinite;transform:translate(${(cx+p.x*sx).toFixed(2)}px,${(cy+p.y*sy).toFixed(2)}px) scale(${p.scale})"><text text-anchor="middle" dominant-baseline="middle" font-size="${(word.size*m).toFixed(1)}"${word.italic?' font-style="italic"':''}>${escape(label)}</text></g>`;
  });
  const note=zh?'AI 根据对话整理维护':'AI-curated & maintained';
- const y=h-27,start=mobile?213:280;
+ const y=h-27,start=mobile?185:205;
  const stripTop=y-25,stripCenter=(stripTop+h)/2;
  const ticker=[0,1080].map(offset=>`<text x="${start+offset}" y="${stripCenter}" dominant-baseline="central" textLength="1040" lengthAdjust="spacing">${escape(data.attitude.tail)}</text>`).join('');
  return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" role="img" aria-labelledby="title desc"><title id="title">${escape(note)}</title><desc id="desc">${escape(data.words.map(x=>zh?x.zh:x.text).join(' · '))}</desc>
