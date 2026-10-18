@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/aurantium-amber-pulse.gif" alt="Aurantium — an animated ASCII orange in warm amber light" width="840">
 </p>
 
-# Aurantium
+# Aurantium🍊
 
 <sub><a href="https://github.com/Aurantium-47">English</a> · <b>简体中文</b></sub>
 
