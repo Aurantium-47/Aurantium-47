@@ -39,8 +39,7 @@ def record(mobile=False, zh=False):
         body += text(200, 120, "Don't Look", 25)
         body += text(200, 150, "Back in Anger", 25)
         body += text(202, 180, DATA["record"]["artist"], 17, "#bdcba7")
-        body += text(28, 219, "On repeat", 13, "#aab9a6", SANS)
-        body += f'<text x="137" y="219" fill="#efece4" font-family="{SANS}" font-size="16">{song}<tspan font-size="12" fill="#aab9a6"> · {artist}</tspan></text>'
+        body += f'<text x="28" y="219" fill="#aab9a6" font-family="{SANS}" font-size="13">On repeat: <tspan font-size="16" fill="#efece4">《{song}》</tspan><tspan font-size="12"> · {artist}</tspan></text>'
         body += '<path d="M25 242H415V296A9 9 0 0 0 415 314V372H25V314A9 9 0 0 0 25 296Z" fill="#e9e4d6"/>'
         if zh:
             body += text(42, 312, '歌剧魅影', 42, '#293329')
@@ -60,8 +59,7 @@ def record(mobile=False, zh=False):
             body += text(647, 160, 'of the Opera', 29, '#293329')
         body += '<path d="M647 194H869" stroke="#aaa992" stroke-dasharray="3 4"/>'
         body += '<path d="M28 251H892" stroke="#37433a"/>'
-        body += text(30, 279, "On repeat", 13, "#aab9a6", SANS)
-        body += f'<text x="149" y="280" fill="#efece4" font-family="{SANS}" font-size="18">{song}<tspan font-size="13" fill="#aab9a6"> · {artist}</tspan></text>'
+        body += f'<text x="30" y="280" fill="#aab9a6" font-family="{SANS}" font-size="13">On repeat: <tspan font-size="18" fill="#efece4">《{song}》</tspan><tspan font-size="13"> · {artist}</tspan></text>'
     css = f'.spin{{transform-origin:{cx}px {cy}px;animation:turn 28s linear infinite}}@keyframes turn{{to{{transform:rotate(360deg)}}}}'
     description = f'{DATA["record"]["artist"]} — {DATA["record"]["title"]}；最近单曲循环：借过（印子月）；音乐剧：' + '、'.join(DATA["musicals"])
     return document(w, h, "唱片与票根", description, body, css)
@@ -72,5 +70,5 @@ if __name__ == "__main__":
         suffix = '-mobile' if mobile else ''
         svg = record(mobile)
         (HERE/f'records{suffix}.svg').write_text(svg, encoding='utf-8')
-        zh = record(mobile, True).replace('On repeat', '最近在听').replace('Jie Guo', '借过').replace('Hamilton','汉密尔顿').replace('>Oasis<','>绿洲乐队<').replace('SIDE A · 1996','A面 · 1996')
+        zh = record(mobile, True).replace('On repeat: ', '最近循环：').replace('Jie Guo', '借过').replace('Hamilton','汉密尔顿').replace('>Oasis<','>绿洲乐队<').replace('SIDE A · 1996','A面 · 1996')
         (HERE/f'records{suffix}-zh.svg').write_text(zh, encoding='utf-8')
