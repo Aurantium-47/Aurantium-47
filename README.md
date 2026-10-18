@@ -6,7 +6,7 @@
 
 <sub><b>English</b> · <a href="https://github.com/Aurantium-47/Aurantium-47/blob/main/README.zh-CN.md">简体中文</a></sub>
 
-**AI for Math · NLP · Crypto Markets**
+**AI for Math · NLP · Crypto**
 
 [Mathematics](https://github.com/Aurantium-47/aurantium-mathematics) · [Contributions](https://github.com/search?q=author%3AAurantium-47+is%3Apr+is%3Amerged&type=pullrequests)
 
