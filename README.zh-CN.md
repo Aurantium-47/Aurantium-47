@@ -1,5 +1,9 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/aurantium-amber-hero-paced.gif" alt="Aurantium — an animated ASCII orange in warm amber light" width="840">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/aurantium-amber-hero-paced.gif">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/aurantium-light-hero.gif">
+    <img src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/aurantium-light-hero.gif" alt="Aurantium — animated ASCII orange" width="840">
+  </picture>
 </p>
 
 # Aurantium
