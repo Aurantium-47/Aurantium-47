@@ -15,8 +15,8 @@
 <!-- INTERESTS:START -->
 <p>
   <picture>
-    <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/e67a96b06fd843fa594125b38dee74933f6397bd/assets/interests/records-mobile-zh.svg?v=5">
-    <img src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/e67a96b06fd843fa594125b38dee74933f6397bd/assets/interests/records-zh.svg?v=5" width="920" alt="唱片与票根：Oasis — Don't Look Back in Anger；最近单曲循环：借过（印子月）；歌剧魅影。">
+    <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/f66fade9b3a78cbb0cde0b1588fad17ff55e3075/assets/interests/records-mobile-zh.svg?v=5">
+    <img src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/f66fade9b3a78cbb0cde0b1588fad17ff55e3075/assets/interests/records-zh.svg?v=5" width="920" alt="唱片与票根：Oasis — Don't Look Back in Anger；最近单曲循环：借过（印子月）；歌剧魅影。">
   </picture>
 </p>
 <p>
