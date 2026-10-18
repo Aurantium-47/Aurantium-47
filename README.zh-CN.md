@@ -16,13 +16,13 @@
 <p>
   <picture>
     <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/f66fade9b3a78cbb0cde0b1588fad17ff55e3075/assets/interests/records-mobile-zh.svg?v=5">
-    <img src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/f66fade9b3a78cbb0cde0b1588fad17ff55e3075/assets/interests/records-zh.svg?v=5" width="920" alt="唱片与票根：Oasis — Don't Look Back in Anger；最近单曲循环：借过（印子月）；歌剧魅影。">
+    <img src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/f66fade9b3a78cbb0cde0b1588fad17ff55e3075/assets/interests/records-zh.svg?v=5" width="920" alt="唱片与票根">
   </picture>
 </p>
 <p>
   <picture>
     <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/f26d83ce59e24bd7c9000ae94a74b64fddeb616e/assets/interests/words-mobile-zh.svg?v=5">
-    <img src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/f26d83ce59e24bd7c9000ae94a74b64fddeb616e/assets/interests/words-zh.svg?v=5" width="920" alt="最近提到，由 AI 根据对话整理维护：数字人文主义、量化自我、开源社区、波普艺术、瑞士风格、摄影、吉他、辩论、知识杂食者、Hamilton、Hadestown，还有音乐、动漫和运动。">
+    <img src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/f26d83ce59e24bd7c9000ae94a74b64fddeb616e/assets/interests/words-zh.svg?v=5" width="920" alt="兴趣">
   </picture>
 </p>
 <!-- INTERESTS:END -->
