@@ -1,0 +1,33 @@
+{
+  "updated": "2026-10-18",
+  "note": "AI 根据对话整理维护",
+  "record": {"title": "Don't Look Back in Anger", "artist": "Oasis"},
+  "on_repeat": {"title": "借过", "artist": "印子月"},
+  "musicals": ["Hamilton", "Hadestown", "The Phantom of the Opera"],
+  "words": [
+    {"text": "Evangelion", "desktop": [49, 123, 44], "mobile": [26, 106, 34]},
+    {"text": "数字人文主义", "desktop": [361, 105, 27], "mobile": [239, 85, 22]},
+    {"text": "量化自我", "desktop": [686, 112, 28], "mobile": [245, 178, 24]},
+    {"text": "AI optimism", "desktop": [529, 138, 14], "mobile": [263, 119, 13], "tone": "quiet"},
+    {"text": "开源社区", "desktop": [93, 190, 23], "mobile": [40, 169, 22]},
+    {"text": "Swiss Style", "desktop": [359, 176, 25], "mobile": [196, 234, 23]},
+    {"text": "Pop art", "desktop": [617, 194, 33], "mobile": [35, 232, 30]},
+    {"text": "摄影", "desktop": [796, 235, 20], "mobile": [351, 260, 18]},
+    {"text": "吉他", "desktop": [279, 249, 24], "mobile": [167, 299, 23]},
+    {"text": "辩论", "desktop": [536, 274, 23], "mobile": [37, 374, 20]},
+    {"text": "阅读与思考", "desktop": [58, 304, 23], "mobile": [230, 430, 21]},
+    {"text": "健身", "desktop": [600, 349, 19], "mobile": [52, 468, 19]},
+    {"text": "饮食规划", "desktop": [401, 354, 17], "mobile": [196, 484, 17], "tone": "quiet"},
+    {"text": "羽毛球", "desktop": [782, 354, 16], "mobile": [341, 474, 16], "tone": "quiet"},
+    {"text": "绘梨衣", "desktop": [285, 315, 14], "mobile": [125, 423, 14], "tone": "quiet"},
+    {"text": "Britpop", "desktop": [716, 297, 29], "mobile": [276, 316, 28]},
+    {"text": "周杰伦", "desktop": [64, 249, 17], "mobile": [47, 299, 17], "tone": "quiet"},
+    {"text": "孙燕姿", "desktop": [796, 175, 17], "mobile": [353, 203, 16], "tone": "quiet"},
+    {"text": "太聪明 · 陈绮贞", "desktop": [127, 361, 17], "mobile": [36, 529, 17], "tone": "quiet"},
+    {"text": "Komm, süsser Tod", "desktop": [393, 230, 23], "mobile": [155, 371, 22], "italic": true}
+  ],
+  "attitude": {
+    "lead": "感到满足和幸福 ＞",
+    "tail": "大水＋大睡＋雅思7.0＋薄肌＋codex＋自媒体＋纳指定投＋山姆＋跑步＋香港护照＋ROG＋悦鲜活＋旷课实习＋科研＋耍起＋穿搭＋币圈＋美国签证＋沙县鸡腿饭（去皮）"
+  }
+}

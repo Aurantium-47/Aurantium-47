@@ -12,6 +12,21 @@
 
 <p><img alt="Python" src="https://img.shields.io/badge/Python-e9edf2?style=flat-square&amp;logo=python&amp;logoColor=57606a"> <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-e9edf2?style=flat-square&amp;logo=pytorch&amp;logoColor=57606a"> <img alt="Transformers" src="https://img.shields.io/badge/Transformers-e9edf2?style=flat-square&amp;logo=huggingface&amp;logoColor=57606a"> <img alt="Lean 4 / mathlib" src="https://img.shields.io/badge/Lean%204%20%2F%20mathlib-e9edf2?style=flat-square"> <img alt="SymPy" src="https://img.shields.io/badge/SymPy-e9edf2?style=flat-square&amp;logo=sympy&amp;logoColor=57606a"> <img alt="C++" src="https://img.shields.io/badge/C%2B%2B-e9edf2?style=flat-square&amp;logo=cplusplus&amp;logoColor=57606a"> <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-e9edf2?style=flat-square&amp;logo=typescript&amp;logoColor=57606a"></p>
 
+<!-- INTERESTS:START -->
+<p>
+  <picture>
+    <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/interests/records-mobile.svg">
+    <img src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/interests/records.svg" width="920" alt="唱片与票根：Oasis — Don't Look Back in Anger；最近单曲循环：借过 — 印子月；Hamilton、Hadestown、The Phantom of the Opera。">
+  </picture>
+</p>
+<p>
+  <picture>
+    <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/interests/words-mobile.svg">
+    <img src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/interests/words.svg" width="920" alt="最近提到，由 AI 根据对话整理维护：数字人文主义、量化自我、开源社区、波普艺术、瑞士风格、摄影、吉他、辩论、阅读与思考，还有音乐、动漫和运动。">
+  </picture>
+</p>
+<!-- INTERESTS:END -->
+
 ## Mathematical research
 
 [**24 research projects · 7 with generalizations · 8 with Lean formalization**](https://github.com/Aurantium-47/aurantium-mathematics)
