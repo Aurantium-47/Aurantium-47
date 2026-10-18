@@ -15,14 +15,14 @@
 <!-- INTERESTS:START -->
 <p>
   <picture>
-    <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/interests/records-mobile-zh.svg?v=5">
-    <img src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/interests/records-zh.svg?v=5" width="920" alt="唱片与票根：Oasis — Don't Look Back in Anger；最近单曲循环：借过；Hamilton。">
+    <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/a3190b7ce2b841f8a10c078d771328fd3b339aa9/assets/interests/records-mobile-zh.svg?v=5">
+    <img src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/a3190b7ce2b841f8a10c078d771328fd3b339aa9/assets/interests/records-zh.svg?v=5" width="920" alt="唱片与票根：Oasis — Don't Look Back in Anger；最近单曲循环：借过；Hamilton。">
   </picture>
 </p>
 <p>
   <picture>
-    <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/interests/words-mobile-zh.svg?v=5">
-    <img src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/interests/words-zh.svg?v=5" width="920" alt="最近提到，由 AI 根据对话整理维护：数字人文主义、量化自我、开源社区、波普艺术、瑞士风格、摄影、吉他、辩论、阅读、对世界的好奇，还有音乐、动漫和运动。">
+    <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/a3190b7ce2b841f8a10c078d771328fd3b339aa9/assets/interests/words-mobile-zh.svg?v=5">
+    <img src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/a3190b7ce2b841f8a10c078d771328fd3b339aa9/assets/interests/words-zh.svg?v=5" width="920" alt="最近提到，由 AI 根据对话整理维护：数字人文主义、量化自我、开源社区、波普艺术、瑞士风格、摄影、吉他、辩论、阅读、对世界的好奇，还有音乐、动漫和运动。">
   </picture>
 </p>
 <!-- INTERESTS:END -->
