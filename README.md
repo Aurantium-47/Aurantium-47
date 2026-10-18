@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/aurantium-amber-hero.gif" alt="Aurantium — an animated ASCII orange in warm amber light" width="840">
+  <img src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/aurantium-amber-hero-paced.gif" alt="Aurantium — an animated ASCII orange in warm amber light" width="840">
 </p>
 
 # Aurantium
 
 <sub><b>English</b> · <a href="https://github.com/Aurantium-47/Aurantium-47/blob/main/README.zh-CN.md">简体中文</a></sub>
 
-**AI for Math · NLP · Quantitative Finance**
+**AI for Math · NLP · Crypto Markets**
 
 [Mathematics](https://github.com/Aurantium-47/aurantium-mathematics) · [Contributions](https://github.com/search?q=author%3AAurantium-47+is%3Apr+is%3Amerged&type=pullrequests)
 
