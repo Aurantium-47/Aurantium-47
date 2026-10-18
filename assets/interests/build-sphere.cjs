@@ -41,12 +41,12 @@ function make(mobile,zh){
   body+=`<g class="word" style="animation:word${i} ${period}s linear infinite;transform:translate(${(cx+p.x*sx).toFixed(2)}px,${(cy+p.y*sy).toFixed(2)}px) scale(${p.scale})"><text text-anchor="middle" dominant-baseline="middle" font-size="${(word.size*m).toFixed(1)}"${word.italic?' font-style="italic"':''}>${escape(label)}</text></g>`;
  });
  const note=zh?'AI 根据对话整理维护':'AI-curated & maintained';
- const y=h-27,start=mobile?169:190;
+ const y=h-27,start=mobile?213:280;
  const ticker=[0,1080].map(offset=>`<text x="${start+offset}" y="${y}" textLength="1040" lengthAdjust="spacing">${escape(data.attitude.tail)}</text>`).join('');
  return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" role="img" aria-labelledby="title desc"><title id="title">${escape(note)}</title><desc id="desc">${escape(data.words.map(x=>zh?x.zh:x.text).join(' · '))}</desc>
 <style>text{font-family:Georgia,'Noto Serif SC','Microsoft YaHei',serif;fill:#263b2b}${css}.ticker{animation:flow 66s linear infinite}@keyframes flow{to{transform:translateX(-1080px)}}@media(prefers-reduced-motion:reduce){.word,.ticker{animation:none!important;opacity:1}}</style>
-<rect width="${w}" height="${h}" rx="4" fill="#f2f1eb"/><text x="28" y="38" style="font:600 ${mobile?23:26}px 'Segoe UI','Microsoft YaHei',sans-serif;fill:#435b3e">${escape(note)}</text><path d="M28 57H${w-28}" stroke="#cdd2c6"/>
-${body}<path d="M28 ${y-25}H${w-28}" stroke="#cdd2c6"/><text x="28" y="${y}" style="font:13px 'Microsoft YaHei',sans-serif">${escape(data.attitude.lead)}</text><defs><clipPath id="strip"><rect x="${start}" y="${y-18}" width="${w-start-28}" height="25"/></clipPath></defs><g clip-path="url(#strip)" style="font:12px 'Microsoft YaHei',sans-serif;fill:#7d8976"><g class="ticker">${ticker}</g></g></svg>`;
+<rect width="${w}" height="${h}" rx="4" fill="#f2f1eb"/><text x="28" y="38" style="font:600 ${mobile?27:32}px 'Segoe UI','Microsoft YaHei',sans-serif;fill:#435b3e">${escape(note)}</text><path d="M28 57H${w-28}" stroke="#cdd2c6"/>
+${body}<path d="M28 ${y-25}H${w-28}" stroke="#cdd2c6"/><text x="28" y="${y}" style="font:600 ${mobile?18:22}px 'Microsoft YaHei',sans-serif">${escape(data.attitude.lead)}</text><defs><clipPath id="strip"><rect x="${start}" y="${y-18}" width="${w-start-28}" height="25"/></clipPath></defs><g clip-path="url(#strip)" style="font:12px 'Microsoft YaHei',sans-serif;fill:#7d8976"><g class="ticker">${ticker}</g></g></svg>`;
 }
 for(const mobile of [false,true])for(const zh of [false,true]){
  const name=`words${mobile?'-mobile':''}${zh?'-zh':''}.svg`;

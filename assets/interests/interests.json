@@ -10,7 +10,7 @@
     "artist": "Yin Ziyue"
   },
   "musicals": [
-    "Hamilton"
+    "The Phantom of the Opera"
   ],
   "words": [
     {
@@ -124,6 +124,16 @@
       "text": "Intellectual omnivore",
       "zh": "知识杂食者",
       "size": 28
+    },
+    {
+      "text": "Hamilton",
+      "zh": "汉密尔顿",
+      "size": 24
+    },
+    {
+      "text": "Hadestown",
+      "zh": "冥界",
+      "size": 22
     }
   ],
   "attitude": {

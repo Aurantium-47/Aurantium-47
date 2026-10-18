@@ -21,7 +21,7 @@ def document(width, height, title, description, body, css):
 </svg>\n'''
 
 
-def record(mobile=False):
+def record(mobile=False, zh=False):
     w, h = (440, 397) if mobile else (920, 300)
     cx, cy, r = (102, 127, 73) if mobile else (131, 149, 87)
     body = f'<rect width="{w}" height="{h}" rx="4" fill="#141d1b"/>'
@@ -40,14 +40,22 @@ def record(mobile=False):
         body += text(28, 219, "On repeat", 13, "#aab9a6", SANS)
         body += text(137, 219, DATA["on_repeat"]["title"], 16)
         body += '<path d="M25 242H415V296A9 9 0 0 0 415 314V372H25V314A9 9 0 0 0 25 296Z" fill="#e9e4d6"/>'
-        body += text(42, 312, DATA["musicals"][0], 46, "#293329")
+        if zh:
+            body += text(42, 312, '歌剧魅影', 42, '#293329')
+        else:
+            body += text(42, 286, 'The Phantom', 34, '#293329')
+            body += text(42, 322, 'of the Opera', 32, '#293329')
         body += '<path d="M42 333H398" stroke="#aaa992" stroke-dasharray="3 4"/>'
     else:
         body += text(247, 132, "Don't Look Back", 33)
         body += text(248, 171, "in Anger", 33)
         body += text(250, 206, DATA["record"]["artist"], 18, "#bdcba7")
         body += '<path d="M625 66H890V147A10 10 0 0 0 890 167V233H625V167A10 10 0 0 0 625 147Z" fill="#e9e4d6"/>'
-        body += text(647, 154, DATA["musicals"][0], 43, "#293329")
+        if zh:
+            body += text(647, 158, '歌剧魅影', 38, '#293329')
+        else:
+            body += text(647, 122, 'The Phantom', 30, '#293329')
+            body += text(647, 160, 'of the Opera', 29, '#293329')
         body += '<path d="M647 194H869" stroke="#aaa992" stroke-dasharray="3 4"/>'
         body += '<path d="M28 251H892" stroke="#37433a"/>'
         body += text(30, 279, "On repeat", 13, "#aab9a6", SANS)
@@ -62,5 +70,5 @@ if __name__ == "__main__":
         suffix = '-mobile' if mobile else ''
         svg = record(mobile)
         (HERE/f'records{suffix}.svg').write_text(svg, encoding='utf-8')
-        zh = svg.replace('On repeat', '最近在听').replace('Jie Guo', '借过').replace('Hamilton','汉密尔顿').replace('>Oasis<','>绿洲乐队<').replace('SIDE A · 1996','A面 · 1996')
+        zh = record(mobile, True).replace('On repeat', '最近在听').replace('Jie Guo', '借过').replace('Hamilton','汉密尔顿').replace('>Oasis<','>绿洲乐队<').replace('SIDE A · 1996','A面 · 1996')
         (HERE/f'records{suffix}-zh.svg').write_text(zh, encoding='utf-8')
