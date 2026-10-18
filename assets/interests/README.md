@@ -1,9 +1,9 @@
 # Interest components
 
-Edit `interests.json`, then run `python assets/interests/build.py` from the repository root.
+Install Pillow (`python -m pip install Pillow`). The layout measures Georgia from Windows; on another system set `INTERESTS_FONT` to a compatible serif font file. Edit `interests.json`, then run `python assets/interests/build.py` from the repository root.
 
 - `record`, `on_repeat`, and `musicals` supply the listening and theatre card.
-- `words` supplies the animated index. Each entry has desktop and mobile `[x, baseline, font-size]` coordinates. Add or remove an entry to change the index; adjust its two positions when needed.
+- `words` is the interest inventory; `flow_rows.desktop` and `flow_rows.mobile` control the visible labels and font sizes. Rows travel continuously along wide loops with different phases. Text opacity cycles every six seconds between 0.65 and 1, so words never vanish. Add or remove a label in the inventory and both flow layouts.
 - `attitude` supplies the small scrolling line.
 - Four self-contained SVGs are generated. They use no scripts, trackers, external fonts, or music-account connections. Motion stops with the browser's reduced-motion preference.
 

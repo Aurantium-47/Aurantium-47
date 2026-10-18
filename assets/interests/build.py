@@ -1,5 +1,7 @@
-"""Rebuild the README images after editing interests.json. Python standard library only."""
+"""Rebuild the README images after editing interests.json. Requires Pillow for accurate text widths."""
 import json
+import os
+from PIL import ImageFont
 from html import escape
 from pathlib import Path
 
@@ -58,17 +60,31 @@ def record(mobile=False):
 
 
 def cloud(mobile=False):
-    w, h = (440, 643) if mobile else (920, 442)
+    w, h = (440, 725) if mobile else (920, 590)
     key = "mobile" if mobile else "desktop"
     body = f'<rect width="{w}" height="{h}" rx="4" fill="#f2f1eb"/>'
     body += text(28, 34, DATA["note"], 18, "#435b3e", SANS, 'font-weight="600"')
     body += f'<path d="M28 49H{w-28}" stroke="#cdd2c6"/>'
-    for i, word in enumerate(DATA["words"]):
-        x, y, size = word[key]
-        color = "#70806b" if word.get("tone") == "quiet" else "#2c3c30"
-        extra = 'font-style="italic"' if word.get("italic") else ""
-        body += f'<g class="drift" style="animation-duration:16s;animation-delay:-{i*2.3}s">'
-        body += text(x, y, word["text"], size, color, extra=extra) + '</g>'
+    rows = DATA['flow_rows'][key]
+    styles = []
+    for row_index, row in enumerate(rows):
+        gap = 25 if mobile else 38
+        widths = [ImageFont.truetype(os.environ.get('INTERESTS_FONT', 'C:/Windows/Fonts/georgia.ttf'), size).getlength(label) for label, size in row]
+        total = sum(widths) + gap * (len(row)-1)
+        travel = min(66 if mobile else 100, (w-total)/2-30)
+        assert travel > 8, (key, row, total)
+        x = (w-total)/2
+        y = (105 + row_index*53) if mobile else (118 + row_index*66)
+        duration = 12 + row_index % 3
+        styles.append(f'@keyframes lane{row_index}{{0%,100%{{transform:translate({-travel:.1f}px,0)}}25%{{transform:translate(0,-6px)}}50%{{transform:translate({travel:.1f}px,0)}}75%{{transform:translate(0,6px)}}}}')
+        body += f'<g class="lane" style="animation:lane{row_index} {duration}s linear infinite;animation-delay:-{row_index*2.4}s">'
+        for j, ((label,size), width) in enumerate(zip(row,widths)):
+            color = '#45523e' if size < 20 else '#263b2b'
+            extra = 'font-style="italic"' if label == 'Komm, süsser Tod' else ''
+            body += f'<g class="drift" style="animation-delay:-{row_index+j*1.3}s">'
+            body += text(round(x,2),y + (j%2)*5,label,size,color,extra=extra)+'</g>'
+            x += width + gap
+        body += '</g>'
     y = h - 27
     lead = DATA["attitude"]["lead"]
     tail = DATA["attitude"]["tail"]
@@ -80,10 +96,10 @@ def cloud(mobile=False):
     for offset in (0, 1080):
         body += text(start + offset, y, tail, 12, "#7d8976", SANS, 'textLength="1040" lengthAdjust="spacing"')
     body += '</g></g>'
-    css = """.drift{animation:arrive 16s linear infinite;transform-box:fill-box;transform-origin:center}
-@keyframes arrive{0%{opacity:0}15%{opacity:1}52%{opacity:1}72%,100%{opacity:0}}
+    css = ''.join(styles) + """.drift{animation:tone 6s ease-in-out infinite}
+@keyframes tone{0%,100%{opacity:.65}50%{opacity:1}}
 .ticker{animation:flow 66s linear infinite}@keyframes flow{to{transform:translateX(-1080px)}}
-@media(prefers-reduced-motion:reduce){.drift{opacity:1;transform:none}}"""
+@media(prefers-reduced-motion:reduce){.lane,.drift{animation:none!important;opacity:1;transform:none}}"""
     description = DATA["note"] + '：' + '、'.join(x["text"] for x in DATA["words"]) + '。' + lead + tail
     return document(w, h, "最近提到", description, body, css)
 

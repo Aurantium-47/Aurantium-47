@@ -6,8 +6,8 @@
     "artist": "Oasis"
   },
   "on_repeat": {
-    "title": "借过",
-    "artist": "印子月"
+    "title": "Jie Guo",
+    "artist": "Yin Ziyue"
   },
   "musicals": [
     "Hamilton"
@@ -186,7 +186,7 @@
       "tone": "quiet"
     },
     {
-      "text": "上杉绘梨衣",
+      "text": "Erii Uesugi",
       "desktop": [
         35,
         359,
@@ -241,7 +241,7 @@
       "tone": "quiet"
     },
     {
-      "text": "太聪明 · 陈绮贞",
+      "text": "Too Smart",
       "desktop": [
         152,
         362,
@@ -252,7 +252,8 @@
         575,
         17
       ],
-      "tone": "quiet"
+      "tone": "quiet",
+      "artist": "Cheer Chen"
     },
     {
       "text": "Komm, süsser Tod",
@@ -294,10 +295,241 @@
         17
       ],
       "tone": "quiet"
+    },
+    {
+      "text": "Intellectual omnivore",
+      "desktop": [
+        0,
+        0,
+        29
+      ],
+      "mobile": [
+        0,
+        0,
+        25
+      ]
     }
   ],
   "attitude": {
     "lead": "感到满足和幸福 ＞",
     "tail": "大水＋大睡＋雅思7.0＋薄肌＋codex＋自媒体＋纳指定投＋山姆＋跑步＋香港护照＋ROG＋悦鲜活＋旷课实习＋科研＋耍起＋穿搭＋币圈＋美国签证＋沙县鸡腿饭（去皮）"
+  },
+  "flow_rows": {
+    "desktop": [
+      [
+        [
+          "Evangelion",
+          44
+        ],
+        [
+          "Reading",
+          18
+        ],
+        [
+          "Stefanie Sun",
+          29
+        ]
+      ],
+      [
+        [
+          "Komm, süsser Tod",
+          38
+        ],
+        [
+          "Fitness",
+          29
+        ],
+        [
+          "Erii Uesugi",
+          14
+        ]
+      ],
+      [
+        [
+          "Digital humanism",
+          40
+        ],
+        [
+          "Guitar",
+          29
+        ],
+        [
+          "Jay Chou",
+          19
+        ]
+      ],
+      [
+        [
+          "Intellectual omnivore",
+          30
+        ],
+        [
+          "Swiss Style",
+          22
+        ],
+        [
+          "Photography",
+          21
+        ]
+      ],
+      [
+        [
+          "Quantified Self",
+          39
+        ],
+        [
+          "K-ON!",
+          23
+        ],
+        [
+          "Nutrition",
+          18
+        ]
+      ],
+      [
+        [
+          "Open source",
+          29
+        ],
+        [
+          "AI optimism",
+          29
+        ],
+        [
+          "Badminton",
+          18
+        ]
+      ],
+      [
+        [
+          "Too Smart",
+          29
+        ],
+        [
+          "Britpop",
+          24
+        ],
+        [
+          "Pop art",
+          24
+        ],
+        [
+          "Debate",
+          21
+        ]
+      ]
+    ],
+    "mobile": [
+      [
+        [
+          "Evangelion",
+          37
+        ],
+        [
+          "Erii Uesugi",
+          13
+        ]
+      ],
+      [
+        [
+          "Digital humanism",
+          34
+        ]
+      ],
+      [
+        [
+          "Quantified Self",
+          34
+        ],
+        [
+          "Reading",
+          15
+        ]
+      ],
+      [
+        [
+          "Komm, süsser Tod",
+          32
+        ],
+        [
+          "K-ON!",
+          18
+        ]
+      ],
+      [
+        [
+          "Intellectual omnivore",
+          26
+        ]
+      ],
+      [
+        [
+          "AI optimism",
+          25
+        ],
+        [
+          "Photography",
+          17
+        ]
+      ],
+      [
+        [
+          "Open source",
+          25
+        ],
+        [
+          "Jay Chou",
+          18
+        ]
+      ],
+      [
+        [
+          "Too Smart",
+          25
+        ],
+        [
+          "Swiss Style",
+          19
+        ]
+      ],
+      [
+        [
+          "Stefanie Sun",
+          25
+        ],
+        [
+          "Guitar",
+          25
+        ]
+      ],
+      [
+        [
+          "Fitness",
+          25
+        ],
+        [
+          "Britpop",
+          22
+        ],
+        [
+          "Pop art",
+          20
+        ]
+      ],
+      [
+        [
+          "Nutrition",
+          17
+        ],
+        [
+          "Badminton",
+          17
+        ],
+        [
+          "Debate",
+          19
+        ]
+      ]
+    ]
   }
 }
