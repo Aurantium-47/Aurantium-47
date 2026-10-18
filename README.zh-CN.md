@@ -6,7 +6,7 @@
 
 <sub><a href="https://github.com/Aurantium-47">English</a> · <b>简体中文</b></sub>
 
-**AI for Math · NLP · 加密市场**
+**NLP · AI for Math · 加密市场**
 
 [数学研究](https://github.com/Aurantium-47/aurantium-mathematics) · [开源贡献](https://github.com/search?q=author%3AAurantium-47+is%3Apr+is%3Amerged&type=pullrequests)
 
@@ -15,8 +15,8 @@
 <!-- INTERESTS:START -->
 <p>
   <picture>
-    <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/interests/records-mobile.svg?v=3">
-    <img src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/interests/records.svg?v=3" width="920" alt="唱片与票根：Oasis — Don't Look Back in Anger；最近单曲循环：借过 — 印子月；Hamilton。">
+    <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/interests/records-mobile.svg?v=4">
+    <img src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/interests/records.svg?v=4" width="920" alt="唱片与票根：Oasis — Don't Look Back in Anger；最近单曲循环：借过；Hamilton。">
   </picture>
 </p>
 <p>
@@ -125,7 +125,7 @@
 
 ## 动态精选
 
-<sub>AI 辅助维护 · 更新于 2026-10-18</sub>
+<sub>AI 辅助维护</sub>
 
 <!-- ACTIVITY:START -->
 - <sub>2026-10-18</sub> · [Xarray #11711 合并后，收到 VeckoTheGecko 的后续致谢。](https://github.com/pydata/xarray/pull/11711#issuecomment-6249123066)
