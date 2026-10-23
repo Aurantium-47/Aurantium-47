@@ -104,11 +104,17 @@
 
 部分已合并的上游贡献：
 
+<p><a href="https://github.com/huggingface/sentence-transformers/stargazers"><img alt="Sentence Transformers 上游 star：19,212" src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/stars/huggingface-sentence-transformers-19212.svg" width="180" align="right"></a><strong><a href="https://github.com/huggingface/sentence-transformers">Sentence Transformers</a></strong> · <sub><a href="https://github.com/huggingface/sentence-transformers/pull/4251">#4251</a></sub><br>句向量与语义检索。修复复用浮点 USearch 索引时的重排判断，避免浮点向量被截断后破坏检索排序。</p>
+
 <p><a href="https://github.com/morluto/rea/stargazers"><img alt="REA upstream stars: 288k" src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/stars/morluto-rea-287879.svg" width="180" align="right"></a><strong><a href="https://github.com/morluto/rea">REA</a></strong> · <sub><a href="https://github.com/morluto/rea/pull/2422">#2422</a> · <a href="https://github.com/morluto/rea/pull/2448">#2448</a> · <a href="https://github.com/morluto/rea/pull/2429">#2429</a></sub><br>面向智能体的逆向工程平台。贡献涉及跨平台兼容性与二进制诊断。</p>
 
 <p><a href="https://github.com/vinta/awesome-python/stargazers"><img alt="awesome-python upstream stars: 328,335" src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/stars/vinta-awesome-python-328335.svg" width="180" align="right"></a><strong><a href="https://github.com/vinta/awesome-python">awesome-python</a></strong> · <sub><a href="https://github.com/vinta/awesome-python/pull/3376">#3376</a></sub><br>Python 资源精选。贡献涉及网站无障碍与交互导航。</p>
 
 <p><a href="https://github.com/github/spec-kit/stargazers"><img alt="Spec Kit upstream stars: 142k" src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/stars/github-spec-kit-141541.svg" width="180" align="right"></a><strong><a href="https://github.com/github/spec-kit">Spec Kit</a></strong> · <sub><a href="https://github.com/github/spec-kit/pull/4956">#4956</a></sub><br>GitHub 官方规范驱动开发工具包。贡献涉及 Windows 工作流可靠性。</p>
+
+<p><a href="https://github.com/ipython/ipython/stargazers"><img alt="IPython upstream stars: 16,794" src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/stars/ipython-ipython-16794.svg" width="180" align="right"></a><strong><a href="https://github.com/ipython/ipython">IPython</a></strong> · <sub><a href="https://github.com/ipython/ipython/pull/15435">#15435</a></sub><br>交互式 Python 与 Jupyter 工具链。修复 <code>FileLinks(Path(...))</code> 对 pathlib 目录路径的支持。</p>
+
+<p><a href="https://github.com/ohmyzsh/ohmyzsh/stargazers"><img alt="Oh My Zsh upstream stars: 190,112" src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/stars/ohmyzsh-ohmyzsh-190112.svg" width="180" align="right"></a><strong><a href="https://github.com/ohmyzsh/ohmyzsh">Oh My Zsh</a></strong> · <sub><a href="https://github.com/ohmyzsh/ohmyzsh/pull/14184">#14184</a></sub><br>Zsh 配置框架。纠正 uv 初始化别名说明，区分独立项目与父工作区成员。</p>
 
 <p><a href="https://github.com/koreader/koreader/stargazers"><img alt="KOReader upstream stars: 30.4k" src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/stars/koreader-koreader-30358.svg" width="180" align="right"></a><strong><a href="https://github.com/koreader/koreader">KOReader</a></strong> · <sub><a href="https://github.com/koreader/koreader/pull/16220">#16220</a></sub><br>面向电子墨水设备与 Android 的文档阅读器。贡献涉及批注工作流。</p>
 
@@ -130,6 +136,9 @@
 <sub>AI 辅助维护</sub>
 
 <!-- ACTIVITY:START -->
+- <sub>2026-10-22</sub> · [Sentence Transformers #4251 — Tom Aarsen 补充了精度参数说明和回归测试，并合并修复。](https://github.com/huggingface/sentence-transformers/pull/4251#issuecomment-6342707340)
+- <sub>2026-10-21</sub> · [IPython #15435 由 Carreau 合并。](https://github.com/ipython/ipython/pull/15435)
+- <sub>2026-10-20</sub> · [Oh My Zsh #14184 由 robbyrussell 合并。](https://github.com/ohmyzsh/ohmyzsh/pull/14184)
 - <sub>2026-10-18</sub> · [Xarray #11711 合并后，收到 VeckoTheGecko 的后续致谢。](https://github.com/pydata/xarray/pull/11711#issuecomment-6249123066)
 - <sub>2026-10-17</sub> · [awesome-python #3376 获 vinta 批准并合并。](https://github.com/vinta/awesome-python/pull/3376)
 - <sub>2026-10-17</sub> · [Xarray #11711 获 headtr1ck 批准并合并。](https://github.com/pydata/xarray/pull/11711)
