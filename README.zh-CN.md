@@ -102,7 +102,7 @@
 
 ## 调研工具
 
-**[Research-to-Decision](https://github.com/Aurantium-47/OpenInquire)** — 从调研到抉择的 Agent 工作流。基于 BMad Deep Recon 和 OpenInquire 的跨平台读取，主动澄清需求、核对证据与实际利弊，给出首选、代价和改选条件。
+**[Research-to-Decision](https://github.com/Aurantium-47/Research-to-Decision)** — 从调研到抉择的 Agent 工作流。基于 BMad Deep Recon 和 OpenInquire 的跨平台读取，主动澄清需求、核对证据与实际利弊，给出首选、代价和改选条件。
 
 ## 开源贡献
 
