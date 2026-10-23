@@ -100,6 +100,10 @@
 
 当前以 **STaRK-MAG** 为主要场景，探索如何联合实体文本、属性和图关系，让候选选择同时满足语义与关系条件。
 
+## 调研工具
+
+**[Research-to-Decision](https://github.com/Aurantium-47/OpenInquire)** — 从调研到抉择的 Agent 工作流。基于 BMad Deep Recon 和 OpenInquire 的跨平台读取，主动澄清需求、核对证据与实际利弊，给出首选、代价和改选条件。
+
 ## 开源贡献
 
 部分已合并的上游贡献：

@@ -100,6 +100,10 @@ Research interests in retrieval and question answering over text–graph knowled
 
 Current work uses **STaRK-MAG** to explore how entity text, attributes and graph relations can jointly guide candidate selection under both semantic and relational constraints.
 
+## Research tools
+
+**[Research-to-Decision](https://github.com/Aurantium-47/OpenInquire)** — an agent workflow that turns research into a choice. Built on BMad Deep Recon and OpenInquire’s cross-platform reading, it clarifies requirements, compares evidence and trade-offs, and explains when to choose an alternative.
+
 ## Contributions
 
 Selected merged contributions:
