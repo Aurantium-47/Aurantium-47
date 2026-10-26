@@ -108,7 +108,7 @@ Current work uses **STaRK-MAG** to explore how entity text, attributes and graph
 
 Selected merged contributions:
 
-<p><a href="https://github.com/huggingface/sentence-transformers/stargazers"><img alt="Sentence Transformers upstream stars: 19,212" src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/stars/huggingface-sentence-transformers-19212.svg" width="180" align="right"></a><strong><a href="https://github.com/huggingface/sentence-transformers">Sentence Transformers</a></strong> · <sub><a href="https://github.com/huggingface/sentence-transformers/pull/4251">#4251</a></sub><br>Sentence embeddings and semantic search. Fixed rescoring for reused floating-point USearch indexes to preserve retrieval ranking.</p>
+<p><a href="https://github.com/huggingface/sentence-transformers/stargazers"><img alt="Sentence Transformers upstream stars: 19,212" src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/stars/huggingface-sentence-transformers-19212.svg" width="180" align="right"></a><strong><a href="https://github.com/huggingface/sentence-transformers">Sentence Transformers</a></strong> · <sub><a href="https://github.com/huggingface/sentence-transformers/pull/4251">#4251</a> · <a href="https://github.com/huggingface/sentence-transformers/pull/4262">#4262</a></sub><br>Sentence embeddings and semantic search. Fixed rescoring for reused floating-point USearch indexes to preserve retrieval ranking. Fixed hard-negative mining silently ignoring a supplied CrossEncoder without score filters, so candidate ordering and exported scores use the requested scorer rather than the bi-encoder, including for distillation targets.</p>
 
 <p><a href="https://github.com/morluto/rea/stargazers"><img alt="REA upstream stars: 288k" src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/stars/morluto-rea-287879.svg" width="180" align="right"></a><strong><a href="https://github.com/morluto/rea">REA</a></strong> · <sub><a href="https://github.com/morluto/rea/pull/2422">#2422</a> · <a href="https://github.com/morluto/rea/pull/2448">#2448</a> · <a href="https://github.com/morluto/rea/pull/2429">#2429</a></sub><br>An agent-driven reverse-engineering platform. Contributed improvements to cross-platform compatibility and binary diagnostics.</p>
 
@@ -140,6 +140,7 @@ Selected merged contributions:
 <sub>AI-assisted updates</sub>
 
 <!-- ACTIVITY:START -->
+- <sub>2026-10-26</sub> · [Sentence Transformers #4262](https://github.com/huggingface/sentence-transformers/pull/4262) — Tom Aarsen merged the fix as-is, then simplified its regression tests in [#4277](https://github.com/huggingface/sentence-transformers/pull/4277).
 - <sub>2026-10-22</sub> · [Sentence Transformers #4251 — Tom Aarsen clarified precision handling and expanded the regression tests before merging the fix.](https://github.com/huggingface/sentence-transformers/pull/4251#issuecomment-6342707340)
 - <sub>2026-10-21</sub> · [IPython #15435 — merged by Carreau.](https://github.com/ipython/ipython/pull/15435)
 - <sub>2026-10-20</sub> · [Oh My Zsh #14184 — merged by robbyrussell.](https://github.com/ohmyzsh/ohmyzsh/pull/14184)

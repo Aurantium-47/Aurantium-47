@@ -108,7 +108,7 @@
 
 部分已合并的上游贡献：
 
-<p><a href="https://github.com/huggingface/sentence-transformers/stargazers"><img alt="Sentence Transformers 上游 star：19,212" src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/stars/huggingface-sentence-transformers-19212.svg" width="180" align="right"></a><strong><a href="https://github.com/huggingface/sentence-transformers">Sentence Transformers</a></strong> · <sub><a href="https://github.com/huggingface/sentence-transformers/pull/4251">#4251</a></sub><br>句向量与语义检索。修复复用浮点 USearch 索引时的重排判断，避免浮点向量被截断后破坏检索排序。</p>
+<p><a href="https://github.com/huggingface/sentence-transformers/stargazers"><img alt="Sentence Transformers 上游 star：19,212" src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/stars/huggingface-sentence-transformers-19212.svg" width="180" align="right"></a><strong><a href="https://github.com/huggingface/sentence-transformers">Sentence Transformers</a></strong> · <sub><a href="https://github.com/huggingface/sentence-transformers/pull/4251">#4251</a> · <a href="https://github.com/huggingface/sentence-transformers/pull/4262">#4262</a></sub><br>句向量与语义检索。修复复用浮点 USearch 索引时的重排判断，避免浮点向量被截断后破坏检索排序。修复硬负样本挖掘在未设分数筛选条件时忽略 CrossEncoder 的问题，使候选排序与导出分数遵循指定模型，避免蒸馏目标误用双编码器分数。</p>
 
 <p><a href="https://github.com/morluto/rea/stargazers"><img alt="REA upstream stars: 288k" src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/stars/morluto-rea-287879.svg" width="180" align="right"></a><strong><a href="https://github.com/morluto/rea">REA</a></strong> · <sub><a href="https://github.com/morluto/rea/pull/2422">#2422</a> · <a href="https://github.com/morluto/rea/pull/2448">#2448</a> · <a href="https://github.com/morluto/rea/pull/2429">#2429</a></sub><br>面向智能体的逆向工程平台。贡献涉及跨平台兼容性与二进制诊断。</p>
 
@@ -140,6 +140,7 @@
 <sub>AI 辅助维护</sub>
 
 <!-- ACTIVITY:START -->
+- <sub>2026-10-26</sub> · [Sentence Transformers #4262](https://github.com/huggingface/sentence-transformers/pull/4262) — Tom Aarsen 原样合并修复，随后在 [#4277](https://github.com/huggingface/sentence-transformers/pull/4277) 中简化了回归测试。
 - <sub>2026-10-22</sub> · [Sentence Transformers #4251 — Tom Aarsen 补充了精度参数说明和回归测试，并合并修复。](https://github.com/huggingface/sentence-transformers/pull/4251#issuecomment-6342707340)
 - <sub>2026-10-21</sub> · [IPython #15435 由 Carreau 合并。](https://github.com/ipython/ipython/pull/15435)
 - <sub>2026-10-20</sub> · [Oh My Zsh #14184 由 robbyrussell 合并。](https://github.com/ohmyzsh/ohmyzsh/pull/14184)
