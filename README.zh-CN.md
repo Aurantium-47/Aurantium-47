@@ -63,9 +63,9 @@
 
 </details>
 
-**[BRW τ-实性团粘合：结构类与 theta 图](https://github.com/Aurantium-47/brw-tau-clique-attachments)** · <sub>[Brenti–Royle–Wagner · 1994 年](https://doi.org/10.4153/CJM-1994-002-3) · 图多项式</sub>
+**[BRW τ-实性团粘合：统一圈替换与结构类](https://github.com/Aurantium-47/brw-tau-clique-attachments)** · <sub>[Brenti–Royle–Wagner · 1994 年](https://doi.org/10.4153/CJM-1994-002-3) · 图多项式</sub>
 
-**补齐 theta 图的有限缺口。** 证明带锚点不可比图与任意 τ-实图的普通团粘合保持 τ-实性，并完成所有 a,b,c ≥ 2 的 theta 图 Θ(a,b,c) 沿边粘合结论。这是指定 theta 图族的完整结果，并非一般猜想 6.5 的完整解答。
+**覆盖所有圈长的统一替换定理。** 将任意圈的一个顶点替换为任意普通 τ-实图，仍保持 τ-实性，并得到实根 Bell 边商，因此可与任意 τ-实图沿边粘合。连同带锚点不可比图及全部 a,b,c ≥ 2 的 Θ(a,b,c)，这些仍是一般猜想 6.5 的部分结果。
 
 <details>
 <summary>原文出处、定理范围与验证</summary>
@@ -73,7 +73,8 @@
 - **原问题出处:** Francesco Brenti、Gordon F. Royle、David G. Wagner，*Canadian Journal of Mathematics*（1994），猜想 6.5。图联接断言属于另一个猜想 6.6。
 - **结构定理:** 不可比图分为 k 个非空独立类，每类有一个与该类之外所有顶点相邻的锚点，则所有团大小 0 ≤ j ≤ k 对应的 Bell 色多项式商均只有实根。因此，它与任意 τ-实图沿任意团进行普通粘合，均保持 τ-实性；涵盖含边的连通 Ferrers 图／链图。
 - **完整 theta 图族:** 对所有 a,b,c ≥ 2，Θ(a,b,c) 的 Bell 边商均只有严格负实根，因此与任意 τ-实图沿边普通粘合均保持 τ-实性。以有效根半径界和 Bernstein 判别式证书覆盖解析范围，再用精确有理数根证书补齐全部 2,460 个剩余非降序路径长度三元组；独立整数算术复核覆盖 83,842 个根区间。
-- **证明与检查:** [结构定理文稿](https://github.com/Aurantium-47/brw-tau-clique-attachments/tree/main/extensions/2026-11-02)、[完整 theta 证明与证书](https://github.com/Aurantium-47/brw-tau-clique-attachments/tree/cfa1f5fd798116b44ddc95da6f90710e48fac14a/extensions/2026-11-02-all-theta)，以及先前的[统一充分大参数补充证明](https://github.com/Aurantium-47/brw-tau-clique-attachments/tree/main/extensions/2026-11-02-uniform-theta)。theta 结果是解析定理与有限余项穷尽精确认证相结合的计算机辅助证明，并非仅凭有限抽样。研究使用 AI 辅助，不宣称人工同行评审、证明助手形式化验证或历史首创，文献比较尚不完整。
+- **统一圈替换:** [已发布证明版本](https://github.com/Aurantium-47/brw-tau-clique-attachments/tree/dc6d35ba53c6a41064bc9982cb524b05b74dc2ff/extensions/2026-11-02-uniform-cycle-substitution)。以根的单调性和扩充箭头矩阵不变量作普通数学证明，覆盖所有圈长及输入次数；具有互异严格负实根的输入给出严格交错，非零边界输入给出弱交错。C₅/C₇ 及由 k 条长度为 2 的路径和一条长度为 m 的路径组成的特例被包含，但独立的全三路径定理及任意路径数的长最短路径条件不被替代。不宣称任意同时图替换或不受限的大团粘合。
+- **证明与检查:** [结构定理文稿](https://github.com/Aurantium-47/brw-tau-clique-attachments/tree/main/extensions/2026-11-02)、[完整 theta 证明与证书](https://github.com/Aurantium-47/brw-tau-clique-attachments/tree/cfa1f5fd798116b44ddc95da6f90710e48fac14a/extensions/2026-11-02-all-theta)，以及先前的[统一充分大参数补充证明](https://github.com/Aurantium-47/brw-tau-clique-attachments/tree/main/extensions/2026-11-02-uniform-theta)。theta 结果是解析定理与有限余项穷尽精确认证相结合的计算机辅助证明，并非仅凭有限抽样。研究使用 AI 辅助，统一证明经过独立 AI 内部复核；不宣称人工同行评审、证明助手形式化验证或历史首创，文献比较尚不完整。
 
 </details>
 
