@@ -63,17 +63,17 @@
 
 </details>
 
-**[BRW τ-实性团粘合：结构类与几乎所有 theta 图](https://github.com/Aurantium-47/brw-tau-clique-attachments)** · <sub>[Brenti–Royle–Wagner · 1994 年](https://doi.org/10.4153/CJM-1994-002-3) · 图多项式</sub>
+**[BRW τ-实性团粘合：结构类与 theta 图](https://github.com/Aurantium-47/brw-tau-clique-attachments)** · <sub>[Brenti–Royle–Wagner · 1994 年](https://doi.org/10.4153/CJM-1994-002-3) · 图多项式</sub>
 
-**从删除一条边到结构定理与 theta 图的统一阈值定理。** 证明带锚点不可比图与任意 τ-实图的普通团粘合保持 τ-实性，并覆盖除有限多个路径长度三元组之外的 theta 图沿边粘合。这是猜想 6.5 的部分结果，并非一般猜想的完整解答。
+**补齐 theta 图的有限缺口。** 证明带锚点不可比图与任意 τ-实图的普通团粘合保持 τ-实性，并完成所有 a,b,c ≥ 2 的 theta 图 Θ(a,b,c) 沿边粘合结论。这是指定 theta 图族的完整结果，并非一般猜想 6.5 的完整解答。
 
 <details>
 <summary>原文出处、定理范围与验证</summary>
 
 - **原问题出处:** Francesco Brenti、Gordon F. Royle、David G. Wagner，*Canadian Journal of Mathematics*（1994），猜想 6.5。图联接断言属于另一个猜想 6.6。
 - **结构定理:** 不可比图分为 k 个非空独立类，每类有一个与该类之外所有顶点相邻的锚点，则所有团大小 0 ≤ j ≤ k 对应的 Bell 色多项式商均只有实根。因此，它与任意 τ-实图沿任意团进行普通粘合，均保持 τ-实性；涵盖含边的连通 Ferrers 图／链图。
-- **统一 theta 定理:** 存在同一个整数 M，使所有 a,b,c ≥ 2 且 max(a,b,c) ≥ M 的 Θ(a,b,c) 的 Bell 边商只有实根，从而与任意 τ-实图沿边普通粘合均保持 τ-实性。尚未给出 M 的数值；本工作未解决未覆盖的有限多个三元组，也不声称它们是反例。
-- **证明与检查:** [结构定理文稿](https://github.com/Aurantium-47/brw-tau-clique-attachments/tree/main/extensions/2026-11-02)与[统一 theta 补充证明](https://github.com/Aurantium-47/brw-tau-clique-attachments/tree/main/extensions/2026-11-02-uniform-theta)，附精确符号检查。属于 AI 辅助数学证明，不宣称人工同行评审、证明助手形式化验证或历史首创，文献比较尚不完整；有限检查不能代替充分大参数结论的分析证明，也不计算 M。
+- **完整 theta 图族:** 对所有 a,b,c ≥ 2，Θ(a,b,c) 的 Bell 边商均只有严格负实根，因此与任意 τ-实图沿边普通粘合均保持 τ-实性。以有效根半径界和 Bernstein 判别式证书覆盖解析范围，再用精确有理数根证书补齐全部 2,460 个剩余非降序路径长度三元组；独立整数算术复核覆盖 83,842 个根区间。
+- **证明与检查:** [结构定理文稿](https://github.com/Aurantium-47/brw-tau-clique-attachments/tree/main/extensions/2026-11-02)、[完整 theta 证明与证书](https://github.com/Aurantium-47/brw-tau-clique-attachments/tree/cfa1f5fd798116b44ddc95da6f90710e48fac14a/extensions/2026-11-02-all-theta)，以及先前的[统一充分大参数补充证明](https://github.com/Aurantium-47/brw-tau-clique-attachments/tree/main/extensions/2026-11-02-uniform-theta)。theta 结果是解析定理与有限余项穷尽精确认证相结合的计算机辅助证明，并非仅凭有限抽样。研究使用 AI 辅助，不宣称人工同行评审、证明助手形式化验证或历史首创，文献比较尚不完整。
 
 </details>
 

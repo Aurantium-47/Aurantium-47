@@ -63,17 +63,17 @@ Open source made new things possible for more people.
 
 </details>
 
-**[BRW τ-real clique attachment: structural classes and almost all theta graphs](https://github.com/Aurantium-47/brw-tau-clique-attachments)** · <sub>[Brenti–Royle–Wagner · 1994](https://doi.org/10.4153/CJM-1994-002-3) · Graph polynomials</sub>
+**[BRW τ-real clique attachment: structural classes and theta graphs](https://github.com/Aurantium-47/brw-tau-clique-attachments)** · <sub>[Brenti–Royle–Wagner · 1994](https://doi.org/10.4153/CJM-1994-002-3) · Graph polynomials</sub>
 
-**A single deleted edge → a structural theorem and a uniform eventual theta theorem.** Proved universal ordinary clique attachment for anchored incomparability graphs, and edge attachment for all but finitely many theta path-length triples. These are partial results toward Conjecture 6.5, not a resolution of the general conjecture.
+**The finite theta gap is closed.** Proved universal ordinary clique attachment for anchored incomparability graphs, and edge attachment for every theta graph Θ(a,b,c) with a,b,c ≥ 2. This completes the specified theta family, not the general Conjecture 6.5.
 
 <details>
 <summary>Original source, theorem scope & verification</summary>
 
 - **Original source:** Francesco Brenti, Gordon F. Royle and David G. Wagner, *Canadian Journal of Mathematics* (1994), Conjecture 6.5. The graph-join assertion is the separate Conjecture 6.6.
 - **Structural theorem:** An incomparability graph partitioned into k nonempty independent classes, with one anchor per class adjacent to every vertex outside that class, has real-rooted Bell chromatic quotients for every clique size 0 ≤ j ≤ k. Ordinary attachment along any clique to any τ-real graph therefore preserves τ-reality. This includes connected Ferrers/chain graphs with an edge.
-- **Uniform theta theorem:** One integer M works for every Θ(a,b,c) with a,b,c ≥ 2 and max(a,b,c) ≥ M: its Bell edge quotient is real-rooted, giving universal ordinary edge attachment. M is not numerically specified; the finitely many uncovered triples are not settled by this work and are not asserted to be counterexamples.
-- **Proofs & checks:** [Structural manuscript](https://github.com/Aurantium-47/brw-tau-clique-attachments/tree/main/extensions/2026-11-02) and [uniform theta addendum](https://github.com/Aurantium-47/brw-tau-clique-attachments/tree/main/extensions/2026-11-02-uniform-theta), with exact symbolic checks. AI-assisted mathematical proofs; no human peer review, proof-assistant verification or historical-priority claim; the literature comparison remains incomplete. Finite checks do not establish the analytic eventuality argument or compute M.
+- **Complete theta family:** For every a,b,c ≥ 2, the Bell edge quotient of Θ(a,b,c) has only strictly negative real zeros. Ordinary attachment along an edge to any τ-real graph therefore preserves τ-reality. An effective root-radius bound and Bernstein-discriminant certificates cover the analytic range; exact rational root certificates close all 2,460 remaining sorted triples, with 83,842 root brackets checked by independent integer-arithmetic replays.
+- **Proofs & checks:** [Structural manuscript](https://github.com/Aurantium-47/brw-tau-clique-attachments/tree/main/extensions/2026-11-02), [complete theta proof and certificates](https://github.com/Aurantium-47/brw-tau-clique-attachments/tree/cfa1f5fd798116b44ddc95da6f90710e48fac14a/extensions/2026-11-02-all-theta), and the earlier [uniform eventual theta addendum](https://github.com/Aurantium-47/brw-tau-clique-attachments/tree/main/extensions/2026-11-02-uniform-theta). The theta result is a computer-assisted proof combining an analytic theorem with exhaustive exact certification of its finite remainder, not finite sampling alone. AI-assisted work; no human peer review, proof-assistant verification or historical-priority claim; the literature comparison remains incomplete.
 
 </details>
 
