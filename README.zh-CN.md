@@ -77,6 +77,8 @@
 
 </details>
 
+**[精确证书工程 · 同一冻结任务提速 20.34–20.45 倍](https://github.com/Aurantium-47/eventual-infinite-log-concavity/tree/7af226f3e313472b655a9be9c9d04dd5f6ff8d15/benchmarks/exact-convolution/repeat-results/2026-11-02)** · 将 python-flint 0.9.0 的截断整数卷积集成到精确证书工具中。同一冻结的 node-200 任务经三轮交替顺序配对测试，耗时 14.09–14.81 秒，对照实现为 287.72–301.24 秒；六次运行的全部 361 个整数中点、公共半径与参数及 21 项非性能字段均精确一致。这是共享云环境中特定任务的实测；精确算术后端由 FLINT 提供。
+
 <details>
 <summary>另外两项：10 年前的峰多项式猜想 · K₆ 链的全族锐界</summary>
 

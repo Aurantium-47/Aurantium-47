@@ -77,6 +77,8 @@ Open source made new things possible for more people.
 
 </details>
 
+**[Exact-certificate engineering · 20.34–20.45× on one frozen task](https://github.com/Aurantium-47/eventual-infinite-log-concavity/tree/7af226f3e313472b655a9be9c9d04dd5f6ff8d15/benchmarks/exact-convolution/repeat-results/2026-11-02)** · Integrated truncated integer convolution using python-flint 0.9.0 into exact-certificate tooling. Three alternating paired runs on the same frozen node-200 task took 14.09–14.81 s versus 287.72–301.24 s for the reference; all six runs matched all 361 integer midpoints, the common radius and parameters, and 21 nonperformance fields exactly. Task-specific shared-cloud measurements; FLINT provides the exact-arithmetic backend.
+
 <details>
 <summary>Two further results: a 2016 peak-polynomial conjecture · the sharp bound for K₆ chains</summary>
 
