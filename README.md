@@ -33,6 +33,19 @@ Open source made new things possible for more people.
 
 [**Research catalog · Proofs, counterexamples and generalizations**](https://github.com/Aurantium-47/aurantium-mathematics)
 
+**[Trinomial infinite log-concavity: every n ≥ 10, every iterate](https://github.com/Aurantium-47/eventual-infinite-log-concavity/tree/68f4c920606ad239fbc3a8195bc0987b790f5905/research/trinomial-all-n-ge10)** · <sub>[Medina–Straub · 2014 · Example 5.3](https://arxiv.org/abs/1405.1765v1) · Real roots and positivity</sub>
+
+**Two unbounded quantifiers, one complete proof.** For every integer n ≥ 10, the coefficients of (1+x+x²)^n are infinitely log-concave: every log-concavity iterate is nonnegative, with zeros outside the support. The computer-assisted proof draft completes the specific trinomial assertion in Example 5.3, not general Conjecture 5.2.
+
+<details>
+<summary>Structural theorem, reproducibility & review status</summary>
+
+- **Stronger structure:** For every integer n ≥ 4004, the fourth-iterate polynomial has **2n distinct negative real roots**.
+- **Proof and reproduction:** An analytic argument covers the unbounded range; exact invariant-cone certificates close the finite remainder for all subsequent iterations. The [fixed manuscript, code and certificates](https://github.com/Aurantium-47/eventual-infinite-log-concavity/tree/68f4c920606ad239fbc3a8195bc0987b790f5905/research/trinomial-all-n-ge10) distinguish proof arguments, certificate replay and fresh enclosure reconstruction.
+- **Status:** Computer-assisted proof draft with [independent AI-assisted mathematical and computational review](https://github.com/Aurantium-47/eventual-infinite-log-concavity/blob/1f9c5ce4cd6c5b2e0fe908f11f0a51d85648591f/research/trinomial-all-n-ge10/review-2026-11-02/REVIEW.md). [Research draft PR #2](https://github.com/Aurantium-47/eventual-infinite-log-concavity/pull/2) is unmerged; no human peer review, formal verification or historical-priority certification is claimed.
+
+</details>
+
 **[Howroyd’s 27-set conjecture](https://github.com/Aurantium-47/howroyd-27-conjecture)** · <sub>[Posed in 2018 · 8 years ago](https://oeis.org/A297557) · Extremal graph theory</sub>
 
 **One known residue class → all three classes.** Completed the two remaining branches of the 2018 conjecture, then went beyond the count to classify **all 27 maximum independent sets**. The remaining-branch theorem is formalized in Lean 4.

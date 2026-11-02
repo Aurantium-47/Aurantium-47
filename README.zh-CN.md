@@ -33,6 +33,19 @@
 
 [**研究目录 · 证明、反例与推广**](https://github.com/Aurantium-47/aurantium-mathematics)
 
+**[三项式无限对数凹性：所有 n ≥ 10，所有迭代层](https://github.com/Aurantium-47/eventual-infinite-log-concavity/tree/68f4c920606ad239fbc3a8195bc0987b790f5905/research/trinomial-all-n-ge10)** · <sub>[Medina–Straub · 2014 年 · 例 5.3](https://arxiv.org/abs/1405.1765v1) · 实根与正性</sub>
+
+**两个无界量词，一份完整证明。** 对每个整数 n ≥ 10，(1+x+x²)^n 的系数序列均无限对数凹：支撑之外补零后，每一层对数凹迭代均非负。计算机辅助证明草稿完成例 5.3 的特定三项式断言，不是一般猜想 5.2。
+
+<details>
+<summary>更强结构、复现材料与复核状态</summary>
+
+- **更强结构：** 对每个整数 n ≥ 4004，第四层迭代多项式有 **2n 个互异负实根**。
+- **证明与复现：** 解析论证覆盖无界参数范围，精确不变锥证书补齐有限余项并覆盖其后全部迭代。[固定版本文稿、代码与证书](https://github.com/Aurantium-47/eventual-infinite-log-concavity/tree/68f4c920606ad239fbc3a8195bc0987b790f5905/research/trinomial-all-n-ge10)区分数学论证、证书重放和包络从头重建。
+- **当前状态：** 经[独立 AI 辅助数学与计算复核](https://github.com/Aurantium-47/eventual-infinite-log-concavity/blob/1f9c5ce4cd6c5b2e0fe908f11f0a51d85648591f/research/trinomial-all-n-ge10/review-2026-11-02/REVIEW.md)的计算机辅助证明草稿。[研究草稿 PR #2](https://github.com/Aurantium-47/eventual-infinite-log-concavity/pull/2)尚未合并；不宣称人工同行评审、形式化验证或历史首创认证。
+
+</details>
+
 **[Howroyd 27 集猜想](https://github.com/Aurantium-47/howroyd-27-conjecture)** · <sub>[2018 年提出 · 距今 8 年](https://oeis.org/A297557) · 极值图论</sub>
 
 **从一个已知分支到全部三个余类。** 补齐 2018 年猜想的剩余两类，完成计数公式，并进一步给出 **全部 27 个最大独立集的分类**；剩余分支定理已用 Lean 4 形式化。
