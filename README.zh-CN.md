@@ -156,6 +156,7 @@
 <details>
 <summary>更多动态</summary>
 
+- <sub>2026-10-31</sub> · [claude-trading-skills #596](https://github.com/tradermonty/claude-trading-skills/pull/596) 已合并，使报告风险与实际采用的仓位计算方法一致；维护者 tradermonty 的[后续 #602](https://github.com/tradermonty/claude-trading-skills/pull/602) 补充止损校验、Decimal 风险舍入与文档。
 - <sub>2026-10-15</sub> · [Developer Roadmap #10451 已合并。](https://github.com/nilbuild/developer-roadmap/pull/10451)
 - <sub>2026-10-15</sub> · [Free Programming Books #13533 已合并。](https://github.com/EbookFoundation/free-programming-books/pull/13533)
 - <sub>2026-10-15</sub> · [发布 Hardinian 渐近式 r = 2 的 Lean 补充证明。](https://github.com/Aurantium-47/hardinian-array-asymptotics/blob/477fcff33df19d5f752f9748d8596b31da15c81b/FORMALIZATION.md)
@@ -166,3 +167,4 @@
 <!-- ACTIVITY:END -->
 
 [全部项目](https://github.com/Aurantium-47?tab=repositories) · [已合并贡献](https://github.com/search?q=author%3AAurantium-47+is%3Apr+is%3Amerged&type=pullrequests)
+

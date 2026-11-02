@@ -156,6 +156,7 @@ Selected merged contributions:
 <details>
 <summary>More activity</summary>
 
+- <sub>2026-10-31</sub> · [claude-trading-skills #596](https://github.com/tradermonty/claude-trading-skills/pull/596) — merged a fix aligning reported risk with the selected position-sizing method; maintainer tradermonty’s [follow-up #602](https://github.com/tradermonty/claude-trading-skills/pull/602) added stop validation, Decimal risk rounding and documentation.
 - <sub>2026-10-15</sub> · [Developer Roadmap #10451 — merged.](https://github.com/nilbuild/developer-roadmap/pull/10451)
 - <sub>2026-10-15</sub> · [Free Programming Books #13533 — merged.](https://github.com/EbookFoundation/free-programming-books/pull/13533)
 - <sub>2026-10-15</sub> · [Published the Lean supplement for Hardinian asymptotics at r = 2.](https://github.com/Aurantium-47/hardinian-array-asymptotics/blob/477fcff33df19d5f752f9748d8596b31da15c81b/FORMALIZATION.md)
@@ -166,3 +167,4 @@ Selected merged contributions:
 <!-- ACTIVITY:END -->
 
 [All projects](https://github.com/Aurantium-47?tab=repositories) · [Merged contributions](https://github.com/search?q=author%3AAurantium-47+is%3Apr+is%3Amerged&type=pullrequests)
+
