@@ -31,9 +31,7 @@ Open source made new things possible for more people.
 
 ## Mathematical research
 
-[**24 research projects · 7 with generalizations · 8 with Lean formalization**](https://github.com/Aurantium-47/aurantium-mathematics)
-
-**10 positive resolutions · 3 counterexamples.**
+[**Research catalog · Proofs, counterexamples and generalizations**](https://github.com/Aurantium-47/aurantium-mathematics)
 
 **[Howroyd’s 27-set conjecture](https://github.com/Aurantium-47/howroyd-27-conjecture)** · <sub>[Posed in 2018 · 8 years ago](https://oeis.org/A297557) · Extremal graph theory</sub>
 
@@ -65,6 +63,20 @@ Open source made new things possible for more people.
 
 </details>
 
+**[BRW τ-real clique attachment: structural classes and almost all theta graphs](https://github.com/Aurantium-47/brw-tau-clique-attachments)** · <sub>[Brenti–Royle–Wagner · 1994](https://doi.org/10.4153/CJM-1994-002-3) · Graph polynomials</sub>
+
+**A single deleted edge → a structural theorem and a uniform eventual theta theorem.** Proved universal ordinary clique attachment for anchored incomparability graphs, and edge attachment for all but finitely many theta path-length triples. These are partial results toward Conjecture 6.5, not a resolution of the general conjecture.
+
+<details>
+<summary>Original source, theorem scope & verification</summary>
+
+- **Original source:** Francesco Brenti, Gordon F. Royle and David G. Wagner, *Canadian Journal of Mathematics* (1994), Conjecture 6.5. The graph-join assertion is the separate Conjecture 6.6.
+- **Structural theorem:** An incomparability graph partitioned into k nonempty independent classes, with one anchor per class adjacent to every vertex outside that class, has real-rooted Bell chromatic quotients for every clique size 0 ≤ j ≤ k. Ordinary attachment along any clique to any τ-real graph therefore preserves τ-reality. This includes connected Ferrers/chain graphs with an edge.
+- **Uniform theta theorem:** One integer M works for every Θ(a,b,c) with a,b,c ≥ 2 and max(a,b,c) ≥ M: its Bell edge quotient is real-rooted, giving universal ordinary edge attachment. M is not numerically specified; the finitely many uncovered triples are not settled by this work and are not asserted to be counterexamples.
+- **Proofs & checks:** [Structural manuscript](https://github.com/Aurantium-47/brw-tau-clique-attachments/tree/main/extensions/2026-11-02) and [uniform theta addendum](https://github.com/Aurantium-47/brw-tau-clique-attachments/tree/main/extensions/2026-11-02-uniform-theta), with exact symbolic checks. AI-assisted mathematical proofs; no human peer review, proof-assistant verification or historical-priority claim; the literature comparison remains incomplete. Finite checks do not establish the analytic eventuality argument or compute M.
+
+</details>
+
 <details>
 <summary>Two further results: a 2016 peak-polynomial conjecture · the sharp bound for K₆ chains</summary>
 
@@ -90,7 +102,7 @@ Open source made new things possible for more people.
 
 </details>
 
-**[More mathematical work · 20 projects](https://github.com/Aurantium-47/aurantium-mathematics/blob/main/README.en.md#all-projects)**
+**[More mathematical work](https://github.com/Aurantium-47/aurantium-mathematics/blob/main/README.en.md#all-projects)**
 
 ## NLP & information retrieval
 

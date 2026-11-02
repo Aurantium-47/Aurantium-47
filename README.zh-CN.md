@@ -31,9 +31,7 @@
 
 ## 数学研究
 
-[**24 组研究成果 · 7 组含推广 · 8 组含 Lean 形式化**](https://github.com/Aurantium-47/aurantium-mathematics)
-
-**10 项原问题获肯定解答 · 3 项反例。**
+[**研究目录 · 证明、反例与推广**](https://github.com/Aurantium-47/aurantium-mathematics)
 
 **[Howroyd 27 集猜想](https://github.com/Aurantium-47/howroyd-27-conjecture)** · <sub>[2018 年提出 · 距今 8 年](https://oeis.org/A297557) · 极值图论</sub>
 
@@ -65,6 +63,20 @@
 
 </details>
 
+**[BRW τ-实性团粘合：结构类与几乎所有 theta 图](https://github.com/Aurantium-47/brw-tau-clique-attachments)** · <sub>[Brenti–Royle–Wagner · 1994 年](https://doi.org/10.4153/CJM-1994-002-3) · 图多项式</sub>
+
+**从删除一条边到结构定理与 theta 图的统一阈值定理。** 证明带锚点不可比图与任意 τ-实图的普通团粘合保持 τ-实性，并覆盖除有限多个路径长度三元组之外的 theta 图沿边粘合。这是猜想 6.5 的部分结果，并非一般猜想的完整解答。
+
+<details>
+<summary>原文出处、定理范围与验证</summary>
+
+- **原问题出处:** Francesco Brenti、Gordon F. Royle、David G. Wagner，*Canadian Journal of Mathematics*（1994），猜想 6.5。图联接断言属于另一个猜想 6.6。
+- **结构定理:** 不可比图分为 k 个非空独立类，每类有一个与该类之外所有顶点相邻的锚点，则所有团大小 0 ≤ j ≤ k 对应的 Bell 色多项式商均只有实根。因此，它与任意 τ-实图沿任意团进行普通粘合，均保持 τ-实性；涵盖含边的连通 Ferrers 图／链图。
+- **统一 theta 定理:** 存在同一个整数 M，使所有 a,b,c ≥ 2 且 max(a,b,c) ≥ M 的 Θ(a,b,c) 的 Bell 边商只有实根，从而与任意 τ-实图沿边普通粘合均保持 τ-实性。尚未给出 M 的数值；本工作未解决未覆盖的有限多个三元组，也不声称它们是反例。
+- **证明与检查:** [结构定理文稿](https://github.com/Aurantium-47/brw-tau-clique-attachments/tree/main/extensions/2026-11-02)与[统一 theta 补充证明](https://github.com/Aurantium-47/brw-tau-clique-attachments/tree/main/extensions/2026-11-02-uniform-theta)，附精确符号检查。属于 AI 辅助数学证明，不宣称人工同行评审、证明助手形式化验证或历史首创，文献比较尚不完整；有限检查不能代替充分大参数结论的分析证明，也不计算 M。
+
+</details>
+
 <details>
 <summary>另外两项：10 年前的峰多项式猜想 · K₆ 链的全族锐界</summary>
 
@@ -90,7 +102,7 @@
 
 </details>
 
-**[更多数学工作 · 20 项](https://github.com/Aurantium-47/aurantium-mathematics#全部项目)**
+**[更多数学工作](https://github.com/Aurantium-47/aurantium-mathematics#全部项目)**
 
 ## NLP 与信息检索
 
