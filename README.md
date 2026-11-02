@@ -167,4 +167,3 @@ Selected merged contributions:
 <!-- ACTIVITY:END -->
 
 [All projects](https://github.com/Aurantium-47?tab=repositories) · [Merged contributions](https://github.com/search?q=author%3AAurantium-47+is%3Apr+is%3Amerged&type=pullrequests)
-
