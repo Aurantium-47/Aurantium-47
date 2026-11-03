@@ -33,16 +33,19 @@ Open source made new things possible for more people.
 
 [**Research catalog · Proofs, counterexamples and generalizations**](https://github.com/Aurantium-47/aurantium-mathematics)
 
-**[Trinomial infinite log-concavity: every n ≥ 10, every iterate](https://github.com/Aurantium-47/eventual-infinite-log-concavity/tree/68f4c920606ad239fbc3a8195bc0987b790f5905/research/trinomial-all-n-ge10)** · <sub>[Medina–Straub · 2014 · Example 5.3](https://arxiv.org/abs/1405.1765v1) · Real roots and positivity</sub>
+**[Infinite log-concavity: positive polynomial powers](https://github.com/Aurantium-47/eventual-infinite-log-concavity/tree/68f4c920606ad239fbc3a8195bc0987b790f5905)** · <sub>[Medina–Straub · 2014 · Conjecture 5.2 / Example 5.3](https://arxiv.org/abs/1405.1765v1) · Real roots and positivity</sub>
 
-**Two unbounded quantifiers, one complete proof.** For every integer n ≥ 10, the coefficients of (1+x+x²)^n are infinitely log-concave: every log-concavity iterate is nonnegative, with zeros outside the support. The computer-assisted proof draft completes the specific trinomial assertion in Example 5.3, not general Conjecture 5.2.
+**Two scopes in one project, both covering every iterate.**
+
+- **General positive polynomials:** For each fixed p(x)=Σᵢ₌₀ᵈ cᵢxⁱ with every cᵢ a strictly positive real number, every **integer n ≥ N(p)** gives coefficient iterates of p(x)^n strictly positive on the original support. The same N(p) covers all iterations; no threshold uniform across p is asserted. This is the existing **14 October 2026 Theorem B**, independently audited on **2–3 November**.
+- **Sharp trinomial threshold:** For **every integer n ≥ 10**, all iterates of the coefficients of (1+x+x²)^n are nonnegative. This separate draft addresses Example 5.3. Both results keep zeros outside the original support; neither extends to noninteger powers or internal zero coefficients.
 
 <details>
 <summary>Structural theorem, reproducibility & review status</summary>
 
-- **Stronger structure:** For every integer n ≥ 4004, the fourth-iterate polynomial has **2n distinct negative real roots**.
-- **Proof and reproduction:** An analytic argument covers the unbounded range; exact invariant-cone certificates close the finite remainder for all subsequent iterations. The [fixed manuscript, code and certificates](https://github.com/Aurantium-47/eventual-infinite-log-concavity/tree/68f4c920606ad239fbc3a8195bc0987b790f5905/research/trinomial-all-n-ge10) distinguish proof arguments, certificate replay and fresh enclosure reconstruction.
-- **Status:** Computer-assisted proof draft with [independent AI-assisted mathematical and computational review](https://github.com/Aurantium-47/eventual-infinite-log-concavity/blob/1f9c5ce4cd6c5b2e0fe908f11f0a51d85648591f/research/trinomial-all-n-ge10/review-2026-11-02/REVIEW.md). [Research draft PR #2](https://github.com/Aurantium-47/eventual-infinite-log-concavity/pull/2) is unmerged; no human peer review, formal verification or historical-priority certification is claimed.
+- **Stronger trinomial structure:** For every integer n ≥ 4004, the fourth-iterate polynomial has **2n distinct negative real roots**.
+- **Proof and reproduction:** The [general review](https://github.com/Aurantium-47/eventual-infinite-log-concavity/blob/77bc8246284556dd92dd2f01499cdd98d16b7104/research/general-positive-polynomial-powers/review-2026-11-02/REVIEW.md) checks the analytic closure and independently rebuilds all 2,047 Poisson certificates by two exact routes. The [trinomial manuscript, code and certificates](https://github.com/Aurantium-47/eventual-infinite-log-concavity/tree/68f4c920606ad239fbc3a8195bc0987b790f5905/research/trinomial-all-n-ge10) combine an unbounded analytic argument with finite invariant-cone certificates; its [2 November review](https://github.com/Aurantium-47/eventual-infinite-log-concavity/blob/1f9c5ce4cd6c5b2e0fe908f11f0a51d85648591f/research/trinomial-all-n-ge10/review-2026-11-02/REVIEW.md) distinguishes replay from fresh enclosure reconstruction.
+- **Status:** Computer-assisted proof drafts with independent AI-assisted mathematical and computational review. [Trinomial PR #2](https://github.com/Aurantium-47/eventual-infinite-log-concavity/pull/2) and [general-audit PR #3](https://github.com/Aurantium-47/eventual-infinite-log-concavity/pull/3) remain unmerged drafts. The general audit reviews an existing theorem, not a new result or family; no human peer review, formal verification or historical-priority certification is claimed.
 
 </details>
 
@@ -133,6 +136,21 @@ Current work uses **STaRK-MAG** to explore how entity text, attributes and graph
 **[Research-to-Decision](https://github.com/Aurantium-47/Research-to-Decision)** — an agent workflow that turns research into a choice. Built on BMad Deep Recon and OpenInquire’s cross-platform reading, it clarifies requirements, compares evidence and trade-offs, and explains when to choose an alternative.
 
 ## Contributions
+
+**Draft engineering · [Sentence Transformers: synchronized per-dataset batches #4317](https://github.com/huggingface/sentence-transformers/pull/4317)**
+
+Align tasks across ranks while allowing task-specific per-rank batch sizes; preserve the training schedule across checkpoint resume. **18 real two-rank CPU/Gloo Trainer runs** (6 configurations × full / prefix / resume) matched native-objective checks and continuous-versus-resumed trajectories in deterministic fixtures.
+
+**Not merged:** depends on the unmerged [Accelerate draft #4491](https://github.com/huggingface/accelerate/pull/4491); upstream CI awaits maintainer approval.
+
+<details>
+<summary>Scheduling diagram, fixed evidence & limits</summary>
+
+![Synchronized task scheduling: group same-task rank slots before sharding, retaining task-specific per-rank batch sizes](https://raw.githubusercontent.com/Aurantium-47/sentence-transformers/f4d3da733194cf46e5cbd8d6014df94f558e769a/research/synchronized-dataset-batches/assets/synchronized-task-scheduling.svg)
+
+[Fixed reproduction evidence · 2 November 2026](https://github.com/Aurantium-47/sentence-transformers/tree/f4d3da733194cf46e5cbd8d6014df94f558e769a/research/synchronized-dataset-batches) includes rank traces, source hashes and JSON-only oracle replay. The 18 jobs were run in an independent validation environment, not upstream CI. The diagram illustrates scheduling, not measured throughput. Scope: fixed two-rank CPU/Gloo, ordinary map-style sampling and deterministic resume fixtures; no GPU/NCCL, arbitrary stochastic-resume or performance claim. AI-assisted implementation, tests and evidence review.
+
+</details>
 
 Selected merged contributions:
 

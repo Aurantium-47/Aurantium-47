@@ -33,16 +33,19 @@
 
 [**研究目录 · 证明、反例与推广**](https://github.com/Aurantium-47/aurantium-mathematics)
 
-**[三项式无限对数凹性：所有 n ≥ 10，所有迭代层](https://github.com/Aurantium-47/eventual-infinite-log-concavity/tree/68f4c920606ad239fbc3a8195bc0987b790f5905/research/trinomial-all-n-ge10)** · <sub>[Medina–Straub · 2014 年 · 例 5.3](https://arxiv.org/abs/1405.1765v1) · 实根与正性</sub>
+**[无限对数凹性：正系数多项式的幂](https://github.com/Aurantium-47/eventual-infinite-log-concavity/tree/68f4c920606ad239fbc3a8195bc0987b790f5905)** · <sub>[Medina–Straub · 2014 年 · 猜想 5.2 / 例 5.3](https://arxiv.org/abs/1405.1765v1) · 实根与正性</sub>
 
-**两个无界量词，一份完整证明。** 对每个整数 n ≥ 10，(1+x+x²)^n 的系数序列均无限对数凹：支撑之外补零后，每一层对数凹迭代均非负。计算机辅助证明草稿完成例 5.3 的特定三项式断言，不是一般猜想 5.2。
+**同一项目的两个范围，都覆盖全部迭代层。**
+
+- **一般正系数多项式：** 对每个固定 p(x)=Σᵢ₌₀ᵈ cᵢxⁱ，其中每个 cᵢ 都是严格正实数，所有**整数 n ≥ N(p)** 的幂，其系数在全部迭代后均在原支撑内严格为正。同一个 N(p) 覆盖全部迭代层，但不宣称所有 p 共用阈值。这是已有的 **2026 年 10 月 14 日 Theorem B**，于 **11 月 2–3 日**完成独立复核。
+- **三项式锐阈值：** 对**每个整数 n ≥ 10**，(1+x+x²)^n 的系数在全部迭代后均非负；这一独立草稿处理例 5.3。两项结果均保持原支撑外为零，不推广到非整数幂或内部零系数。
 
 <details>
 <summary>更强结构、复现材料与复核状态</summary>
 
-- **更强结构：** 对每个整数 n ≥ 4004，第四层迭代多项式有 **2n 个互异负实根**。
-- **证明与复现：** 解析论证覆盖无界参数范围，精确不变锥证书补齐有限余项并覆盖其后全部迭代。[固定版本文稿、代码与证书](https://github.com/Aurantium-47/eventual-infinite-log-concavity/tree/68f4c920606ad239fbc3a8195bc0987b790f5905/research/trinomial-all-n-ge10)区分数学论证、证书重放和包络从头重建。
-- **当前状态：** 经[独立 AI 辅助数学与计算复核](https://github.com/Aurantium-47/eventual-infinite-log-concavity/blob/1f9c5ce4cd6c5b2e0fe908f11f0a51d85648591f/research/trinomial-all-n-ge10/review-2026-11-02/REVIEW.md)的计算机辅助证明草稿。[研究草稿 PR #2](https://github.com/Aurantium-47/eventual-infinite-log-concavity/pull/2)尚未合并；不宣称人工同行评审、形式化验证或历史首创认证。
+- **三项式的更强结构：** 对每个整数 n ≥ 4004，第四层迭代多项式有 **2n 个互异负实根**。
+- **证明与复现：** [一般定理复核](https://github.com/Aurantium-47/eventual-infinite-log-concavity/blob/77bc8246284556dd92dd2f01499cdd98d16b7104/research/general-positive-polynomial-powers/review-2026-11-02/REVIEW.md)检查解析闭合，并以两条精确路线独立重建全部 2,047 条 Poisson 证书。[三项式文稿、代码与证书](https://github.com/Aurantium-47/eventual-infinite-log-concavity/tree/68f4c920606ad239fbc3a8195bc0987b790f5905/research/trinomial-all-n-ge10)以解析论证覆盖无界范围，有限不变锥证书补齐余项；其 [11 月 2 日复核](https://github.com/Aurantium-47/eventual-infinite-log-concavity/blob/1f9c5ce4cd6c5b2e0fe908f11f0a51d85648591f/research/trinomial-all-n-ge10/review-2026-11-02/REVIEW.md)区分证书重放与包络从头重建。
+- **当前状态：** 两项均为经过独立 AI 辅助数学与计算复核的计算机辅助证明草稿。[三项式 PR #2](https://github.com/Aurantium-47/eventual-infinite-log-concavity/pull/2)及[一般定理审计 PR #3](https://github.com/Aurantium-47/eventual-infinite-log-concavity/pull/3)仍为未合并草稿。一般定理审计复核已有定理，不是新增成果或 family；不宣称人工同行评审、形式化验证或历史首创认证。
 
 </details>
 
@@ -133,6 +136,21 @@
 **[Research-to-Decision](https://github.com/Aurantium-47/Research-to-Decision)** — 从调研到抉择的 Agent 工作流。基于 BMad Deep Recon 和 OpenInquire 的跨平台读取，主动澄清需求、核对证据与实际利弊，给出首选、代价和改选条件。
 
 ## 开源贡献
+
+**工程草稿 · [Sentence Transformers：按数据集同步批次 #4317](https://github.com/huggingface/sentence-transformers/pull/4317)**
+
+让各 rank 在同一步处理同一任务，同时保留按任务配置的单 rank 批大小，并在 checkpoint 恢复后保持训练调度。**18 次真实双 rank CPU/Gloo Trainer 运行**（6 组配置 × 完整 / 前缀 / 恢复）通过原生目标检查，确定性测试中恢复后的轨迹与连续训练一致。
+
+**尚未合并：** 依赖同样未合并的 [Accelerate 草稿 #4491](https://github.com/huggingface/accelerate/pull/4491)；上游 CI 等待维护者批准运行。
+
+<details>
+<summary>调度示意图、固定复现证据与边界</summary>
+
+![先分组同一任务的 rank 批次再分片，保留各任务的单 rank 批大小](https://raw.githubusercontent.com/Aurantium-47/sentence-transformers/f4d3da733194cf46e5cbd8d6014df94f558e769a/research/synchronized-dataset-batches/assets/synchronized-task-scheduling.svg)
+
+[固定复现材料 · 2026 年 11 月 2 日](https://github.com/Aurantium-47/sentence-transformers/tree/f4d3da733194cf46e5cbd8d6014df94f558e769a/research/synchronized-dataset-batches)包含 rank 轨迹、源文件哈希及纯 JSON 数值核对。18 次运行来自独立验证环境，不是上游 CI；图示说明调度，不代表吞吐测量。范围限于固定双 rank CPU/Gloo、普通 map-style 采样及确定性恢复测试，不宣称 GPU/NCCL、任意随机恢复或性能收益。实现、测试和证据复核使用 AI 辅助。
+
+</details>
 
 部分已合并的上游贡献：
 
