@@ -33,6 +33,25 @@ Open source made new things possible for more people.
 
 [**Research catalog · Proofs, counterexamples and generalizations**](https://github.com/Aurantium-47/aurantium-mathematics)
 
+**[Kubitzke–Welker Question 4.4: all degrees 1–13](https://github.com/Aurantium-47/kubitzke-welker-degree13/tree/11e7139f991497229885d2f1b096949c77265e92)** · <sub>[Original question, p. 17](https://www.mathematik.uni-marburg.de/~welker/preprints/Veronese.pdf#page=17) · Real-rooted polynomials / simplicial complexes</sub>
+
+**No coefficient-height bound.** For a real-rooted polynomial h(t)=1+h₁t+⋯+h_dtᵈ with positive integer coefficients and 1 ≤ d ≤ 13, every strictly increasing initial prefix 1 < h₁ < ⋯ < hᵣ gives a simplicial f-vector (1,h₁−1,…,hᵣ−hᵣ₋₁).
+
+**Proof and scope:** A rigorous computer-assisted proof combines exhaustive exact integer enumeration with an analytic proof covering the entire unbounded tail. **The unrestricted-degree question remains unresolved here.**
+
+**Review and priority:** AI-generated work checked by two independent AI review processes, with three implementations of the finite computation. **No human peer review or proof-assistant formalization; novelty and publication priority are unestablished.** [Provenance and limits](https://github.com/Aurantium-47/kubitzke-welker-degree13/blob/11e7139f991497229885d2f1b096949c77265e92/PROVENANCE.md)
+
+<details>
+<summary>Scope diagram, proofs and exact certificates</summary>
+
+<img src="https://raw.githubusercontent.com/Aurantium-47/kubitzke-welker-degree13/11e7139f991497229885d2f1b096949c77265e92/assets/overview.png" width="920" alt="Real-rooted degrees 1–13 with unbounded coefficient sizes: exact finite enumeration plus a proved infinite tail. The Newton-only result stops at degree 11, and unrestricted degree remains unresolved.">
+
+- **Proof:** The [degree-12 argument](https://github.com/Aurantium-47/kubitzke-welker-degree13/blob/11e7139f991497229885d2f1b096949c77265e92/proofs/degree12_proof.md) and [degree-13 extension](https://github.com/Aurantium-47/kubitzke-welker-degree13/blob/11e7139f991497229885d2f1b096949c77265e92/proofs/degree13_extension.md) establish the initial-difference Kruskal–Katona conclusion, not merely Macaulay growth or the separate original-coefficient question.
+- **[Reproducibility](https://github.com/Aurantium-47/kubitzke-welker-degree13/blob/11e7139f991497229885d2f1b096949c77265e92/REPRODUCIBILITY.md):** 10,445,449 finite q values across 66 index cases leave 15 local candidate tuples, all excluded by exact algebraic arguments. The infinite tail is proved, not truncated at a search limit.
+- **Boundary:** Newton inequalities alone suffice through degree 11 and fail in degree 12. That obstruction is not real-rooted and does not refute Question 4.4. [Primary sources and prior-art distinctions](https://github.com/Aurantium-47/kubitzke-welker-degree13/blob/11e7139f991497229885d2f1b096949c77265e92/SOURCES.md)
+
+</details>
+
 **[Ferroni–McGinnis unit-circle conjecture · proof candidate](https://github.com/Aurantium-47/ferroni-mcginnis-unit-circle/tree/d9b2bc10e2c8efef8765542f099ea9432ac45de9)** · <sub>[Conjecture 4.5](https://arxiv.org/html/2202.11808v2#S4.SS2) · Polynomial zeros</sub>
 
 **Every positive integer capacity vector → all zeros on |x| = 1.** The analytic manuscript covers the weighted-permutation polynomial for every n ≥ 1 and 1 ≤ k ≤ n, including unequal capacities. Constant polynomials have no zeros.
