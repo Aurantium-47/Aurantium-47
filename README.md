@@ -33,6 +33,26 @@ Open source made new things possible for more people.
 
 [**Research catalog · Proofs, counterexamples and generalizations**](https://github.com/Aurantium-47/aurantium-mathematics)
 
+<!-- STACK_SORTING_CANDIDATE:START -->
+**[Stack-sorting fibres: full log-concavity proof candidate](https://github.com/Aurantium-47/aurantium-mathematics/tree/d6c4747db93eb8c7acfcb792215452cc1f2249dc/research/stack-sorting-fibre-log-concavity)** · <sub>[Defant's explicit 2020 question, p. 37](https://www.mat.univie.ac.at/~slc/wpapers/s82defant.pdf#page=37) · Enumerative combinatorics</sub>
+
+**Every fixed fibre, every size.** This AI-assisted full proof candidate addresses the log-concavity question immediately after Defant's Conjecture 31 and strengthens it to ultra-log-concavity of the trimmed descent distribution. **The stronger real-rootedness conjecture is not resolved by this work.**
+
+**Proposed contribution:** a formal tail-shift representation and exact three-variable Lorentzian lift for all integral laminar Narayana sums with positive singleton weights. Defant's fertility formulas and polyhedral machinery, Brändén–Huh's framework, and Ross–Süss–Wannerer's ordinary truncation theorem are credited inputs; Defant also suggested exploring a Lorentzian connection.
+
+<details>
+<summary>Proof route, exact example and verification scope</summary>
+
+<img src="https://raw.githubusercontent.com/Aurantium-47/aurantium-mathematics/d6c4747db93eb8c7acfcb792215452cc1f2249dc/research/stack-sorting-fibre-log-concavity/assets/overview.svg" width="920" alt="Candidate route from a fixed stack-sorting fibre through laminar Narayana sums and a Lorentzian lift to trimmed ultra-log-concavity. Exact 50-point example has coefficients 50,457,1469,2131,1469,457,50. Real-rootedness is unresolved by this work.">
+
+The editable proof and reproducible code cover the full permitted parameter range. Supplementary exact checks reproduced **4,037,913 permutations and 89,261 nonempty fibres through size 10**, plus **204 laminar cases and 22,088 quadratic Hessian checks**. Finite enumeration is supplementary to the general argument.
+
+</details>
+
+**Review and priority:** internal AI reviews, including a fresh full-source adversarial review, found no substantive gap. **No external peer review or proof-assistant verification; historical priority is unestablished.** [Exact review coverage, primary sources and reproduction limits](https://github.com/Aurantium-47/aurantium-mathematics/blob/d6c4747db93eb8c7acfcb792215452cc1f2249dc/research/stack-sorting-fibre-log-concavity/review/FINAL_VERIFICATION.md).
+
+<!-- STACK_SORTING_CANDIDATE:END -->
+
 **[Kubitzke–Welker Question 4.4: all degrees 1–13](https://github.com/Aurantium-47/kubitzke-welker-degree13/tree/11e7139f991497229885d2f1b096949c77265e92)** · <sub>[Original question, p. 17](https://www.mathematik.uni-marburg.de/~welker/preprints/Veronese.pdf#page=17) · Real-rooted polynomials / simplicial complexes</sub>
 
 **No coefficient-height bound.** For a real-rooted polynomial h(t)=1+h₁t+⋯+h_dtᵈ with positive integer coefficients and 1 ≤ d ≤ 13, every strictly increasing initial prefix 1 < h₁ < ⋯ < hᵣ gives a simplicial f-vector (1,h₁−1,…,hᵣ−hᵣ₋₁).
