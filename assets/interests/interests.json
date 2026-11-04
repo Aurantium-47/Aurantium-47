@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18",
+  "updated": "2026-11-04",
   "note": "AI-curated & maintained",
   "record": {
     "title": "Don't Look Back in Anger",
@@ -148,6 +148,26 @@
         "x": 117.967,
         "y": -92.13,
         "z": 9.788
+      }
+    },
+    {
+      "text": "Effective Altruism",
+      "zh": "有效利他主义",
+      "size": 24,
+      "position": {
+        "x": -145,
+        "y": 60,
+        "z": -105
+      }
+    },
+    {
+      "text": "Earn to Give",
+      "zh": "Earn to Give",
+      "size": 24,
+      "position": {
+        "x": 80,
+        "y": -130,
+        "z": -110
       }
     }
   ],

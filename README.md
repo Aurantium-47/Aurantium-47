@@ -21,8 +21,8 @@
 </p>
 <p>
   <picture>
-    <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/f26d83ce59e24bd7c9000ae94a74b64fddeb616e/assets/interests/words-mobile.svg?v=5">
-    <img src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/f26d83ce59e24bd7c9000ae94a74b64fddeb616e/assets/interests/words.svg?v=5" width="920" alt="">
+    <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/interests/words-mobile.svg?v=20261104">
+    <img src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/interests/words.svg?v=20261104" width="920" alt="">
   </picture>
 </p>
 <!-- INTERESTS:END -->
