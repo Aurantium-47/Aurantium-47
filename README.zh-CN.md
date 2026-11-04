@@ -33,6 +33,23 @@
 
 [**研究目录 · 证明、反例与推广**](https://github.com/Aurantium-47/aurantium-mathematics)
 
+**[Gessel–Zhuang 顶峰集 gamma 猜想 · 完整证明候选稿](https://github.com/Aurantium-47/gessel-zhuang-pinnacle-gamma/tree/a157e4eb8b882a3fd3385e25bfc05457c45a3dec)** · <sub>[2023 年提出 · 2024 年 Forum of Mathematics, Sigma · 猜想 7.3](https://doi.org/10.1017/fms.2024.89) · 排列统计 / 实根多项式</sub>
+
+**任意规模、任意顶峰值集合。** 候选稿先给出更强的逐标号 arity 实根性定理：固定顶峰值与谷值集合时，逆下降多项式仅有非正实根；再由反转对称性及统一 gamma 基求和，覆盖原始猜想 7.3 的全部 n ≥ 1、S ⊆ [n]，并推出 7.2。
+
+**审核与优先权：** AI 辅助完整证明候选；内部独立数学和精确计算审查未发现实质漏洞。**尚未经外部同行评审，未做证明助手形式化，历史优先权未确认。**
+
+<details>
+<summary>证明路线、精确复跑与前人归属</summary>
+
+<img src="https://raw.githubusercontent.com/Aurantium-47/gessel-zhuang-pinnacle-gamma/a157e4eb8b882a3fd3385e25bfc05457c45a3dec/proof-map.svg" width="920" alt="逐标号 arity 的插空递推，经兼容性闭包得到实根性，再用反转和统一 gamma 基求和得到全量词猜想。有限计算与全规模证明分开。">
+
+- **[七页证明](https://github.com/Aurantium-47/gessel-zhuang-pinnacle-gamma/blob/a157e4eb8b882a3fd3385e25bfc05457c45a3dec/pinnacle_gamma_proof.pdf)** · [LaTeX 源码](https://github.com/Aurantium-47/gessel-zhuang-pinnacle-gamma/blob/a157e4eb8b882a3fd3385e25bfc05457c45a3dec/pinnacle_gamma_proof.tex)：二叉／叶／一元转移通过已知兼容性变换、保序删项与相邻求和保持不变量，论证覆盖任意规模。
+- **[复现程序与实际结果](https://github.com/Aurantium-47/gessel-zhuang-pinnacle-gamma/blob/a157e4eb8b882a3fd3385e25bfc05457c45a3dec/VERIFY.md)：** 两套程序在 Windows 复跑通过；n ≤ 10 的 1,374 个非空 arity 类均匹配并通过精确实根隔离，n ≤ 8 共检查 2,460 个中间状态。有限检验支持实现，不代替全规模证明，也不将原作者已有的 n ≤ 10 数值范围作为新结果。
+- **[来源与文献边界](https://github.com/Aurantium-47/gessel-zhuang-pinnacle-gamma/blob/a157e4eb8b882a3fd3385e25bfc05457c45a3dec/PRIOR_ART_NOTE.md)：** 承认 Chen–Fu 的插空／局部逆下降编码、已有顶峰与二叉结点对应及兼容性工具。所主张的推进是逐标号 arity 的统一实根性，不声称上述工具首创。
+
+</details>
+
 **[Kubitzke–Welker 问题 4.4：覆盖全部 1–13 次情形](https://github.com/Aurantium-47/kubitzke-welker-degree13/tree/11e7139f991497229885d2f1b096949c77265e92)** · <sub>[原问题，第 17 页](https://www.mathematik.uni-marburg.de/~welker/preprints/Veronese.pdf#page=17) · 实根多项式 / 单纯复形</sub>
 
 **系数大小不设上限。** 对任意仅有实零点、系数为正整数的 h(t)=1+h₁t+⋯+h_dtᵈ，只要 1 ≤ d ≤ 13，每个严格递增初段 1 < h₁ < ⋯ < hᵣ 的差分向量 (1,h₁−1,…,hᵣ−hᵣ₋₁) 都是某个单纯复形的 f 向量。
