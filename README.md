@@ -33,6 +33,23 @@ Open source made new things possible for more people.
 
 [**Research catalog · Proofs, counterexamples and generalizations**](https://github.com/Aurantium-47/aurantium-mathematics)
 
+**[Gessel–Zhuang pinnacle gamma conjecture · complete proof candidate](https://github.com/Aurantium-47/gessel-zhuang-pinnacle-gamma/tree/a157e4eb8b882a3fd3385e25bfc05457c45a3dec)** · <sub>[Posed in 2023 · Forum of Mathematics, Sigma 2024 · Conjecture 7.3](https://doi.org/10.1017/fms.2024.89) · Permutation statistics / real-rooted polynomials</sub>
+
+**Every size, every pinnacle value set.** The candidate first establishes a stronger labelwise-arity theorem: fixing both pinnacle and vale values gives an inverse-descent polynomial with only real nonpositive zeros. Reversal and summation in a common gamma basis then cover the original Conjecture 7.3 for every n ≥ 1 and S ⊆ [n], implying 7.2.
+
+**Review and priority:** AI-assisted complete proof candidate; independent internal mathematical and exact computational reviews found no substantive gap. **No external peer review or proof-assistant formalization; historical priority is unestablished.**
+
+<details>
+<summary>Proof route, exact reruns and credited inputs</summary>
+
+<img src="https://raw.githubusercontent.com/Aurantium-47/gessel-zhuang-pinnacle-gamma/a157e4eb8b882a3fd3385e25bfc05457c45a3dec/proof-map.svg" width="920" alt="A fixed-label arity slot recurrence preserves directed compatibility, giving real-rootedness; reversal and a common gamma-basis sum yield the original all-size conjecture. Finite checks are separate from the proof.">
+
+- **[Seven-page proof](https://github.com/Aurantium-47/gessel-zhuang-pinnacle-gamma/blob/a157e4eb8b882a3fd3385e25bfc05457c45a3dec/pinnacle_gamma_proof.pdf)** · [LaTeX source](https://github.com/Aurantium-47/gessel-zhuang-pinnacle-gamma/blob/a157e4eb8b882a3fd3385e25bfc05457c45a3dec/pinnacle_gamma_proof.tex): binary/leaf/unary transitions preserve the invariant through a known compatibility transform, ordered restriction and adjacent sums, for every size.
+- **[Programs and actual results](https://github.com/Aurantium-47/gessel-zhuang-pinnacle-gamma/blob/a157e4eb8b882a3fd3385e25bfc05457c45a3dec/VERIFY.md):** both Windows reruns passed; all 1,374 nonempty arity classes through n=10 matched and passed exact real-root isolation, with 2,460 intermediate states checked through n=8. Finite tests support the implementation and do not replace the all-size proof or advance the original authors' n≤10 numerical range.
+- **[Sources and priority limits](https://github.com/Aurantium-47/gessel-zhuang-pinnacle-gamma/blob/a157e4eb8b882a3fd3385e25bfc05457c45a3dec/PRIOR_ART_NOTE.md):** Chen–Fu's slot/local inverse-descent encoding, the known pinnacle/binary-node correspondence and compatibility tools retain their attribution. The proposed advance is uniform labelwise-arity real-rootedness, without claiming invention of those tools.
+
+</details>
+
 **[Kubitzke–Welker Question 4.4: all degrees 1–13](https://github.com/Aurantium-47/kubitzke-welker-degree13/tree/11e7139f991497229885d2f1b096949c77265e92)** · <sub>[Original question, p. 17](https://www.mathematik.uni-marburg.de/~welker/preprints/Veronese.pdf#page=17) · Real-rooted polynomials / simplicial complexes</sub>
 
 **No coefficient-height bound.** For a real-rooted polynomial h(t)=1+h₁t+⋯+h_dtᵈ with positive integer coefficients and 1 ≤ d ≤ 13, every strictly increasing initial prefix 1 < h₁ < ⋯ < hᵣ gives a simplicial f-vector (1,h₁−1,…,hᵣ−hᵣ₋₁).
