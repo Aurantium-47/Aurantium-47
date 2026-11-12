@@ -33,6 +33,19 @@
 
 [**研究目录 · 证明、反例与推广**](https://github.com/Aurantium-47/aurantium-mathematics)
 
+**[栈排序纤维：超对数凹性](https://github.com/Aurantium-47/aurantium-mathematics/tree/d6c4747db93eb8c7acfcb792215452cc1f2249dc/research/stack-sorting-fibre-log-concavity)** · <sub>排列统计 · Lorentzian 多项式</sub>
+
+覆盖每个栈排序纤维的统一证明候选，并给出更强的去零后超对数凹性结论。
+
+<details>
+<summary>证明路线与相关文献</summary>
+
+- **方法：** 层状 Narayana 递推与三变量 Lorentzian 提升。
+- **版本记录：** [本稿提交：2026年11月4日（UTC）](https://github.com/Aurantium-47/aurantium-mathematics/commit/d6c4747db93eb8c7acfcb792215452cc1f2249dc)；[Defant 预印本：2026年11月10日，Theorem 1.1](https://arxiv.org/html/2611.13479v1#S1.Thmtheorem1)给出对应的完整下降分布 ULC 结论。本稿去零后的结论蕴含该定理；后者另有多变量拟阵结构结果。
+- **核验：** 经独立 AI 数学审查；尚无人类同行评审或历史优先权认证。
+
+</details>
+
 **[Kubitzke–Welker 问题 4.4：覆盖全部 1–13 次情形](https://github.com/Aurantium-47/kubitzke-welker-degree13/tree/11e7139f991497229885d2f1b096949c77265e92)** · <sub>[原问题，第 17 页](https://www.mathematik.uni-marburg.de/~welker/preprints/Veronese.pdf#page=17) · 实根多项式 / 单纯复形</sub>
 
 **系数大小不设上限。** 对任意仅有实零点、系数为正整数的 h(t)=1+h₁t+⋯+h_dtᵈ，只要 1 ≤ d ≤ 13，每个严格递增初段 1 < h₁ < ⋯ < hᵣ 的差分向量 (1,h₁−1,…,hᵣ−hᵣ₋₁) 都是某个单纯复形的 f 向量。
