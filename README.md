@@ -33,6 +33,19 @@ Open source made new things possible for more people.
 
 [**Research catalog · Proofs, counterexamples and generalizations**](https://github.com/Aurantium-47/aurantium-mathematics)
 
+**[Stack-sorting fibres: ultra-log-concavity](https://github.com/Aurantium-47/aurantium-mathematics/tree/d6c4747db93eb8c7acfcb792215452cc1f2249dc/research/stack-sorting-fibre-log-concavity)** · <sub>Permutation statistics · Lorentzian polynomials</sub>
+
+A uniform proof candidate for every stack-sorting fibre, with a stronger trimmed ultra-log-concavity conclusion.
+
+<details>
+<summary>Proof route and related literature</summary>
+
+- **Method:** Laminar Narayana recurrences and a three-variable Lorentzian lift.
+- **Dated versions:** [Our draft commit, 4 November 2026 (UTC)](https://github.com/Aurantium-47/aurantium-mathematics/commit/d6c4747db93eb8c7acfcb792215452cc1f2249dc); [Defant’s preprint, 10 November 2026, Theorem 1.1](https://arxiv.org/html/2611.13479v1#S1.Thmtheorem1) gives the corresponding full-distribution ULC result. The draft’s trimmed statement implies that conclusion; the preprint also develops a separate multivariate matroid structure.
+- **Review:** Independently checked by AI-assisted mathematical reviews; human peer review and historical priority are not established.
+
+</details>
+
 **[Kubitzke–Welker Question 4.4: all degrees 1–13](https://github.com/Aurantium-47/kubitzke-welker-degree13/tree/11e7139f991497229885d2f1b096949c77265e92)** · <sub>[Original question, p. 17](https://www.mathematik.uni-marburg.de/~welker/preprints/Veronese.pdf#page=17) · Real-rooted polynomials / simplicial complexes</sub>
 
 **No coefficient-height bound.** For a real-rooted polynomial h(t)=1+h₁t+⋯+h_dtᵈ with positive integer coefficients and 1 ≤ d ≤ 13, every strictly increasing initial prefix 1 < h₁ < ⋯ < hᵣ gives a simplicial f-vector (1,h₁−1,…,hᵣ−hᵣ₋₁).
