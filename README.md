@@ -92,6 +92,11 @@ Selected merged contributions:
 
 **More merged contributions**
 
+- **[Haystack](https://github.com/deepset-ai/haystack)** [![Stars](https://img.shields.io/github/stars/deepset-ai/haystack?style=flat&color=gold)](https://github.com/deepset-ai/haystack/stargazers) · [#13422](https://github.com/deepset-ai/haystack/pull/13422) · Python code-splitting boundaries
+- **[spdlog](https://github.com/gabime/spdlog)** [![Stars](https://img.shields.io/github/stars/gabime/spdlog?style=flat&color=gold)](https://github.com/gabime/spdlog/stargazers) · [#3683](https://github.com/gabime/spdlog/pull/3683) · Windows TCP error handling
+- **[Resty](https://github.com/go-resty/resty)** [![Stars](https://img.shields.io/github/stars/go-resty/resty?style=flat&color=gold)](https://github.com/go-resty/resty/stargazers) · [#1250](https://github.com/go-resty/resty/pull/1250) · curl request reproduction
+- **[GitHub gitignore](https://github.com/github/gitignore)** [![Stars](https://img.shields.io/github/stars/github/gitignore?style=flat&color=gold)](https://github.com/github/gitignore/stargazers) · [#4931](https://github.com/github/gitignore/pull/4931) · temporary sync-file rules
+- **[Claude Trading Skills](https://github.com/tradermonty/claude-trading-skills)** [![Stars](https://img.shields.io/github/stars/tradermonty/claude-trading-skills?style=flat&color=gold)](https://github.com/tradermonty/claude-trading-skills/stargazers) · [#596](https://github.com/tradermonty/claude-trading-skills/pull/596) · position-risk reporting consistency
 - **[awesome-python](https://github.com/vinta/awesome-python)** [![Stars](https://img.shields.io/github/stars/vinta/awesome-python?style=flat&color=gold)](https://github.com/vinta/awesome-python/stargazers) · [#3376](https://github.com/vinta/awesome-python/pull/3376) · Keyboard navigation
 - **[IPython](https://github.com/ipython/ipython)** [![Stars](https://img.shields.io/github/stars/ipython/ipython?style=flat&color=gold)](https://github.com/ipython/ipython/stargazers) · [#15435](https://github.com/ipython/ipython/pull/15435) · Pathlib support
 - **[Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh)** [![Stars](https://img.shields.io/github/stars/ohmyzsh/ohmyzsh?style=flat&color=gold)](https://github.com/ohmyzsh/ohmyzsh/stargazers) · [#14184](https://github.com/ohmyzsh/ohmyzsh/pull/14184) · uv documentation
