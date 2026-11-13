@@ -43,7 +43,9 @@
 
 **[栈排序：排列计数规律的统一证明稿](https://github.com/Aurantium-47/aurantium-mathematics/tree/d6c4747db93eb8c7acfcb792215452cc1f2249dc/research/stack-sorting-fibre-log-concavity)** · <sub>2026 · 组合数学</sub>
 
-研究按同一排序结果分组的排列，其计数分布为何满足更强的对数凹性。**[本稿 Git 提交：11 月 4 日](https://github.com/Aurantium-47/aurantium-mathematics/commit/d6c4747db93eb8c7acfcb792215452cc1f2249dc)**；对应结论亦见 Colin Defant <sub>（<a href="https://sites.google.com/view/colin-defant/home">哈佛大学博士后</a>）</sub> 的**[11 月 10 日 arXiv 预印本定理 1.1](https://arxiv.org/html/2611.13479v1#S1.Thmtheorem1)**。证明与文献对照已公开。
+研究按同一排序结果分组的排列，其计数分布为何满足更强的对数凹性。**[本稿 Git 提交：11 月 4 日](https://github.com/Aurantium-47/aurantium-mathematics/commit/d6c4747db93eb8c7acfcb792215452cc1f2249dc)**。证明及与 Colin Defant<sup>*</sup> 相关工作的文献对照已公开。
+
+> <sub>* <a href="https://sites.google.com/view/colin-defant/home">Colin Defant，哈佛大学博士后</a>；其 <a href="https://arxiv.org/html/2611.13479v1#S1.Thmtheorem1">11 月 10 日 arXiv 预印本定理 1.1</a> 亦给出对应结论。</sub>
 
 **[更多数学工作 · 完整目录与验证材料](https://github.com/Aurantium-47/aurantium-mathematics#全部项目)**
 
