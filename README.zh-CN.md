@@ -217,6 +217,8 @@
 
 部分已合并的上游贡献：
 
+<p><strong><a href="https://github.com/HKUDS/LightRAG">LightRAG</a></strong> · <sub><a href="https://github.com/HKUDS/LightRAG/pull/4368">#4368</a> · 已合并</sub><br>定位并修复 PostgreSQL 旧向量迁移中“部分完成却被视为成功”的数据完整性缺陷，提供复现、服务端复制方案和回归测试。维护者在此基础上完善了分段恢复与跨实例并发保护，并<a href="https://github.com/HKUDS/LightRAG/pull/4368#issuecomment-6828325439">验证 20,000 条 256 维向量逐行一致、30,000 条双实例并发迁移无重复</a>。</p>
+
 <p><strong><a href="https://github.com/huggingface/tokenizers">Hugging Face Tokenizers</a></strong> · <sub><a href="https://github.com/huggingface/tokenizers/pull/2567">#2567</a></sub> · 修复 Kimi 预分词中 Han 字符与数字、标点类别重叠的处理，保持跨字节块边界的正则切分语义，并补充一致性与 JSON/BPE 编码回归测试。</p>
 
 <p><a href="https://github.com/huggingface/sentence-transformers/stargazers"><img alt="Sentence Transformers 上游 star：19,212" src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/main/assets/stars/huggingface-sentence-transformers-19212.svg" width="180" align="right"></a><strong><a href="https://github.com/huggingface/sentence-transformers">Sentence Transformers</a></strong> · <sub><a href="https://github.com/huggingface/sentence-transformers/pull/4251">#4251</a> · <a href="https://github.com/huggingface/sentence-transformers/pull/4262">#4262</a> · <a href="https://github.com/huggingface/sentence-transformers/pull/4264">#4264</a> · <a href="https://github.com/huggingface/sentence-transformers/pull/4284">#4284</a></sub><br>句向量与语义检索。修复复用浮点 USearch 索引时的重排判断，避免浮点向量被截断后破坏检索排序。 另已合并：修复无分数过滤条件时困难负样本挖掘忽略 CrossEncoder 重排的问题（#4262）；处理重排评估中的空候选列表（#4264）；排除 GIST 引导分数相同时误作负样本的自身配对（#4284）。</p>
