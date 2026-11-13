@@ -15,8 +15,8 @@
 <!-- INTERESTS:START -->
 <p>
   <picture>
-    <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/f66fade9b3a78cbb0cde0b1588fad17ff55e3075/assets/interests/records-mobile-zh.svg?v=5">
-    <img src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/f66fade9b3a78cbb0cde0b1588fad17ff55e3075/assets/interests/records-zh.svg?v=5" width="920" alt="">
+    <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/1f602d108664473913d750b0c40b35f375554d12/assets/interests/records-mobile-zh.svg?v=20261113">
+    <img src="https://raw.githubusercontent.com/Aurantium-47/Aurantium-47/1f602d108664473913d750b0c40b35f375554d12/assets/interests/records-zh.svg?v=20261113" width="920" alt="">
   </picture>
 </p>
 <p>
