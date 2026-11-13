@@ -45,8 +45,6 @@
 
 研究按同一排序结果分组的排列，其计数分布为何满足更强的对数凹性。**[本稿 Git 提交：11 月 4 日](https://github.com/Aurantium-47/aurantium-mathematics/commit/d6c4747db93eb8c7acfcb792215452cc1f2249dc)**；对应结论亦见 Colin Defant <sub>（<a href="https://sites.google.com/view/colin-defant/home">哈佛大学博士后</a>）</sub> 的**[11 月 10 日 arXiv 预印本定理 1.1](https://arxiv.org/html/2611.13479v1#S1.Thmtheorem1)**。证明与文献对照已公开。
 
-<sub>以上为 AI 辅助研究稿，已记录相应核验；尚非人类同行评审成果。文献与日期展示研究背景，不代表作者认可或优先权认定。</sub>
-
 **[更多数学工作 · 完整目录与验证材料](https://github.com/Aurantium-47/aurantium-mathematics#全部项目)**
 
 ## NLP 与信息检索
