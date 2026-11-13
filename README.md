@@ -31,160 +31,23 @@ Open source made new things possible for more people.
 
 ## Mathematical research
 
-[**Research catalog · Proofs, counterexamples and generalizations**](https://github.com/Aurantium-47/aurantium-mathematics)
+[**Research index · Proofs, counterexamples & extensions**](https://github.com/Aurantium-47/aurantium-mathematics)
 
-**[Stack-sorting fibres: ultra-log-concavity](https://github.com/Aurantium-47/aurantium-mathematics/tree/d6c4747db93eb8c7acfcb792215452cc1f2249dc/research/stack-sorting-fibre-log-concavity)** · <sub>Permutation statistics · Lorentzian polynomials</sub>
+**[Two negative answers from the AIM problem list](https://github.com/Aurantium-47/aim23-czds-counterexample)** · <sub>2004 / 2007 · Polynomial zeros</sub>
 
-A uniform proof candidate for every stack-sorting fibre, with a stronger trimmed ultra-log-concavity conclusion.
+Questions dating back two decades ask whether polynomial transformations preserve properties of their zeros. **AIM 23: a counterexample increases nonreal zeros from 4 to 6. [AIM 34](https://github.com/Aurantium-47/aim34-multiplier-sequence): from asking whether sufficiently large integer parameters work to ruling out every positive real parameter.** Both include Lean sources, historical replay records and independent AI review. [Background: Craven–Csordas](https://math.hawaii.edu/~tom/mathfiles/czdssurvey.pdf) · [Chasse's dissertation](https://math.hawaii.edu/home/talks/thesis.pdf)
 
-<details>
-<summary>Proof route and related literature</summary>
+**[BRW graph polynomials: progress on a 1994 question](https://github.com/Aurantium-47/brw-tau-clique-attachments/tree/dc6d35ba53c6a41064bc9982cb524b05b74dc2ff/extensions/2026-11-02-uniform-cycle-substitution)** · <sub>[Canadian Journal of Mathematics · 1994](https://doi.org/10.4153/CJM-1994-002-3) · Graph theory</sub>
 
-- **Method:** Laminar Narayana recurrences and a three-variable Lorentzian lift.
-- **Dated versions:** [Our draft commit, 4 November 2026 (UTC)](https://github.com/Aurantium-47/aurantium-mathematics/commit/d6c4747db93eb8c7acfcb792215452cc1f2249dc); [Defant’s preprint, 10 November 2026, Theorem 1.1](https://arxiv.org/html/2611.13479v1#S1.Thmtheorem1) gives the corresponding full-distribution ULC result. The draft’s trimmed statement implies that conclusion; the preprint also develops a separate multivariate matroid structure.
-- **Review:** Independently checked by AI-assisted mathematical reviews; human peer review and historical priority are not established.
+When graphs are assembled, which polynomial-zero properties survive? **A uniform result extends particular cycle lengths to every cycle length:** replacing one cycle vertex with a graph satisfying the stated condition preserves the relevant real-rootedness property and permits further attachment along an edge. This covers a whole construction family, as a partial result toward the general conjecture.
 
-</details>
+**[Stack-sorting: a uniform proof draft for permutation counts](https://github.com/Aurantium-47/aurantium-mathematics/tree/d6c4747db93eb8c7acfcb792215452cc1f2249dc/research/stack-sorting-fibre-log-concavity)** · <sub>2026 · Combinatorics</sub>
 
-**[Kubitzke–Welker Question 4.4: all degrees 1–13](https://github.com/Aurantium-47/kubitzke-welker-degree13/tree/11e7139f991497229885d2f1b096949c77265e92)** · <sub>[Original question, p. 17](https://www.mathematik.uni-marburg.de/~welker/preprints/Veronese.pdf#page=17) · Real-rooted polynomials / simplicial complexes</sub>
+A proof draft explaining a stronger form of log-concavity in counts of permutations sharing a sorting output. **[This draft's Git commit: November 4](https://github.com/Aurantium-47/aurantium-mathematics/commit/d6c4747db93eb8c7acfcb792215452cc1f2249dc)**; the corresponding conclusion also appears as **[Theorem 1.1 in Colin Defant's November 10 arXiv preprint](https://arxiv.org/html/2611.13479v1#S1.Thmtheorem1)**. The proof and literature comparison are public.
 
-**No coefficient-height bound.** For a real-rooted polynomial h(t)=1+h₁t+⋯+h_dtᵈ with positive integer coefficients and 1 ≤ d ≤ 13, every strictly increasing initial prefix 1 < h₁ < ⋯ < hᵣ gives a simplicial f-vector (1,h₁−1,…,hᵣ−hᵣ₋₁).
+<sub>AI-assisted research drafts with documented checks, not human-peer-reviewed results. References and dates provide research context, not author endorsement or a priority determination.</sub>
 
-**Proof and scope:** A rigorous computer-assisted proof combines exhaustive exact integer enumeration with an analytic proof covering the entire unbounded tail. **The unrestricted-degree question remains unresolved here.**
-
-**Review and priority:** AI-generated work checked by two independent AI review processes, with three implementations of the finite computation. **No human peer review or proof-assistant formalization; novelty and publication priority are unestablished.** [Provenance and limits](https://github.com/Aurantium-47/kubitzke-welker-degree13/blob/11e7139f991497229885d2f1b096949c77265e92/PROVENANCE.md)
-
-<details>
-<summary>Scope diagram, proofs and exact certificates</summary>
-
-<img src="https://raw.githubusercontent.com/Aurantium-47/kubitzke-welker-degree13/11e7139f991497229885d2f1b096949c77265e92/assets/overview.png" width="920" alt="Real-rooted degrees 1–13 with unbounded coefficient sizes: exact finite enumeration plus a proved infinite tail. The Newton-only result stops at degree 11, and unrestricted degree remains unresolved.">
-
-- **Proof:** The [degree-12 argument](https://github.com/Aurantium-47/kubitzke-welker-degree13/blob/11e7139f991497229885d2f1b096949c77265e92/proofs/degree12_proof.md) and [degree-13 extension](https://github.com/Aurantium-47/kubitzke-welker-degree13/blob/11e7139f991497229885d2f1b096949c77265e92/proofs/degree13_extension.md) establish the initial-difference Kruskal–Katona conclusion, not merely Macaulay growth or the separate original-coefficient question.
-- **[Reproducibility](https://github.com/Aurantium-47/kubitzke-welker-degree13/blob/11e7139f991497229885d2f1b096949c77265e92/REPRODUCIBILITY.md):** 10,445,449 finite q values across 66 index cases leave 15 local candidate tuples, all excluded by exact algebraic arguments. The infinite tail is proved, not truncated at a search limit.
-- **Boundary:** Newton inequalities alone suffice through degree 11 and fail in degree 12. That obstruction is not real-rooted and does not refute Question 4.4. [Primary sources and prior-art distinctions](https://github.com/Aurantium-47/kubitzke-welker-degree13/blob/11e7139f991497229885d2f1b096949c77265e92/SOURCES.md)
-
-</details>
-
-**[Ferroni–McGinnis unit-circle conjecture · proof candidate](https://github.com/Aurantium-47/ferroni-mcginnis-unit-circle/tree/d9b2bc10e2c8efef8765542f099ea9432ac45de9)** · <sub>[Conjecture 4.5](https://arxiv.org/html/2202.11808v2#S4.SS2) · Polynomial zeros</sub>
-
-**Every positive integer capacity vector → all zeros on |x| = 1.** The analytic manuscript covers the weighted-permutation polynomial for every n ≥ 1 and 1 ≤ k ≤ n, including unequal capacities. Constant polynomials have no zeros.
-
-**Review and priority:** Two independent AI reviews found no mathematical gap; this remains a **proof candidate without human peer review or formal verification**. A September 2026 MathOverflow comment links a possible earlier solution whose content could not be inspected. **Novelty and priority remain unresolved; neither is claimed.** [Review status](https://github.com/Aurantium-47/ferroni-mcginnis-unit-circle/blob/d9b2bc10e2c8efef8765542f099ea9432ac45de9/docs/REVIEW_STATUS.md) · [Sources and earlier-solution lead](https://github.com/Aurantium-47/ferroni-mcginnis-unit-circle/blob/d9b2bc10e2c8efef8765542f099ea9432ac45de9/docs/SOURCES.md)
-
-<details>
-<summary>Proof map and reproducible checks</summary>
-
-<img src="https://raw.githubusercontent.com/Aurantium-47/ferroni-mcginnis-unit-circle/d9b2bc10e2c8efef8765542f099ea9432ac45de9/assets/proof-map.svg" width="920" alt="A path-matrix route takes roots in the real interval (−2,2) to the unit circle, then transfers from unit to arbitrary positive integer capacities.">
-
-- **[Proof](https://github.com/Aurantium-47/ferroni-mcginnis-unit-circle/blob/d9b2bc10e2c8efef8765542f099ea9432ac45de9/docs/PROOF.md):** A path-matrix determinant and Gauss–Lucas locate the transformed roots in (−2,2); the classical Grace–Walsh–Szegő theorem and reciprocal symmetry extend the conclusion to all positive integer capacities. The recurrence, generating function and classical tools are credited to prior work.
-- **[Checks](https://github.com/Aurantium-47/ferroni-mcginnis-unit-circle/blob/d9b2bc10e2c8efef8765542f099ea9432ac45de9/docs/VERIFICATION.md):** 404 exact unit-circle certifications accompany the analytic argument. Finite checks and plotted examples are not the all-parameter proof. This project concerns Conjecture 4.5 only, not the separate h* real-rootedness or interlacing conjectures.
-
-</details>
-
-**Formal problem lists · Two complete negative answers, with public sources and review evidence**
-
-- **[AIM 23 / Craven–Csordas (2004)](https://github.com/Aurantium-47/aim23-czds-counterexample/tree/491fc358e101f0028af7ab01e9835c5d8d8218e0): nonreal roots 4 → 6.** An entire function and coefficient sequence satisfy all original hypotheses, but the coefficientwise transformation increases the number of nonreal roots, disproving the proposed sufficient condition.
-- **[AIM 34 (2007)](https://github.com/Aurantium-47/aim34-multiplier-sequence/tree/797fe1cb3d5386acd70f5cdd0ec5ce40c5c79a4e): every real m > 0 fails.** The sequence (n+m)^(√(n+m)) fails to preserve polynomial real-rootedness for every positive real shift, answering the sufficiently-large-integer-shift question negatively.
-
-<details>
-<summary>Visual summaries, Lean scope and published versions</summary>
-
-<img src="https://raw.githubusercontent.com/Aurantium-47/aim23-czds-counterexample/491fc358e101f0028af7ab01e9835c5d8d8218e0/assets/result.svg" width="460" alt="AIM23: the degree-six witness has four nonreal roots before transformation and six afterward.">
-<img src="https://raw.githubusercontent.com/Aurantium-47/aim34-multiplier-sequence/797fe1cb3d5386acd70f5cdd0ec5ce40c5c79a4e/assets/result.svg" width="460" alt="AIM34: every positive real shift fails to be a multiplier sequence.">
-
-Both full original targets have **October 2026 Lean source-replay and independent AI-assisted semantic-review records**; this publication and presentation pass did not recompile Lean. AIM23's exact 4→6 uses the independent rational/Sturm certificate; Lean proves input at most four and output exactly six. AIM34 proves a finite polynomial witness exists for every parameter without a uniform degree bound. The original sources are a book chapter / AIM problem list, **not the four leading mathematics journals**. No human peer review, journal acceptance or global-priority claim is made. The fixed published versions retain sources, historical evidence, reproduction instructions and the historical-source-link limitations.
-
-</details>
-
-**[Infinite log-concavity: positive polynomial powers](https://github.com/Aurantium-47/eventual-infinite-log-concavity/tree/68f4c920606ad239fbc3a8195bc0987b790f5905)** · <sub>[Medina–Straub · 2014 · Conjecture 5.2 / Example 5.3](https://arxiv.org/abs/1405.1765v1) · Real roots and positivity</sub>
-
-**Two scopes in one project, both covering every iterate.**
-
-- **General positive polynomials:** For each fixed p(x)=Σᵢ₌₀ᵈ cᵢxⁱ with every cᵢ a strictly positive real number, every **integer n ≥ N(p)** gives coefficient iterates of p(x)^n strictly positive on the original support. The same N(p) covers all iterations; no threshold uniform across p is asserted. This is the existing **14 October 2026 Theorem B**, independently audited on **2–3 November**.
-- **Sharp trinomial threshold:** For **every integer n ≥ 10**, all iterates of the coefficients of (1+x+x²)^n are nonnegative. This separate draft addresses Example 5.3. Both results keep zeros outside the original support; neither extends to noninteger powers or internal zero coefficients.
-
-<details>
-<summary>Structural theorem, reproducibility & review status</summary>
-
-- **Stronger trinomial structure:** For every integer n ≥ 4004, the fourth-iterate polynomial has **2n distinct negative real roots**.
-- **Proof and reproduction:** The [general review](https://github.com/Aurantium-47/eventual-infinite-log-concavity/blob/77bc8246284556dd92dd2f01499cdd98d16b7104/research/general-positive-polynomial-powers/review-2026-11-02/REVIEW.md) checks the analytic closure and independently rebuilds all 2,047 Poisson certificates by two exact routes. The [trinomial manuscript, code and certificates](https://github.com/Aurantium-47/eventual-infinite-log-concavity/tree/68f4c920606ad239fbc3a8195bc0987b790f5905/research/trinomial-all-n-ge10) combine an unbounded analytic argument with finite invariant-cone certificates; its [2 November review](https://github.com/Aurantium-47/eventual-infinite-log-concavity/blob/1f9c5ce4cd6c5b2e0fe908f11f0a51d85648591f/research/trinomial-all-n-ge10/review-2026-11-02/REVIEW.md) distinguishes replay from fresh enclosure reconstruction.
-- **Status:** Computer-assisted proof drafts with independent AI-assisted mathematical and computational review. [Trinomial PR #2](https://github.com/Aurantium-47/eventual-infinite-log-concavity/pull/2) and [general-audit PR #3](https://github.com/Aurantium-47/eventual-infinite-log-concavity/pull/3) remain unmerged drafts. The general audit reviews an existing theorem, not a new result or family; no human peer review, formal verification or historical-priority certification is claimed.
-
-</details>
-
-**[Howroyd’s 27-set conjecture](https://github.com/Aurantium-47/howroyd-27-conjecture)** · <sub>[Posed in 2018 · 8 years ago](https://oeis.org/A297557) · Extremal graph theory</sub>
-
-**One known residue class → all three classes.** Completed the two remaining branches of the 2018 conjecture, then went beyond the count to classify **all 27 maximum independent sets**. The remaining-branch theorem is formalized in Lean 4.
-
-<details>
-<summary>Original sources & proof method</summary>
-
-- **Original source:** Andrew Howroyd, [OEIS A297557 (2018)](https://oeis.org/A297557).
-- **Prior work:** [John Machacek](https://arxiv.org/abs/2010.11112v2), *Procedia Computer Science* 195 (2021), proved the 3 ∣ d branch. Combining the two results completes the counting formula for d ≥ 9.
-- **Method:** An exact weighted-cover certificate and a coordinate-reduction argument reduce the classification to three backgrounds with nine corner extensions each.
-- **Further results & materials:** Explicit classification of all 27 sets, beyond the conjectured count.
-- **Verification:** Lean 4 proof of the full d ≥ 10, 3 ∤ d statement; 89 rational certificate entries.
-
-</details>
-
-**[Lecture Hall polynomiality and algebraic extensions](https://github.com/Aurantium-47/lecture-hall-polynomiality)** · <sub>[Posed in 2018 · 8 years ago](https://arxiv.org/abs/1809.01377) · Algebraic combinatorics / Commutative algebra</sub>
-
-**Checks through length 12 → a proof for every length.** Extended the result into a family of coefficient formulas, SAGBI-basis and toric-degeneration theorems. The polynomiality and signed-path core is formalized in Lean.
-
-<details>
-<summary>Original sources & proof method</summary>
-
-- **Original source:** Lukas Katthän, [The Lecture Hall Cone as a toric deformation (2018)](https://arxiv.org/abs/1809.01377), prepared for the Osaka lattice-polytopes workshop.
-- **Prior work:** The original paper proposed the polynomiality and algebraic-structure statements and checked lengths at most 12. Flajolet’s continued-fraction theory and Sokal’s exposition provide credited classical tools.
-- **Method:** A signed Dyck-path identification, Toeplitz–Hankel identities and the defining recurrence give the all-index polynomiality proof.
-- **Further results & materials:** Composition coefficient formulas and exact monomial counts; a minimal monic SAGBI basis, a Hilbert-basis correspondence and flat toric degeneration over every field, under the manuscript’s disclosed square-minor interpretation.
-- **Verification:** Lean formalizes the genuine rational-function polynomiality and signed-path core. SAGBI and degeneration extensions have written mathematical proofs.
-
-</details>
-
-**[BRW τ-real clique attachment: uniform cycle substitution and structural classes](https://github.com/Aurantium-47/brw-tau-clique-attachments)** · <sub>[Brenti–Royle–Wagner · 1994](https://doi.org/10.4153/CJM-1994-002-3) · Graph polynomials</sub>
-
-**Uniform substitution into every cycle.** Replacing one vertex of any cycle by any ordinary τ-real graph preserves τ-reality and gives a Bell-real edge quotient, hence universal edge attachment. Together with anchored incomparability graphs and every Θ(a,b,c), a,b,c ≥ 2, these remain partial results on general Conjecture 6.5.
-
-<details>
-<summary>Original source, theorem scope & verification</summary>
-
-- **Original source:** Francesco Brenti, Gordon F. Royle and David G. Wagner, *Canadian Journal of Mathematics* (1994), Conjecture 6.5. The graph-join assertion is the separate Conjecture 6.6.
-- **Structural theorem:** An incomparability graph partitioned into k nonempty independent classes, with one anchor per class adjacent to every vertex outside that class, has real-rooted Bell chromatic quotients for every clique size 0 ≤ j ≤ k. Ordinary attachment along any clique to any τ-real graph therefore preserves τ-reality. This includes connected Ferrers/chain graphs with an edge.
-- **Complete theta family:** For every a,b,c ≥ 2, the Bell edge quotient of Θ(a,b,c) has only strictly negative real zeros. Ordinary attachment along an edge to any τ-real graph therefore preserves τ-reality. An effective root-radius bound and Bernstein-discriminant certificates cover the analytic range; exact rational root certificates close all 2,460 remaining sorted triples, with 83,842 root brackets checked by independent integer-arithmetic replays.
-- **Uniform cycle theorem:** [Proof at the published version](https://github.com/Aurantium-47/brw-tau-clique-attachments/tree/dc6d35ba53c6a41064bc9982cb524b05b74dc2ff/extensions/2026-11-02-uniform-cycle-substitution). An ordinary proof by root monotonicity and an enlarged arrowhead invariant covers every cycle length and every input degree, with strict interlacing for simple negative inputs and weak interlacing on the boundary. It subsumes C₅/C₇ and the special cases with k length-two paths plus one length-m path, not the independent all-three-path theorem or arbitrary-path-count long-minimum condition. No arbitrary simultaneous substitution or unrestricted larger-clique closure is claimed.
-- **Proofs & checks:** [Structural manuscript](https://github.com/Aurantium-47/brw-tau-clique-attachments/tree/main/extensions/2026-11-02), [complete theta proof and certificates](https://github.com/Aurantium-47/brw-tau-clique-attachments/tree/cfa1f5fd798116b44ddc95da6f90710e48fac14a/extensions/2026-11-02-all-theta), and the earlier [uniform eventual theta addendum](https://github.com/Aurantium-47/brw-tau-clique-attachments/tree/main/extensions/2026-11-02-uniform-theta). The theta result is a computer-assisted proof combining an analytic theorem with exhaustive exact certification of its finite remainder, not finite sampling alone. AI-assisted work, including independent internal review of the uniform proof; no human peer review, proof-assistant verification or historical-priority claim; the literature comparison remains incomplete.
-
-</details>
-
-**[Exact-certificate engineering · 20.34–20.45× on one frozen task](https://github.com/Aurantium-47/eventual-infinite-log-concavity/tree/7af226f3e313472b655a9be9c9d04dd5f6ff8d15/benchmarks/exact-convolution/repeat-results/2026-11-02)** · Integrated truncated integer convolution using python-flint 0.9.0 into exact-certificate tooling. Three alternating paired runs on the same frozen node-200 task took 14.09–14.81 s versus 287.72–301.24 s for the reference; all six runs matched all 361 integer midpoints, the common radius and parameters, and 21 nonperformance fields exactly. Task-specific shared-cloud measurements; FLINT provides the exact-arithmetic backend.
-
-<details>
-<summary>Two further results: a 2016 peak-polynomial conjecture · the sharp bound for K₆ chains</summary>
-
-**[Peak polynomials: the last real root](https://github.com/Aurantium-47/peak-polynomial-last-real-root)** · <sub>[Experimental Mathematics · 2016 journal version · 10 years ago](https://arxiv.org/abs/1410.8506v2) · Real roots</sub>
-
-**Partial interval results → the full last-real-root statement.** An integral sign argument covers the missing noninteger interval, without bounds on peak count or spacing.
-
-- **Original source:** Sara Billey, Matthew Fahrbach and Alan Talmage, [*Experimental Mathematics* 25(2), 165–175 (2016)](https://arxiv.org/abs/1410.8506v2); preprint first posted in 2014.
-- **Prior work:** Billey–Fahrbach–Talmage supplied the recurrence and symmetry identities. [Li’s coefficient theorem](https://doi.org/10.5281/zenodo.22832569) already implies right-side positivity and several local sign properties; the additional argument covers the remaining noninteger interval.
-- **Method:** A self-contained integral representation and sign analysis across the full interval beyond the penultimate peak.
-- **Further results & materials:** Signs on both sides of the largest peak, its simplicity, and the singleton case are included; overlapping consequences of Li’s theorem are credited in the manuscript.
-- **Verification:** All-parameter mathematical proof, with supplementary exact finite checks and a separately recorded small-case reproduction.
-
-**[K₆ chains: a false 22-colour bound replaced by the sharp bound 23](https://github.com/Aurantium-47/k6-clique-chain-packing-coloring)** · <sub>[Conjecture posed in 2025](https://arxiv.org/abs/2511.12761) · Graph colouring</sub>
-
-**A conjectured bound of 22 → the correct sharp bound of 23.** Refuted 22 with a **450-vertex** graph, then established the uniform bound for the **entire family**, backed by a **16.6-million-record** exact certificate.
-
-- **Original source:** Furmańczyk, Gözüpek and Özkan, [Packing coloring of graphs with long paths (2025)](https://arxiv.org/abs/2511.12761), Conjecture 2.
-- **Prior work:** The proposed common upper bound was 22 for the path-aligned K₆ clique chains.
-- **Method:** A finite-state scheduling relaxation and decreasing-rank certificate exclude 22; an explicit periodic colouring supplies the upper bound 23.
-- **Further results & materials:** Sharp uniform bound 23 for the full chain family and exact value 23 for every t ≥ 75. The minimum counterexample length and all shorter-chain exact values are not determined.
-- **Verification:** A 16,646,562-record exact certificate with Python and C++ checkers. This is computational certificate verification, not a Lean formalization.
-
-</details>
-
-**[More mathematical work](https://github.com/Aurantium-47/aurantium-mathematics/blob/main/README.en.md#all-projects)**
+**[More mathematical work · Full index & verification materials](https://github.com/Aurantium-47/aurantium-mathematics#全部项目)**
 
 ## NLP & information retrieval
 
