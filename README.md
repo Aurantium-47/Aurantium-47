@@ -45,8 +45,6 @@ When graphs are assembled, which polynomial-zero properties survive? **A uniform
 
 A proof draft explaining a stronger form of log-concavity in counts of permutations sharing a sorting output. **[This draft's Git commit: November 4](https://github.com/Aurantium-47/aurantium-mathematics/commit/d6c4747db93eb8c7acfcb792215452cc1f2249dc)**; the corresponding conclusion also appears in **[Theorem 1.1 of the November 10 arXiv preprint](https://arxiv.org/html/2611.13479v1#S1.Thmtheorem1)** by Colin Defant <sub>(<a href="https://sites.google.com/view/colin-defant/home">Harvard postdoctoral fellow</a>)</sub>. The proof and literature comparison are public.
 
-<sub>AI-assisted research drafts with documented checks, not human-peer-reviewed results. References and dates provide research context, not author endorsement or a priority determination.</sub>
-
 **[More mathematical work · Full index & verification materials](https://github.com/Aurantium-47/aurantium-mathematics#全部项目)**
 
 ## NLP & information retrieval
