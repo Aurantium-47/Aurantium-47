@@ -67,7 +67,7 @@
 
 让各 rank 在同一步处理同一任务，同时保留按任务配置的单 rank 批大小，并在 checkpoint 恢复后保持训练调度。**18 次真实双 rank CPU/Gloo Trainer 运行**（6 组配置 × 完整 / 前缀 / 恢复）通过原生目标检查，确定性测试中恢复后的轨迹与连续训练一致。
 
-**尚未合并：** 依赖同样未合并的 [Accelerate 草稿 #4491](https://github.com/huggingface/accelerate/pull/4491)；上游 CI 等待维护者批准运行。
+**尚未合并：** 依赖的 [Accelerate #4491](https://github.com/huggingface/accelerate/pull/4491) 当前已关闭、未合并；上游 CI 等待维护者批准运行。
 
 <details>
 <summary>调度示意图、固定复现证据与边界</summary>
