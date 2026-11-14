@@ -67,7 +67,7 @@ Current work uses **STaRK-MAG** to explore how entity text, attributes and graph
 
 Align tasks across ranks while allowing task-specific per-rank batch sizes; preserve the training schedule across checkpoint resume. **18 real two-rank CPU/Gloo Trainer runs** (6 configurations × full / prefix / resume) matched native-objective checks and continuous-versus-resumed trajectories in deterministic fixtures.
 
-**Not merged:** depends on the unmerged [Accelerate draft #4491](https://github.com/huggingface/accelerate/pull/4491); upstream CI awaits maintainer approval.
+**Not merged:** its dependency [Accelerate #4491](https://github.com/huggingface/accelerate/pull/4491) is currently closed and unmerged; upstream CI awaits maintainer approval.
 
 <details>
 <summary>Scheduling diagram, fixed evidence & limits</summary>
